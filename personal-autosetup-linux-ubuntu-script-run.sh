@@ -347,6 +347,8 @@ ins obs-studio
 
 lvnote "Follow your blog post to fully permanently disable mouse acceleration."
 
+gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/ubuntu-default-greyscale-wallpaper.png
+
 uppy
 
 sudo update-alternatives --all
