@@ -285,6 +285,7 @@ ins localepurge
 ins pavucontrol
 ins transmission
 ins vlc
+ins dolphin-emulator
 
 uppy
 
