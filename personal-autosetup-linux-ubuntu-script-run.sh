@@ -241,6 +241,23 @@ wget https://github.com/wireapp/wire-desktop/releases/download/linux%2F3.19.2928
 insdeb ./Wire-3.19.2928_amd64.deb
 # />
 
+# pts
+cd /opt
+wget http://phoronix-test-suite.com/releases/repo/pts.debian/files/phoronix-test-suite_9.8.0_all.deb
+insdeb ./phoronix-test-suite_9.8.0_all.deb
+# />
+
+# geekbench
+cd /opt
+wget http://cdn.geekbench.com/Geekbench-5.2.3-Linux.tar.gz
+# />
+
+# heaven
+cd /opt
+wget https://assets.unigine.com/d/Unigine_Heaven-4.0.run
+sudo chmod +x ./Unigine_Heaven-4.0.run
+# />
+
 # gajim
 ins gajim
 ins gajim-antispam
