@@ -278,6 +278,13 @@ ins mypaint
 ins KolourPaint
 ins calibre
 ins atril
+ins gedit
+ins git
+ins gnome-weather
+ins localepurge
+ins pavucontrol
+ins transmission
+ins vlc
 
 uppy
 
