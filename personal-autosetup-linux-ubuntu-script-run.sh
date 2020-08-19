@@ -340,6 +340,8 @@ ins tmux
 ins torbrowser-launcher
 ins transmission
 
+lvnote "Follow your blog post to fully permanently disable mouse acceleration."
+
 uppy
 
 sudo update-alternatives --all
