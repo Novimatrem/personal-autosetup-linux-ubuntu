@@ -38,7 +38,7 @@ alias uppy="sudo dpkg --configure -a && sudo apt-get -f install && sudo apt upda
 
 alias arepo="sudo add-apt-repository -y $1"
 
-alias swake="cd /opt && wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/wobblemouse-wakeup.sh && bash wobblemouse-wakeup.sh"
+alias swake="cd /opt && wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/wobblemouse-wakeup.sh && nohup bash wobblemouse-wakeup.sh &"
 
 alias gtfo="zenity --warning --text 'Process complete. Shutting down in 1 minute. REFER TO NOTES.TXT IN HOME AFTER REBOOT.' & shutdown -h +1"
 
