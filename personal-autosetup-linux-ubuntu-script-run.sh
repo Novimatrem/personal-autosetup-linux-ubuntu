@@ -286,8 +286,41 @@ ins pavucontrol
 ins transmission
 ins vlc
 ins dolphin-emulator
+ins abiword
+ins baobab
+ins ncdu
+ins bleachbit
+ins blueman
+ins brackets
+ins brasero
+ins bucklespring
+ins crispy-doom
+ins freedoom1
+ins gnome-disks
+ins gparted
+ins htop
+ins gnome-terminal
+ins gnumeric
+ins handbrake
+ins jstest-gtk
+ins libreoffice
+ins neofetch
+ins net-tools
+ins nethogs
+ins peek
+ins pencil2d
+ins playonlinux
+ins psensor
+ins pylint
+ins qjoypad
+ins tmux
+ins torbrowser-launcher
+ins transmission
 
 uppy
+
+sudo update-alternatives --all
+sudo update-alternatives --config editor
 
 sudo echo -e "\n Novimatrem personal-autosetup-linux installed by $(whoami) at $(date) - do not remove this file, it's for safety to not accidentally re-apply changes. \n" >> /opt/novisetup.done
 
