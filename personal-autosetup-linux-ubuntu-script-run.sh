@@ -258,6 +258,12 @@ wget https://assets.unigine.com/d/Unigine_Heaven-4.0.run
 sudo chmod +x ./Unigine_Heaven-4.0.run
 # />
 
+# vscodium
+cd /opt
+wget https://github.com/VSCodium/vscodium/releases/download/1.48.0/codium_1.48.0-1597345748_amd64.deb
+insdeb ./codium_1.48.0-1597345748_amd64.deb
+# />
+
 # gajim
 ins gajim
 ins gajim-antispam
