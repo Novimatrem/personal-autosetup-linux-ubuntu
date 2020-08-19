@@ -339,6 +339,7 @@ ins qjoypad
 ins tmux
 ins torbrowser-launcher
 ins transmission
+ins assaultcube
 
 lvnote "Follow your blog post to fully permanently disable mouse acceleration."
 
