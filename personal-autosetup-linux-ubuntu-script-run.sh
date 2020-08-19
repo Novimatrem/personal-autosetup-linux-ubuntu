@@ -276,6 +276,8 @@ ins nautilus-dropbox
 ins minetest
 ins mypaint
 ins KolourPaint
+ins calibre
+ins atril
 
 uppy
 
