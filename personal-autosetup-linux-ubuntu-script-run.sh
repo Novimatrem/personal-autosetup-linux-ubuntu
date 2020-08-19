@@ -341,6 +341,10 @@ ins torbrowser-launcher
 ins transmission
 ins assaultcube
 
+ins ffmpeg
+arepo ppa:obsproject/obs-studio
+ins obs-studio
+
 lvnote "Follow your blog post to fully permanently disable mouse acceleration."
 
 uppy
