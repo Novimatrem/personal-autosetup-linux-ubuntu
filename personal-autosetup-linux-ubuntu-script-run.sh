@@ -373,6 +373,7 @@ gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
 gsettings set org.gnome.settings-daemon.plugins.power idle-dim false
 setterm -blank 0
 setterm -blank 0 -powerdown 0
+sudo chown $USER /etc/issue
 sudo echo -ne "\033[9;0]" >> /etc/issue
 
 uppy
