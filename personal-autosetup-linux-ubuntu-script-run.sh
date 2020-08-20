@@ -349,6 +349,8 @@ lvnote "Follow your blog post to fully permanently disable mouse acceleration."
 
 gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/Langelinie_All%C3%A9_by_SirPecanGum.jpg
 
+gsettings set org.gnome.desktop.wm.preferences button-layout ‘close,close,minimize,maximize:’
+
 uppy
 
 sudo update-alternatives --all
