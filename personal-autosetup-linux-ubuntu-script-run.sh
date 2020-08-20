@@ -360,6 +360,13 @@ gsettings set org.gnome.desktop.session idle-delay 0
 gsettings set org.gnome.settings-daemon.plugins.power sleep-display-ac 0
 gsettings set org.gnome.settings-daemon.plugins.power sleep-display-battery 0
 gsettings set org.gnome.desktop.session idle-delay 0
+sudo gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
+sudo gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+sudo setterm -blank 0 -powersave off -powerdown 0
+sudo xset s 0 0
+sudo xset dpms 0 0
+sudo xset dpms force off
+sudo xset s off
 
 uppy
 
