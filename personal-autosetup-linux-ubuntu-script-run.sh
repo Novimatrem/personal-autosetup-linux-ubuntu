@@ -355,6 +355,8 @@ gsettings set org.gnome.desktop.app-folders folder-children ['']
 
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
+gsettings set org.gnome.desktop.session idle-delay 0
+
 uppy
 
 sudo update-alternatives --all
