@@ -351,6 +351,8 @@ gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgro
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ‘close,close,minimize,maximize:’
 
+gsettings set org.gnome.desktop.app-folders folder-children ['']
+
 uppy
 
 sudo update-alternatives --all
