@@ -273,6 +273,11 @@ wget https://github.com/VSCodium/vscodium/releases/download/1.48.0/codium_1.48.0
 insdeb ./codium_1.48.0-1597345748_amd64.deb
 # />
 
+# blender open data benchmark
+cd /opt
+wget https://opendata.blender.org/cdn/BlenderBenchmark2.0/launcher/benchmark-launcher-2.0.5-linux.tar.gz
+# />
+
 # gajim
 ins gajim
 ins gajim-antispam
