@@ -353,6 +353,8 @@ gsettings set org.gnome.desktop.wm.preferences button-layout ‘close,close,mini
 
 gsettings set org.gnome.desktop.app-folders folder-children ['']
 
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
 uppy
 
 sudo update-alternatives --all
