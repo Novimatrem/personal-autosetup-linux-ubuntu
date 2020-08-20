@@ -3,6 +3,15 @@
 # Novimatrem personal-autosetup-linux Ubuntu
 echo "Novimatrem personal-autosetup-linux Ubuntu"
 
+echo "Checking if the correct user..."
+
+if [[ $EUID -eq 0 ]]; then
+    echo "Do not run this as the root user, or with sudo. Ending!"
+    exit 1
+fi
+
+echo "Not root, good, continuing!"
+
 echo "Checking if already ran before..."
 
 if [ -f /opt/novisetup.done ]; then
