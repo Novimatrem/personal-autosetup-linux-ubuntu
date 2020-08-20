@@ -357,6 +357,10 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 
 gsettings set org.gnome.desktop.session idle-delay 0
 
+gsettings set org.gnome.settings-daemon.plugins.power sleep-display-ac 0
+gsettings set org.gnome.settings-daemon.plugins.power sleep-display-battery 0
+gsettings set org.gnome.desktop.session idle-delay 0
+
 uppy
 
 sudo update-alternatives --all
