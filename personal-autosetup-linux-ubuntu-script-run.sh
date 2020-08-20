@@ -389,6 +389,10 @@ sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -
 
 lvnote "Remember to set up your GNOME Shell Extensions if you're using GNOME 3, or plan to be."
 
+ins libimage-exiftool-perl
+ins flatpak
+flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 uppy
 
 sudo update-alternatives --all
