@@ -404,6 +404,8 @@ wget https://github.com/adobe/brackets/releases/download/release-1.14.1/Brackets
 insdeb ./Brackets.Release.1.14.1.64-bit.deb
 # />
 
+flatpak install flathub io.brackets.Brackets
+
 uppy
 
 sudo update-alternatives --all
