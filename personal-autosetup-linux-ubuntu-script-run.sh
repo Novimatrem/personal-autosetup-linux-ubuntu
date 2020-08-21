@@ -398,6 +398,12 @@ ins libimage-exiftool-perl
 ins flatpak
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+# brackets editor (for markdown)
+cd /opt
+wget https://github.com/adobe/brackets/releases/download/release-1.14.1/Brackets.Release.1.14.1.64-bit.deb
+insdeb ./Brackets.Release.1.14.1.64-bit.deb
+# />
+
 uppy
 
 sudo update-alternatives --all
