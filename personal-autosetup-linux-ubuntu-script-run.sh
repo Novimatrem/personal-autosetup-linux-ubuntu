@@ -423,6 +423,8 @@ cd /opt
 ins virtualbox
 # />
 
+ins dolphin-emu
+
 uppy
 
 sudo update-alternatives --all
