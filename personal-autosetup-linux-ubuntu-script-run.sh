@@ -418,6 +418,11 @@ cd /opt
 sudo chmod +x /opt/Unigine_Heaven-4.0.run
 /opt/Unigine_Heaven-4.0.run
 
+# vbox
+cd /opt
+ins virtualbox
+# />
+
 uppy
 
 sudo update-alternatives --all
