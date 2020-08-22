@@ -410,6 +410,14 @@ cd /opt
 tar -xvzf benchmark-launcher-2.0.5-linux.tar.gz -C /opt
 tar -xvzf Geekbench-5.2.3-Linux.tar.gz -C /opt
 
+sudo chmod +x /opt/benchmark-launcher-2.0.5-linux/benchmark-launcher
+sudo chmod +x /opt/Geekbench-5.2.3-Linux/geekbench5
+sudo chmod +x /opt/Geekbench-5.2.3-Linux/geekbench_x86_64
+
+cd /opt
+sudo chmod +x /opt/Unigine_Heaven-4.0.run
+/opt/Unigine_Heaven-4.0.run
+
 uppy
 
 sudo update-alternatives --all
