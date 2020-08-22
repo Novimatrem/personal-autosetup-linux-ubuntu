@@ -406,6 +406,10 @@ insdeb ./Brackets.Release.1.14.1.64-bit.deb
 
 flatpak install flathub io.brackets.Brackets
 
+cd /opt
+tar -xvzf benchmark-launcher-2.0.5-linux.tar.gz -C /opt
+tar -xvzf Geekbench-5.2.3-Linux.tar.gz -C /opt
+
 uppy
 
 sudo update-alternatives --all
