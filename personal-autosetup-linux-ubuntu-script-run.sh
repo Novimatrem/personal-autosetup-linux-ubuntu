@@ -425,6 +425,20 @@ ins virtualbox
 
 ins dolphin-emu
 
+# gog (minigalaxy)
+cd /opt
+wget https://github.com/sharkwouter/minigalaxy/releases/download/0.9.4/minigalaxy_0.9.4_all.deb
+insdeb ./minigalaxy_0.9.4_all.deb
+# />
+
+# itch.io app
+cd /opt
+wget https://nuts.itch.zone/download/linux
+sudo chmod +x ./linux
+./linux
+sudo rm -rf ./linux
+# />
+
 uppy
 
 sudo update-alternatives --all
