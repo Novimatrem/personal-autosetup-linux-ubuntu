@@ -448,6 +448,8 @@ gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/Shell
 gsettings set com.solus-project.budgie-wm button-layout 'close,maximize,minimize,appmenu:'
 gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:minimize,maximize,close
 
+lvnote "Install this alias https://gitlab.com/Novimatrem/dvorak-qwerty-switch-aliases"
+
 uppy
 
 sudo update-alternatives --all
