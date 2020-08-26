@@ -86,6 +86,8 @@ touch /home/$(whoami)/NOTES.txt
 
 lvnote "Notes: (to-do, AKA things I am yet to automate)-"
 
+lvnote "Started executing Novimatrem personal-autosetup-linux Ubuntu at around $(date)"
+
 swake
 
 ins python-is-python3
@@ -452,6 +454,8 @@ sudo update-alternatives --all
 sudo update-alternatives --config editor
 
 sudo echo -e "\n Novimatrem personal-autosetup-linux installed by $(whoami) at $(date) - do not remove this file, it's for safety to not accidentally re-apply changes. \n" >> /opt/novisetup.done
+
+lvnote "Finished executing Novimatrem personal-autosetup-linux Ubuntu at around $(date)"
 
 gtfo
 
