@@ -439,6 +439,8 @@ sudo chmod +x ./linux
 sudo rm -rf ./linux
 # />
 
+ins eog
+
 uppy
 
 sudo update-alternatives --all
