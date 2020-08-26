@@ -441,6 +441,11 @@ sudo rm -rf ./linux
 
 ins eog
 
+# ensure window buttons left more (and for budgie)
+gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <'close,minimize,maximize,menu:'>}"
+gsettings set com.solus-project.budgie-wm button-layout 'close,maximize,minimize,appmenu:'
+gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:minimize,maximize,close
+
 uppy
 
 sudo update-alternatives --all
