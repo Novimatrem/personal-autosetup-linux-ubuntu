@@ -450,6 +450,8 @@ gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maxi
 
 lvnote "Install this alias https://gitlab.com/Novimatrem/dvorak-qwerty-switch-aliases"
 
+lvnote "Install this alarm clock https://gitlab.com/Novimatrem/alarm-clock so you can wake up"
+
 uppy
 
 sudo update-alternatives --all
