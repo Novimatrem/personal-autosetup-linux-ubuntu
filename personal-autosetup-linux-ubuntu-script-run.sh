@@ -452,6 +452,8 @@ lvnote "Install this alias https://gitlab.com/Novimatrem/dvorak-qwerty-switch-al
 
 lvnote "Install this alarm clock https://gitlab.com/Novimatrem/alarm-clock so you can wake up"
 
+ins filezilla
+
 uppy
 
 sudo update-alternatives --all
