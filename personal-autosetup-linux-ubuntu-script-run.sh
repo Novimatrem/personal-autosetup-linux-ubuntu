@@ -454,6 +454,55 @@ lvnote "Install this alarm clock https://gitlab.com/Novimatrem/alarm-clock so yo
 
 ins filezilla
 
+sudo apt install -y sddm
+
+sudo systemctl enable sddm
+
+echo ""
+echo "Installing ALL the IceWM..."
+echo ""
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+sudo apt install -y build-essential
+
+sudo apt install -y git
+
+
+sudo mkdir /opt
+cd /opt/
+sudo chown $USER /opt
+sudo chown $USER /opt/*
+
+wget https://ice-wm.org/scripts/os-depends.sh
+
+sudo bash -x ./os-depends.sh
+
+git clone https://github.com/bbidulock/icewm
+
+cd icewm
+
+./autogen.sh
+
+./configure --enable-gdk-pixbuf --prefix=/usr
+
+make
+
+sudo make install
+
+sudo apt install -y icewm-experimental
+
+sudo apt install -y icewm icewm
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+echo ""
+echo "Installed ALL the IceWM."
+echo ""
+
+lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it."
+
+
 uppy
 
 sudo update-alternatives --all
