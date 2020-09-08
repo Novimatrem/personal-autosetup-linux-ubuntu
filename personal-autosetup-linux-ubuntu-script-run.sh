@@ -500,6 +500,9 @@ echo ""
 echo "Installed ALL the IceWM."
 echo ""
 
+sudo apt install -y libnotify-bin
+sudo apt install -y xfce4-notifyd
+
 lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it."
 
 
