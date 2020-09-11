@@ -503,7 +503,49 @@ echo ""
 sudo apt install -y libnotify-bin
 sudo apt install -y xfce4-notifyd
 
-lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it."
+echo ""
+echo "Installing ALL the Xfce..."
+echo ""
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+sudo apt install -y lightdm
+sudo systemctl enable lightdm
+sudo dpkg-reconfigure lightdm
+
+sudo apt install -y xubuntu-desktop
+sudo apt install -y xfce4
+sudo apt install -y xubuntu-default-settings
+sudo apt install -y xfce4-goodies
+
+sudo apt-get install -y xfce4*
+
+sudo apt install -y tasksel
+
+sudo tasksel install xubuntu-desktop
+sudo tasksel install xubuntu-core
+
+sudo apt-get install -y xubuntu*
+
+sudo apt install -y xfdesktop4
+
+sudo apt install -y xfwm4
+
+sudo apt install -y zenity
+
+sudo apt install -y libnotify-bin
+
+sudo apt install -y xfce4-notifyd
+
+sudo apt install -y xfce4-appfinder
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+echo ""
+echo "Installed ALL the Xfce."
+echo ""
+
+lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it. (if you plan to use IceWM)"
 
 
 uppy
