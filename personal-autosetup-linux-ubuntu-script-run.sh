@@ -547,6 +547,7 @@ echo ""
 
 lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it. (if you plan to use IceWM)"
 
+ins freedoom
 
 uppy
 
