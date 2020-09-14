@@ -620,6 +620,12 @@ flatpak install flathub org.gajim.Gajim.Plugin.omemo
 
 flatpak install flathub im.bernard.Nostalgia
 
+flatpak install flathub org.remmina.Remmina
+
+flatpak install flathub com.rafaelmardojai.Blanket
+
+flatpak install flathub ca._0ldsk00l.Nestopia
+
 flatpak update
 
 uppy
