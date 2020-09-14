@@ -642,13 +642,13 @@ systemctl --user start appimaged
 
 # appimaged appimageupdate
 wget https://github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage
-sudo mv "/opt/AppImageUpdate-*.AppImage" /usr/local/bin/AppImageUpdate
+sudo mv "/opt/AppImageUpdate-x86_64.AppImage" /usr/local/bin/AppImageUpdate
 sudo chmod a+x /usr/local/bin/AppImageUpdate
 # ^ appimaged appimageupdate />
 
 # appimaged appimageupdatetool
 wget https://github.com/AppImage/AppImageUpdate/releases/download/continuous/appimageupdatetool-x86_64.AppImage
-sudo mv "/opt/appimageupdatetool-*.AppImage" /usr/local/bin/appimageupdatetool
+sudo mv "/opt/appimageupdatetool-x86_64.AppImage" /usr/local/bin/appimageupdatetool
 sudo chmod a+x /usr/local/bin/appimageupdatetool
 # ^ appimaged appimageupdatetool />
 
