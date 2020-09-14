@@ -652,6 +652,9 @@ sudo mv "/opt/appimageupdatetool-x86_64.AppImage" /usr/local/bin/appimageupdatet
 sudo chmod a+x /usr/local/bin/appimageupdatetool
 # ^ appimaged appimageupdatetool />
 
+sudo apt install -y nethack-console moon-buggy ninvaders nsnake pacman4console bsdgames typespeed vitetris frotz
+sudo apt install -y emacs --no-install-recommends && sudo apt install -y emacs-nox
+
 uppy
 
 sudo update-alternatives --all
