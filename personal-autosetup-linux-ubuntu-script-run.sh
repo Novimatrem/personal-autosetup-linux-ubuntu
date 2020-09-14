@@ -281,12 +281,14 @@ wget https://opendata.blender.org/cdn/BlenderBenchmark2.0/launcher/benchmark-lau
 # />
 
 # gajim
-ins gajim
 ins gajim-antispam
 ins gajim-plugininstaller
 ins gajim-appindicatorintegration
 ins gajim-omemo
 ins gajim-urlimagepreview
+sudo apt remove -y gajim
+
+# i migrated to gajim's flatpaks
 # />
 
 lvnote "Do all the things listed here (Dvorak): https://gitlab.com/-/snippets/1997412"
@@ -584,6 +586,41 @@ sudo snap install ubports-installer
 sudo snap install pngcrush --edge
 
 sudo snap refresh
+
+flatpak install flathub com.adobe.Flash-Player-Projector
+
+flatpak install flathub org.gpodder.gpodder
+
+flatpak install flathub io.freetubeapp.FreeTube
+
+flatpak install flathub org.jitsi.jitsi-meet
+
+flatpak install flathub org.robocode.Robocode
+
+flatpak install flathub com.unity.UnityHub
+
+flatpak install flathub com.gitlab.librebob.Athenaeum
+
+flatpak install flathub io.mrarm.mcpelauncher
+
+flatpak install flathub org.srb2.SRB2
+
+flatpak install flathub org.srb2.SRB2Kart
+
+flatpak install flathub net.supertuxkart.SuperTuxKart
+
+flatpak install flathub com.zandronum.Zandronum
+
+# flatpak gajim and plugins
+flatpak install flathub org.gajim.Gajim
+flatpak install flathub org.gajim.Gajim.Plugin.appindicator
+flatpak install flathub org.gajim.Gajim.Plugin.url_image_preview
+flatpak install flathub org.gajim.Gajim.Plugin.omemo
+# ^ flatpak gajim and plugins /> 
+
+flatpak install flathub im.bernard.Nostalgia
+
+flatpak update
 
 uppy
 
