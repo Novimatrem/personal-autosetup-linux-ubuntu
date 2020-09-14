@@ -324,7 +324,6 @@ ins localepurge
 ins pavucontrol
 ins transmission
 ins vlc
-ins dolphin-emulator
 ins abiword
 ins baobab
 ins ncdu
@@ -424,8 +423,6 @@ sudo chmod +x /opt/Unigine_Heaven-4.0.run
 cd /opt
 ins virtualbox
 # />
-
-ins dolphin-emu
 
 # gog (minigalaxy)
 cd /opt
@@ -559,6 +556,34 @@ sudo snap install hello-world
 sudo snap install xonotic
 
 sudo snap install nethack
+
+sudo snap install snap-store
+
+sudo snap install supertux --edge
+
+sudo snap install dolphin-emulator --edge
+
+sudo snap install os-runes
+
+sudo snap install minetest --beta
+
+sudo snap install drawio
+
+sudo snap install termdown --edge
+
+sudo snap install protonmail-desktop-unofficial
+
+sudo snap install ponysay
+
+sudo snap install bucklespring
+
+sudo snap install languagetool
+
+sudo snap install ubports-installer
+
+sudo snap install pngcrush --edge
+
+sudo snap refresh
 
 uppy
 
