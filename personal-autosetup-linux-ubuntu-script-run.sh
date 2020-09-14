@@ -628,6 +628,30 @@ flatpak install flathub ca._0ldsk00l.Nestopia
 
 flatpak update
 
+# appimaged
+cd /opt
+wget "https://github.com/AppImage/appimaged/releases/download/continuous/appimaged-x86_64.AppImage"
+chmod a+x appimaged-x86_64.AppImage
+./appimaged-x86_64.AppImage --install
+
+wget https://github.com/AppImage/appimaged/releases/download/continuous/appimaged_1-alpha-git8e248f5.travis223_amd64.deb
+sudo gdebi -n appimaged_1-alpha-git8e248f5.travis223_amd64.deb
+systemctl --user add-wants default.target appimaged
+systemctl --user start appimaged
+# ^ appimaged />
+
+# appimaged appimageupdate
+wget https://github.com/AppImage/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage
+sudo mv "/opt/AppImageUpdate-*.AppImage" /usr/local/bin/AppImageUpdate
+sudo chmod a+x /usr/local/bin/AppImageUpdate
+# ^ appimaged appimageupdate />
+
+# appimaged appimageupdatetool
+wget https://github.com/AppImage/AppImageUpdate/releases/download/continuous/appimageupdatetool-x86_64.AppImage
+sudo mv "/opt/appimageupdatetool-*.AppImage" /usr/local/bin/appimageupdatetool
+sudo chmod a+x /usr/local/bin/appimageupdatetool
+# ^ appimaged appimageupdatetool />
+
 uppy
 
 sudo update-alternatives --all
