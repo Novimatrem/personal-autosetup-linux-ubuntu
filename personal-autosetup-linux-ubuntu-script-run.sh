@@ -549,10 +549,23 @@ lvnote "Be sure to find a nice IceWM theme online, and to edit its files to chan
 
 ins freedoom
 
+ins snap
+ins snapd
+
+sudo snap install snapd
+
+sudo snap install hello-world
+
+sudo snap install xonotic
+
+sudo snap install nethack
+
 uppy
 
 sudo update-alternatives --all
 sudo update-alternatives --config editor
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 sudo echo -e "\n Novimatrem personal-autosetup-linux installed by $(whoami) at $(date) - do not remove this file, it's for safety to not accidentally re-apply changes. \n" >> /opt/novisetup.done
 
