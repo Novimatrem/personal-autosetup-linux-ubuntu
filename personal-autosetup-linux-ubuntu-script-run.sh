@@ -655,6 +655,12 @@ sudo chmod a+x /usr/local/bin/appimageupdatetool
 sudo apt install -y nethack-console moon-buggy ninvaders nsnake pacman4console bsdgames typespeed vitetris frotz
 sudo apt install -y emacs --no-install-recommends && sudo apt install -y emacs-nox
 
+# teamviewer
+cd /opt
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+sudo gdebi -n /opt/teamviewer_amd64.deb
+# /teamviewer
+
 uppy
 
 sudo update-alternatives --all
