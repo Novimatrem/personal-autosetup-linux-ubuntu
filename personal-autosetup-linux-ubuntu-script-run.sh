@@ -661,6 +661,53 @@ wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sudo gdebi -n /opt/teamviewer_amd64.deb
 # /teamviewer
 
+echo ""
+echo "Installing ALL the GNOME..."
+echo ""
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+sudo apt install -y gnome-shell
+
+sudo apt install -y ubuntu-gnome-desktop
+
+sudo apt install -y tasksel
+
+sudo tasksel install desktop gnome-desktop
+
+sudo apt install -y gnome-session 
+
+sudo apt install -y gdm3
+
+sudo tasksel install ubuntu-desktop
+
+sudo apt install -y gnome
+
+sudo apt install -y gnome-core
+
+sudo apt install -y gnome-software
+
+sudo apt install -y gnome-software-plugin-flatpak
+
+sudo apt install -y gnome-software-plugin-snap
+
+sudo apt install -y vanilla-gnome-desktop
+
+sudo apt install -y vanilla-gnome-default-settings
+
+sudo apt install -y ubuntu-gnome-default-settings
+
+sudo apt install -y ubuntu-session
+
+sudo apt install -y yaru-theme-gnome-shell
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+
+echo ""
+echo "Installed ALL the GNOME."
+echo ""
+
 uppy
 
 sudo update-alternatives --all
