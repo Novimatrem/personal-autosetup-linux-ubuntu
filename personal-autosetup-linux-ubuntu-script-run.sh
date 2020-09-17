@@ -708,6 +708,8 @@ echo ""
 echo "Installed ALL the GNOME."
 echo ""
 
+sudo apt-get install -y ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
+
 uppy
 
 sudo update-alternatives --all
