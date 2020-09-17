@@ -710,6 +710,10 @@ echo ""
 
 sudo apt-get install -y ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
 
+cd /opt
+wget https://github.com/cheesecakeufo/komorebi/releases/download/v2.1/komorebi-2.1-64-bit.deb
+sudo gdebi -n /opt/komorebi-2.1-64-bit.deb
+
 uppy
 
 sudo update-alternatives --all
