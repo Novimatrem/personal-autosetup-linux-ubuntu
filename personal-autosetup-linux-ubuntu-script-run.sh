@@ -587,44 +587,44 @@ sudo snap install pngcrush --edge
 
 sudo snap refresh
 
-flatpak install flathub com.adobe.Flash-Player-Projector
+flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
 
-flatpak install flathub org.gpodder.gpodder
+flatpak install flathub org.gpodder.gpodder -y --noninteractive
 
-flatpak install flathub io.freetubeapp.FreeTube
+flatpak install flathub io.freetubeapp.FreeTube -y --noninteractive
 
-flatpak install flathub org.jitsi.jitsi-meet
+flatpak install flathub org.jitsi.jitsi-meet -y --noninteractive
 
-flatpak install flathub org.robocode.Robocode
+flatpak install flathub org.robocode.Robocode -y --noninteractive
 
-flatpak install flathub com.unity.UnityHub
+flatpak install flathub com.unity.UnityHub -y --noninteractive
 
-flatpak install flathub com.gitlab.librebob.Athenaeum
+flatpak install flathub com.gitlab.librebob.Athenaeum -y --noninteractive
 
-flatpak install flathub io.mrarm.mcpelauncher
+flatpak install flathub io.mrarm.mcpelauncher -y --noninteractive
 
-flatpak install flathub org.srb2.SRB2
+flatpak install flathub org.srb2.SRB2 -y --noninteractive
 
-flatpak install flathub org.srb2.SRB2Kart
+flatpak install flathub org.srb2.SRB2Kart -y --noninteractive
 
-flatpak install flathub net.supertuxkart.SuperTuxKart
+flatpak install flathub net.supertuxkart.SuperTuxKart -y --noninteractive
 
-flatpak install flathub com.zandronum.Zandronum
+flatpak install flathub com.zandronum.Zandronum -y --noninteractive
 
 # flatpak gajim and plugins
-flatpak install flathub org.gajim.Gajim
-flatpak install flathub org.gajim.Gajim.Plugin.appindicator
-flatpak install flathub org.gajim.Gajim.Plugin.url_image_preview
-flatpak install flathub org.gajim.Gajim.Plugin.omemo
+flatpak install flathub org.gajim.Gajim -y --noninteractive
+flatpak install flathub org.gajim.Gajim.Plugin.appindicator -y --noninteractive
+flatpak install flathub org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
+flatpak install flathub org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # ^ flatpak gajim and plugins /> 
 
-flatpak install flathub im.bernard.Nostalgia
+flatpak install flathub im.bernard.Nostalgia -y --noninteractive
 
-flatpak install flathub org.remmina.Remmina
+flatpak install flathub org.remmina.Remmina -y --noninteractive
 
-flatpak install flathub com.rafaelmardojai.Blanket
+flatpak install flathub com.rafaelmardojai.Blanket -y --noninteractive
 
-flatpak install flathub ca._0ldsk00l.Nestopia
+flatpak install flathub ca._0ldsk00l.Nestopia -y --noninteractive
 
 flatpak update
 
