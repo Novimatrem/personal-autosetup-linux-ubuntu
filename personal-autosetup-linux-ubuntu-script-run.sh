@@ -718,6 +718,11 @@ sudo apt-get install build-essential linux-headers-$(uname -r)
 ins virtualbox-guest-x11
 
 # yaru/communitheme
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+sudo snap refresh
+sudo flatpak update
+
 sudo apt install -y yaru-theme-gnome-shell
 sudo apt install -y yaru-theme-gtk
 sudo apt install -y yaru-theme-icon
@@ -730,6 +735,11 @@ flatpak install flathub org.gtk.Gtk3theme.Communitheme -y --noninteractive
 flatpak install flathub org.gtk.Gtk3theme.Yaru -y --noninteractive
 flatpak install flathub org.gtk.Gtk3theme.Yaru-light -y --noninteractive
 flatpak install flathub org.gtk.Gtk3theme.Yaru-dark -y --noninteractive
+
+sudo snap refresh
+sudo flatpak update
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 # ^ yaru/communitheme />
 
 uppy
