@@ -717,6 +717,21 @@ sudo gdebi -n /opt/komorebi-2.1-64-bit.deb
 sudo apt-get install build-essential linux-headers-$(uname -r)
 ins virtualbox-guest-x11
 
+# yaru/communitheme
+sudo apt install -y yaru-theme-gnome-shell
+sudo apt install -y yaru-theme-gtk
+sudo apt install -y yaru-theme-icon
+sudo apt install -y yaru-theme-sound
+sudo apt install -y communitheme-snap-session
+
+sudo snap install communitheme
+
+flatpak install flathub org.gtk.Gtk3theme.Communitheme -y --noninteractive
+flatpak install flathub org.gtk.Gtk3theme.Yaru -y --noninteractive
+flatpak install flathub org.gtk.Gtk3theme.Yaru-light -y --noninteractive
+flatpak install flathub org.gtk.Gtk3theme.Yaru-dark -y --noninteractive
+# ^ yaru/communitheme />
+
 uppy
 
 sudo update-alternatives --all
