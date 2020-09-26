@@ -743,6 +743,9 @@ gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark"
 gsettings set org.gnome.desktop.interface icon-theme "Yaru"
 gsettings set  org.gnome.desktop.interface cursor-theme "Yaru"
 
+gsettings set org.gnome.desktop.sound theme-name "Yaru"
+gsettings set org.gnome.desktop.sound event-sounds true
+
 lvnote "If the Yaru/Communitheme isn't working, you may need to install this: https://www.xfce-look.org/p/1251531/ "
 
 lvnote "Be sure to install AND ENABLE the User Themes GNOME Shell Extension: https://extensions.gnome.org/extension/19/user-themes/ "
