@@ -754,7 +754,7 @@ lvnote "If the Yaru/Communitheme isn't working, you may need to install and enab
 
 mkdir /home/$(whoami)/.themes
 cd /home/$(whoami)/.themes
-wget https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1MzMxNDAyNDYiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6ImU0ODk1MGM2MzljMWVmYjUzZGQzZjZlZWUwMGI5MjU4NTE3ZTJjMWU4NDFmZDZhZTQwNmMzNjVlM2JhOThmYzdmMzUyOTFjZjg0ZWQ5ZTQ0NDQ5ZmJmMjhjOGNmMWRhOWYwYmQ4NDQ2YzIxM2Y2MzVkYzg1MDUwNWYwYzgyNDJlIiwidCI6MTYwMTEwMDQ2Mywic3RmcCI6IjlkYjViNzlkMWZmODhhZDg2MWViYTU1OGJkNjk5Y2NhIiwic3RpcCI6Ijg4LjEwOC4yNTUuMTc2In0.iNL5SocXDanPliSqpNLW32WEbVGsrGcQA8S0Blp7Fzo/Yaru-xfce.tar.gz
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/Yaru-xfce.tar.gz
 tar -xzvf Yaru-xfce.tar.gz -C /home/$(whoami)/.themes
 rm -rf /home/$(whoami)/.themes/Yaru-xfce.tar.gz
 
