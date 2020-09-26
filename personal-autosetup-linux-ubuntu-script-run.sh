@@ -743,6 +743,10 @@ gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark"
 gsettings set org.gnome.desktop.interface icon-theme "Yaru"
 gsettings set  org.gnome.desktop.interface cursor-theme "Yaru"
 
+# fix bugs
+gsettings set org.gnome.shell.extensions.user-theme name "Yaru" # < fix bugs
+
+
 gsettings set org.gnome.desktop.sound theme-name "Yaru"
 gsettings set org.gnome.desktop.sound event-sounds true
 
