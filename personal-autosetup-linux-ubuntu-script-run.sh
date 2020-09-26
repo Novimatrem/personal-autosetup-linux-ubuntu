@@ -740,6 +740,8 @@ gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark"
 gsettings set org.gnome.desktop.interface gtk-theme "Yaru-dark"
 gsettings set org.gnome.desktop.wm.preferences theme "Yaru-dark"
 gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark"
+gsettings set org.gnome.desktop.interface icon-theme "Yaru"
+gsettings set  org.gnome.desktop.interface cursor-theme "Yaru"
 
 lvnote "If the Yaru/Communitheme isn't working, you may need to install this: https://www.xfce-look.org/p/1251531/ "
 
