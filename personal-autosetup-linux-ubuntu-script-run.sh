@@ -736,6 +736,15 @@ flatpak install flathub org.gtk.Gtk3theme.Yaru -y --noninteractive
 flatpak install flathub org.gtk.Gtk3theme.Yaru-light -y --noninteractive
 flatpak install flathub org.gtk.Gtk3theme.Yaru-dark -y --noninteractive
 
+gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark"
+gsettings set org.gnome.desktop.interface gtk-theme "Yaru-dark"
+gsettings set org.gnome.desktop.wm.preferences theme "Yaru-dark"
+gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark"
+
+lvnote "If the Yaru/Communitheme isn't working, you may need to install this: https://www.xfce-look.org/p/1251531/ "
+
+lvnote "Be sure to install the User Themes GNOME Shell Extension: https://extensions.gnome.org/extension/19/user-themes/ "
+
 sudo snap refresh
 sudo flatpak update
 
