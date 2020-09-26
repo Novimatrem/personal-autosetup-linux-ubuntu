@@ -750,7 +750,15 @@ gsettings set org.gnome.shell.extensions.user-theme name "Yaru" # < fix bugs
 gsettings set org.gnome.desktop.sound theme-name "Yaru"
 gsettings set org.gnome.desktop.sound event-sounds true
 
-lvnote "If the Yaru/Communitheme isn't working, you may need to install this: https://www.xfce-look.org/p/1251531/ "
+lvnote "If the Yaru/Communitheme isn't working, you may need to install and enable this (in both Appearance and Window Manager settings, if Xfce): https://www.xfce-look.org/p/1251531/ if it wasn't already installed. You MAY just need to check the settings and enable it."
+
+mkdir /home/$(whoami)/.themes
+cd /home/$(whoami)/.themes
+wget https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1MzMxNDAyNDYiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6ImU0ODk1MGM2MzljMWVmYjUzZGQzZjZlZWUwMGI5MjU4NTE3ZTJjMWU4NDFmZDZhZTQwNmMzNjVlM2JhOThmYzdmMzUyOTFjZjg0ZWQ5ZTQ0NDQ5ZmJmMjhjOGNmMWRhOWYwYmQ4NDQ2YzIxM2Y2MzVkYzg1MDUwNWYwYzgyNDJlIiwidCI6MTYwMTEwMDQ2Mywic3RmcCI6IjlkYjViNzlkMWZmODhhZDg2MWViYTU1OGJkNjk5Y2NhIiwic3RpcCI6Ijg4LjEwOC4yNTUuMTc2In0.iNL5SocXDanPliSqpNLW32WEbVGsrGcQA8S0Blp7Fzo/Yaru-xfce.tar.gz
+tar -xzvf Yaru-xfce.tar.gz -C /home/$(whoami)/.themes
+rm -rf /home/$(whoami)/.themes/Yaru-xfce.tar.gz
+
+
 
 lvnote "Be sure to install AND ENABLE the User Themes GNOME Shell Extension: https://extensions.gnome.org/extension/19/user-themes/ "
 
