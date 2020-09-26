@@ -760,7 +760,27 @@ sudo flatpak update
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 # ^ yaru/communitheme />
 
+sudo apt install -y variety
+
+sleep 0s && nohup variety && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+
+sleep 2s
+
+killall variety
+pkill variety
+
+# !!!
+# FINAL STEPS
+# !!!
+
+rm -rf /opt/nohup.out
+rm -rf $HOME/nohup.out
+rm -rf $(pwd)/nohup.out
+
 uppy
+
+sudo snap refresh
+sudo flatpak update
 
 sudo update-alternatives --all
 sudo update-alternatives --config editor
