@@ -796,6 +796,17 @@ sudo apt install -y build-essential
 make
 sudo make install
 
+# disable apport
+sudo systemctl disable apport.service
+sudo systemctl mask apport.service
+sudo systemctl stop apport
+sudo apt remove -y apport
+sudo rm /etc/cron.daily/apport
+sudo service apport stop ; sudo sed -ibak -e s/^enabled\=1$/enabled\=0/ /etc/default/apport ; sudo mv /etc/default/apportbak ~
+sudo apt purge -y apport
+sudo sed -i 's/^enabled=1/enabled=0/' /etc/default/apport
+# /disable apport
+
 # !!!
 # FINAL STEPS
 # !!!
