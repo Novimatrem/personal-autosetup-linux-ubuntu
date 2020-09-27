@@ -777,6 +777,25 @@ sleep 2s
 killall variety
 pkill variety
 
+ins gamemode
+ins cpufrequtils
+ins preload
+sudo systemctl disable ondemand
+
+lvnote "Set performance governor for maximum performance by following this; https://gitlab.com/-/snippets/1992871 "
+
+# libstrangle git (this person's git version works with vulkan too)
+cd /opt
+git clone https://gitlab.com/torkel104/libstrangle
+cd libstrangle
+sudo apt install -y gcc-multilib
+sudo apt install -y g++-multilib
+sudo apt install -y libx11-dev
+sudo apt install -y mesa-common-dev
+sudo apt install -y build-essential
+make
+sudo make install
+
 # !!!
 # FINAL STEPS
 # !!!
