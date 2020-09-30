@@ -626,6 +626,8 @@ flatpak install flathub com.rafaelmardojai.Blanket -y --noninteractive
 
 flatpak install flathub ca._0ldsk00l.Nestopia -y --noninteractive
 
+flatpak install flathub com.github.bleakgrey.tootle -y --noninteractive
+
 flatpak update
 
 # appimaged
