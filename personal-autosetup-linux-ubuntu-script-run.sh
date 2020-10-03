@@ -805,6 +805,7 @@ sudo sed -i 's/^enabled=1/enabled=0/' /etc/default/apport
 
 ins krita
 ins pinta
+ins gnome-calendar
 
 # !!!
 # FINAL STEPS
