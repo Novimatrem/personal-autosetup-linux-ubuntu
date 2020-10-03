@@ -803,6 +803,9 @@ sudo apt purge -y apport
 sudo sed -i 's/^enabled=1/enabled=0/' /etc/default/apport
 # /disable apport
 
+ins krita
+ins pinta
+
 # !!!
 # FINAL STEPS
 # !!!
