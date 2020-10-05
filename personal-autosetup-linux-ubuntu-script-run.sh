@@ -585,6 +585,8 @@ sudo snap install ubports-installer
 
 sudo snap install pngcrush --edge
 
+sudo snap install tetris-thefenriswolf
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
