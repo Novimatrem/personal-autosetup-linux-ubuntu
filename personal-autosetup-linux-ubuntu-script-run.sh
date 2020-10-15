@@ -587,6 +587,8 @@ sudo snap install pngcrush --edge
 
 sudo snap install tetris-thefenriswolf
 
+sudo snap install skype --classic
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
