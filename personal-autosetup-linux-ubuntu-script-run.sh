@@ -812,6 +812,9 @@ ins pinta
 ins gnome-calendar
 ins gnome-shell-pomodoro
 
+sudo apt remove -y lightdm
+ins gdm3
+
 # !!!
 # FINAL STEPS
 # !!!
