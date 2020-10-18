@@ -815,6 +815,12 @@ ins gnome-shell-pomodoro
 sudo apt remove -y lightdm
 ins gdm3
 
+ins earlyoom
+sudo systemctl enable earlyoom
+sudo systemctl start earlyoom
+sleep 0s && nohup earlyoom && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
+echo ""
+
 # !!!
 # FINAL STEPS
 # !!!
