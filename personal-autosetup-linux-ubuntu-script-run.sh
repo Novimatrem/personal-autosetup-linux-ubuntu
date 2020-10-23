@@ -127,6 +127,7 @@ ins sox
 ins ttf-ancient-fonts
 ins fonts-noto-color-emoji
 ins fonts-recommended
+ins gnome-characters
 # />
 
 lvnote "Install yolo from https://gitlab.com/-/snippets/1996989"
