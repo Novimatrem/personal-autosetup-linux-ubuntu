@@ -281,6 +281,12 @@ cd /opt
 wget https://opendata.blender.org/cdn/BlenderBenchmark2.0/launcher/benchmark-launcher-2.0.5-linux.tar.gz
 # />
 
+# converse
+cd /opt
+wget https://github.com/conversejs/converse-desktop/releases/download/v0.1.0/converse_desktop-0.1.0_amd64.deb
+insdeb ./converse_desktop-0.1.0_amd64.deb
+# />
+
 # gajim
 ins gajim-antispam
 ins gajim-plugininstaller
