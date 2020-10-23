@@ -589,6 +589,8 @@ sudo snap install tetris-thefenriswolf
 
 sudo snap install skype --classic
 
+sudo snap install emoj
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
