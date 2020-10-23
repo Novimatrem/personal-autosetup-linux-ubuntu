@@ -771,6 +771,8 @@ sudo flatpak update
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 # ^ yaru/communitheme />
 
+gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
+
 sudo apt install -y variety
 
 sleep 0s && nohup variety && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
