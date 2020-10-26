@@ -598,6 +598,8 @@ sudo snap install skype --classic
 
 sudo snap install emoj
 
+sudo snap install canonical-livepatch
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
