@@ -371,7 +371,10 @@ ins obs-studio
 
 lvnote "Follow your blog post to fully permanently disable mouse acceleration. https://novimatrem.gitlab.io/blog/2020/08/22/how-to-fully-properly-disable-mouse-acceleration-in-most-linux-distros-and-de.html "
 
-gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/Langelinie_All%C3%A9_by_SirPecanGum.jpg
+ins wget
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/gamera.png
+gsettings set org.gnome.desktop.background picture-uri file:///opt/gamera.png
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ‘close,close,minimize,maximize:’
 
