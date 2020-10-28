@@ -304,7 +304,6 @@ ins chromium-browser
 
 ins armagetronad
 ins feedreader
-ins gimp
 ins pavucontrol
 ins guvcview
 ins cheese
@@ -627,6 +626,8 @@ flatpak install flathub org.srb2.SRB2Kart -y --noninteractive
 flatpak install flathub net.supertuxkart.SuperTuxKart -y --noninteractive
 
 flatpak install flathub com.zandronum.Zandronum -y --noninteractive
+
+flatpak install flathub org.glimpse_editor.Glimpse -y --noninteractive
 
 # flatpak gajim and plugins
 flatpak install flathub org.gajim.Gajim -y --noninteractive
