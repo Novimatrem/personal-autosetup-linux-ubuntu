@@ -571,8 +571,6 @@ sudo snap install snap-store
 
 sudo snap install supertux --edge
 
-sudo snap install dolphin-emulator --edge
-
 sudo snap install os-runes
 
 sudo snap install minetest --beta
