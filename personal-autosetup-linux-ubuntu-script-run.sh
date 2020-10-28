@@ -321,7 +321,6 @@ ins ubuntu-wallpapers
 sudo apt-get install -y ubuntu-wallpapers*
 ins steam
 ins nautilus-dropbox
-ins minetest
 ins mypaint
 ins KolourPaint
 ins calibre
