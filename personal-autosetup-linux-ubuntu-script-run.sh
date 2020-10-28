@@ -601,6 +601,12 @@ sudo snap install emoj
 
 sudo snap install canonical-livepatch
 
+sudo snap install bobrossquotes
+
+sudo snap install wisdom
+
+sudo snap install fortune-cm
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
