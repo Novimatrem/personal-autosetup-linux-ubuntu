@@ -864,6 +864,8 @@ ins gnome-shell-extension-appindicator
 
 sudo apt remove -y gimp
 
+ins gnome-shell-pomodoro
+
 # !!!
 # FINAL STEPS
 # !!!
