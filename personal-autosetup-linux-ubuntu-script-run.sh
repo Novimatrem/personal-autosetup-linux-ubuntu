@@ -862,6 +862,8 @@ ins gnome-shell-extension-impatience
 
 ins gnome-shell-extension-appindicator
 
+sudo apt remove -y gimp
+
 # !!!
 # FINAL STEPS
 # !!!
