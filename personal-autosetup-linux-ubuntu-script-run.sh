@@ -841,6 +841,9 @@ sudo systemctl start earlyoom
 sleep 0s && nohup earlyoom && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
 echo ""
 
+ins chrome-gnome-shell
+lvnote "Be sure to properly sync, install, and configure ALL of your GNOME Shell Extensions, if using GNOME."
+
 # !!!
 # FINAL STEPS
 # !!!
