@@ -843,6 +843,7 @@ echo ""
 
 ins chrome-gnome-shell
 lvnote "Be sure to properly sync, install, and configure ALL of your GNOME Shell Extensions, if using GNOME."
+ins x11-utils
 
 # !!!
 # FINAL STEPS
