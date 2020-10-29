@@ -847,6 +847,21 @@ ins x11-utils
 
 sudo apt remove -y gnome-clocks
 
+ins gnome-software-plugin-flatpak
+ins gnome-software-plugin-snap
+
+ins gnome-shell-extensions
+
+ins gnome-shell-extension-ubuntu-dock
+ins gnome-shell-extension-top-icons-plus
+
+ins gnome-shell-extension-system76-power
+ins gnome-shell-extension-pop-battery-icon-fix
+
+ins gnome-shell-extension-impatience
+
+ins gnome-shell-extension-appindicator
+
 # !!!
 # FINAL STEPS
 # !!!
