@@ -373,6 +373,9 @@ ins wget
 cd /opt
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/gamera.png
 gsettings set org.gnome.desktop.background picture-uri file:///opt/gamera.png
+cd /opt
+mkdir gamera
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/gamera.png
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ‘close,close,minimize,maximize:’
 
