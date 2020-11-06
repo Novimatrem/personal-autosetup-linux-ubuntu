@@ -871,6 +871,9 @@ sudo apt remove -y gimp
 
 ins gnome-shell-pomodoro
 
+ins elementary-xfce-icon-theme
+ins elementary-icon-theme
+
 # !!!
 # FINAL STEPS
 # !!!
