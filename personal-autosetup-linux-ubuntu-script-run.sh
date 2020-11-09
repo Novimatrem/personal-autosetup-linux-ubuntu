@@ -846,6 +846,11 @@ ins gnome-shell-pomodoro
 ins elementary-xfce-icon-theme
 ins elementary-icon-theme
 
+ins git
+cd /home/$(whoami)/Documents
+git clone https://github.com/strycore/gamera-manifesto
+ln -s /home/$(whoami)/Documents/gamera-manifesto/index.html /home/$(whoami)/Documents/gamera-manifesto.htm
+
 # !!!
 # FINAL STEPS
 # !!!
