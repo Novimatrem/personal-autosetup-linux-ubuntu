@@ -851,6 +851,10 @@ cd /home/$(whoami)/Documents
 git clone https://github.com/strycore/gamera-manifesto
 ln -s /home/$(whoami)/Documents/gamera-manifesto/index.html /home/$(whoami)/Documents/gamera-manifesto.htm
 
+ins wget
+cd /home/$(whoami)/Documents
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/advice_like-youth_probably-just-wasted-on-the-young__Mary-Schmich.odt?inline=false
+
 # !!!
 # FINAL STEPS
 # !!!
