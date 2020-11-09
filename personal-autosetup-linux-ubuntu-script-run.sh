@@ -853,7 +853,7 @@ ln -s /home/$(whoami)/Documents/gamera-manifesto/index.html /home/$(whoami)/Docu
 
 ins wget
 cd /home/$(whoami)/Documents
-wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/advice_like-youth_probably-just-wasted-on-the-young__Mary-Schmich.odt?inline=false
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/advice_like-youth_probably-just-wasted-on-the-young__Mary-Schmich.odt
 
 # !!!
 # FINAL STEPS
