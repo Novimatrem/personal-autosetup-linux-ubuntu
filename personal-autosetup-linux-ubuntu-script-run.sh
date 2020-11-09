@@ -655,6 +655,8 @@ flatpak install flathub ca._0ldsk00l.Nestopia -y --noninteractive
 
 flatpak install flathub com.github.bleakgrey.tootle -y --noninteractive
 
+flatpak install flathub org.zdoom.GZDoom -y --noninteractive
+
 flatpak update
 
 # appimaged
