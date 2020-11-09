@@ -281,12 +281,6 @@ cd /opt
 wget https://opendata.blender.org/cdn/BlenderBenchmark2.0/launcher/benchmark-launcher-2.0.5-linux.tar.gz
 # />
 
-# converse
-cd /opt
-wget https://github.com/conversejs/converse-desktop/releases/download/v0.1.0/converse_desktop-0.1.0_amd64.deb
-insdeb ./converse_desktop-0.1.0_amd64.deb
-# />
-
 # gajim
 ins gajim-antispam
 ins gajim-plugininstaller
@@ -294,7 +288,6 @@ ins gajim-appindicatorintegration
 ins gajim-omemo
 ins gajim-urlimagepreview
 sudo apt remove -y gajim
-
 # i migrated to gajim's flatpaks
 # />
 
@@ -338,7 +331,6 @@ ins bleachbit
 ins blueman
 ins brackets
 ins brasero
-ins bucklespring
 ins crispy-doom
 ins freedoom1
 ins gnome-disks
@@ -582,23 +574,15 @@ sudo snap install drawio
 
 sudo snap install termdown --edge
 
-sudo snap install protonmail-desktop-unofficial
-
 sudo snap install ponysay
 
-sudo snap install bucklespring
-
 sudo snap install languagetool
-
-sudo snap install ubports-installer
 
 sudo snap install pngcrush --edge
 
 sudo snap install tetris-thefenriswolf
 
 sudo snap install skype --classic
-
-sudo snap install emoj
 
 sudo snap install canonical-livepatch
 
@@ -618,11 +602,7 @@ flatpak install flathub io.freetubeapp.FreeTube -y --noninteractive
 
 flatpak install flathub org.jitsi.jitsi-meet -y --noninteractive
 
-flatpak install flathub org.robocode.Robocode -y --noninteractive
-
 flatpak install flathub com.unity.UnityHub -y --noninteractive
-
-flatpak install flathub com.gitlab.librebob.Athenaeum -y --noninteractive
 
 flatpak install flathub io.mrarm.mcpelauncher -y --noninteractive
 
@@ -645,15 +625,7 @@ flatpak install flathub org.gajim.Gajim.Plugin.url_image_preview -y --noninterac
 flatpak install flathub org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # ^ flatpak gajim and plugins /> 
 
-flatpak install flathub im.bernard.Nostalgia -y --noninteractive
-
-flatpak install flathub org.remmina.Remmina -y --noninteractive
-
-flatpak install flathub com.rafaelmardojai.Blanket -y --noninteractive
-
 flatpak install flathub ca._0ldsk00l.Nestopia -y --noninteractive
-
-flatpak install flathub com.github.bleakgrey.tootle -y --noninteractive
 
 flatpak install flathub org.zdoom.GZDoom -y --noninteractive
 
@@ -736,8 +708,6 @@ echo ""
 sudo apt-get install -y ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
 
 cd /opt
-wget https://github.com/cheesecakeufo/komorebi/releases/download/v2.1/komorebi-2.1-64-bit.deb
-sudo gdebi -n /opt/komorebi-2.1-64-bit.deb
 
 sudo apt-get install build-essential linux-headers-$(uname -r)
 ins virtualbox-guest-x11
