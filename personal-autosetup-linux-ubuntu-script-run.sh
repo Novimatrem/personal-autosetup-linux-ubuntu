@@ -130,8 +130,6 @@ ins fonts-recommended
 ins gnome-characters
 # />
 
-lvnote "Install yolo from https://gitlab.com/-/snippets/1996989"
-
 # all archive support
 ins unrar
 ins zip
@@ -877,6 +875,53 @@ brcappend "alias cbh='echo Fully_clearing_bash_history_then_exiting && sleep 1s 
 ins libimage-exiftool-perl
 
 brcappend "alias noexif='exiftool -all= $1'"
+
+touch /home/$(whoami)/.xbindkeysrc
+
+echo '"pavucontrol"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Pause' >> /home/$(whoami)/.xbindkeysrc
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
+
+
+touch /home/$(whoami)/.xbindkeysrc
+
+echo '"null"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Control + Q' >> /home/$(whoami)/.xbindkeysrc
+
+echo '"wmctrl -c :ACTIVE:"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Alt + F4' >> /home/$(whoami)/.xbindkeysrc
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
+
+brcappend "alias yolo='sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo find /tmp -type f -atime +10 -delete && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && flatpak uninstall --unused && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush'"
+
+brcappend "gsettings set org.gnome.desktop.app-folders folder-children ['']"
+
+touch /home/$(whoami)/.xbindkeysrc
+
+echo '"true"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Insert' >> /home/$(whoami)/.xbindkeysrc
+
+echo '"true"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Control + q' >> /home/$(whoami)/.xbindkeysrc
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
 
 # !!!
 # FINAL STEPS
