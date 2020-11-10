@@ -859,6 +859,8 @@ mkdir /home/$(whoami)/Videomaking
 
 mkdir /home/$(whoami)/Working
 
+brcappend "alias nh='ssh nethack@eu.hardfought.org'"
+
 # !!!
 # FINAL STEPS
 # !!!
