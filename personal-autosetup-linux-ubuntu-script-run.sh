@@ -855,6 +855,10 @@ ins wget
 cd /home/$(whoami)/Documents
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/advice_like-youth_probably-just-wasted-on-the-young__Mary-Schmich.odt
 
+mkdir /home/$(whoami)/Videomaking
+
+mkdir /home/$(whoami)/Working
+
 # !!!
 # FINAL STEPS
 # !!!
