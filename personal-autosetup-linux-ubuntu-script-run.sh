@@ -119,8 +119,6 @@ ins mbpfan
 
 insNIR gnome-tweaks
 
-lvnote "Install noexif from https://gitlab.com/Novimatrem/noexif"
-
 ins sox
 
 # unicode and emoji
