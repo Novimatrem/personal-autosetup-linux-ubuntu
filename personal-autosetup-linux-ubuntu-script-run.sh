@@ -872,6 +872,12 @@ pkill xbindkeys
 
 xbindkeys
 
+brcappend "alias cbh='echo Fully_clearing_bash_history_then_exiting && sleep 1s && cat /dev/null > ~/.bash_history && history -c && history -w && exit'"
+
+ins libimage-exiftool-perl
+
+brcappend "alias noexif='exiftool -all= $1'"
+
 # !!!
 # FINAL STEPS
 # !!!
@@ -881,6 +887,13 @@ rm -rf $HOME/nohup.out
 rm -rf $(pwd)/nohup.out
 
 uppy
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
 
 sudo snap refresh
 sudo flatpak update
