@@ -921,6 +921,8 @@ pkill xbindkeys
 
 xbindkeys
 
+ins skanlite
+
 # !!!
 # FINAL STEPS
 # !!!
