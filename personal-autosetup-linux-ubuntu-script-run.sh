@@ -923,6 +923,11 @@ xbindkeys
 
 ins skanlite
 
+mkdir /home/$(whoami)/Applications
+cd /home/$(whoami)/Applications
+ins wget
+wget https://github.com/simoniz0r/twitch-wrapper/releases/download/v0.0.3/twitch-wrapper-0.0.3-x86_64.AppImage
+
 # !!!
 # FINAL STEPS
 # !!!
