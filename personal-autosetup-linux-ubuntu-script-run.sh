@@ -927,10 +927,19 @@ mkdir /home/$(whoami)/Applications
 cd /home/$(whoami)/Applications
 ins wget
 wget https://github.com/simoniz0r/twitch-wrapper/releases/download/v0.0.3/twitch-wrapper-0.0.3-x86_64.AppImage
+sudo chmod +x ./twitch-wrapper-0.0.3-x86_64.AppImage
+
+mkdir /home/$(whoami)/Applications
+cd /home/$(whoami)/Applications
+ins wget
+wget https://github.com/ppy/osu/releases/latest/download/osu.AppImage
+sudo chmod +x ./osu.AppImage
 
 # !!!
 # FINAL STEPS
 # !!!
+
+sleep 0s && nohup appimaged && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
 
 rm -rf /opt/nohup.out
 rm -rf $HOME/nohup.out
