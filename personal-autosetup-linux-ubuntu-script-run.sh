@@ -948,6 +948,21 @@ pkill xbindkeys
 
 xbindkeys
 
+
+touch /home/$(whoami)/.xbindkeysrc
+
+echo '"bash -c "if wmctrl -m | grep 'mode: ON'; then exec wmctrl -k off; else exec wmctrl -k on; fi""' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Control + Alt + D' >> /home/$(whoami)/.xbindkeysrc
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
