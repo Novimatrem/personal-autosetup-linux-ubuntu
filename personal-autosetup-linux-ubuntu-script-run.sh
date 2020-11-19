@@ -935,6 +935,19 @@ ins wget
 wget https://github.com/ppy/osu/releases/latest/download/osu.AppImage
 sudo chmod +x ./osu.AppImage
 
+
+touch /home/$(whoami)/.xbindkeysrc
+
+echo '"null"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t F5' >> /home/$(whoami)/.xbindkeysrc
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
+
 # !!!
 # FINAL STEPS
 # !!!
