@@ -962,6 +962,8 @@ pkill xbindkeys
 xbindkeys
 
 
+flatpak install flathub org.ppsspp.PPSSPP -y --noninteractive
+
 
 # !!!
 # FINAL STEPS
