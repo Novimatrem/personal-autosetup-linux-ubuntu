@@ -965,6 +965,7 @@ xbindkeys
 flatpak install flathub org.ppsspp.PPSSPP -y --noninteractive
 
 gsettings set org.gnome.desktop.privacy remember-recent-files false
+gsettings set org.gnome.desktop.privacy remember-app-usage false
 
 # !!!
 # FINAL STEPS
