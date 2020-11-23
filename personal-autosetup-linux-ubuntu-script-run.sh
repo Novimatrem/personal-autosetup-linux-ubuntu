@@ -309,7 +309,6 @@ ins ubuntu-wallpapers
 sudo apt-get install -y ubuntu-wallpapers*
 ins steam
 ins nautilus-dropbox
-ins mypaint
 ins KolourPaint
 ins calibre
 ins atril
@@ -966,6 +965,8 @@ flatpak install flathub org.ppsspp.PPSSPP -y --noninteractive
 
 gsettings set org.gnome.desktop.privacy remember-recent-files false
 gsettings set org.gnome.desktop.privacy remember-app-usage false
+
+flatpak install flathub org.mypaint.MyPaint -y --noninteractive
 
 # !!!
 # FINAL STEPS
