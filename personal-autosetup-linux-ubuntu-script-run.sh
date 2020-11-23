@@ -968,6 +968,12 @@ gsettings set org.gnome.desktop.privacy remember-app-usage false
 
 flatpak install flathub org.mypaint.MyPaint -y --noninteractive
 
+ins gconf2
+dconf write /org/gnome/shell/overrides/attach-modal-dialogs false
+gsettings set org.gnome.mutter attach-modal-dialogs false
+gconftool-2 --set --type=bool /desktop/cinnamon/windows/attach_modal_dialogs false
+
+
 # !!!
 # FINAL STEPS
 # !!!
