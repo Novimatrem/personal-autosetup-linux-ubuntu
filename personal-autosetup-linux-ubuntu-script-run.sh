@@ -27,8 +27,11 @@ echo "Ranwhen sanity check complete."
 # the following line makes this entire script work
 shopt -s expand_aliases
 
-setxkbmap dvorak
-gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+dvorak')]"
+#setxkbmap dvorak
+#gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+dvorak')]"
+setxkbmap -layout us -variant ,qwerty
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+qwerty')]"
+
 
 sudo dpkg --add-architecture i386 
 
@@ -97,9 +100,14 @@ ins caffeine
 ins build-essential
 
 # dvorak keyboard layout
-gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+dvorak')]"
+#gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+dvorak')]"
+#sudo dpkg-reconfigure keyboard-configuration
+#brcappend "setxkbmap dvorak"
+setxkbmap -layout us -variant ,qwerty
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+qwerty')]"
 sudo dpkg-reconfigure keyboard-configuration
-brcappend "setxkbmap dvorak"
+brcappend "setxkbmap -layout us -variant ,qwerty"
+
 # />
 
 ins gdebi
@@ -287,7 +295,7 @@ sudo apt remove -y gajim
 # i migrated to gajim's flatpaks
 # />
 
-lvnote "Do all the things listed here (Dvorak): https://gitlab.com/-/snippets/1997412"
+#lvnote "Do all the things listed here (Dvorak): https://gitlab.com/-/snippets/1997412"
 
 ins chromium-browser
 
@@ -445,7 +453,7 @@ gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/Shell
 gsettings set com.solus-project.budgie-wm button-layout 'close,maximize,minimize,appmenu:'
 gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:minimize,maximize,close
 
-lvnote "Install this alias https://gitlab.com/Novimatrem/dvorak-qwerty-switch-aliases"
+#lvnote "Install this alias https://gitlab.com/Novimatrem/dvorak-qwerty-switch-aliases"
 
 lvnote "Install this alarm clock https://gitlab.com/Novimatrem/alarm-clock so you can wake up"
 
