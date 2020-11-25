@@ -984,6 +984,7 @@ gsettings set org.gnome.shell.overrides attach-modal-dialogs false
 gsettings set org.gnome.shell.extensions.classic-overrides attach-modal-dialogs false
 gconftool-2 --set --type=bool /desktop/cinnamon/windows/attach_modal_dialogs false
 
+ins gnome-shell-extension-weather
 
 # !!!
 # FINAL STEPS
