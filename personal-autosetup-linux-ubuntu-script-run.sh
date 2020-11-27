@@ -727,6 +727,12 @@ cd /opt
 sudo apt-get install build-essential linux-headers-$(uname -r)
 ins virtualbox-guest-x11
 
+sleep 4s
+
+xrandr -s 0
+
+sleep 1s
+
 # yaru/communitheme
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
