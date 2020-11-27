@@ -986,6 +986,13 @@ gconftool-2 --set --type=bool /desktop/cinnamon/windows/attach_modal_dialogs fal
 
 ins gnome-shell-extension-weather
 
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+ins zram-config
+ins zram-tools
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
 # !!!
 # FINAL STEPS
 # !!!
