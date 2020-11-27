@@ -3,4 +3,4 @@ personal-autosetup-linux-ubuntu - Automatically sets up the system as I prefer, 
 
 I usually end up installing Ubuntu, or some Ubuntu varient, and then run this script. It's a good result.
 
-```wget https://novimatrem.gitlab.io/fast.sh | bash```
+```wget https://novimatrem.gitlab.io/fast.sh && bash fast.sh```
