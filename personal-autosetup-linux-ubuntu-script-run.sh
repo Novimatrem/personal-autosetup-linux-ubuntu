@@ -1025,6 +1025,9 @@ sudo apt-get purge -y gnome-2048 aisleriot atomix gnome-chess five-or-more hitor
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
+ins ubuntu-restricted-addons
+ins ubuntu-restricted-extras
+
 # !!!
 # FINAL STEPS
 # !!!
