@@ -764,6 +764,8 @@ rm -rf /home/$(whoami)/.themes/Yaru-xfce.tar.gz
 
 lvnote "Be sure to install AND ENABLE the User Themes GNOME Shell Extension: https://extensions.gnome.org/extension/19/user-themes/ "
 
+lvnote "Be sure to set your GNOME Shell theme to Yaru-dark in Tweaks."
+
 sudo snap refresh
 sudo flatpak update
 
