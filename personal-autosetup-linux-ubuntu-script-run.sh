@@ -672,6 +672,10 @@ sudo apt install -y emacs --no-install-recommends && sudo apt install -y emacs-n
 ins pop-theme
 ins light-themes
 ins humanity-icon-theme
+ins pop-gnome-shell-theme
+ins pop-gtk-theme
+ins pop-icon-theme
+ins pop-sound-theme
 
 echo ""
 echo "Installing ALL the GNOME..."
