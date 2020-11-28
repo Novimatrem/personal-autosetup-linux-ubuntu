@@ -1042,6 +1042,8 @@ sudo apt remove -y gnome-music
 sudo apt remove -y deja-dup
 sudo apt remove -y xfce4-notes
 sudo apt remove -y xfburn
+sudo apt remove -y gnome-todo
+sudo apt remove -y thunderbird
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
