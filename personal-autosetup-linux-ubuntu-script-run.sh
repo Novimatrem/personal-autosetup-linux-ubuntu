@@ -1027,6 +1027,8 @@ ins ubuntu-restricted-extras
 
 ins gnome-shell-extensions
 
+ins frei0r-plugins
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
