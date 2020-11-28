@@ -1031,6 +1031,16 @@ ins ubuntu-restricted-extras
 ins gnome-shell-extensions
 
 # !!!
+# FINAL UNINSTALLS
+# !!!
+
+sudo apt remove -y xfce4-terminal
+
+# !!!
+# /FINAL UNINSTALLS
+# !!!
+
+# !!!
 # FINAL STEPS
 # !!!
 
