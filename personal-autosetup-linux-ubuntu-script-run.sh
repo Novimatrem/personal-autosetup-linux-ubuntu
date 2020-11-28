@@ -467,9 +467,7 @@ lvnote "Install this alarm clock https://gitlab.com/Novimatrem/alarm-clock so yo
 
 ins filezilla
 
-sudo apt install -y sddm
-
-sudo systemctl enable sddm
+sudo apt remove -y sddm
 
 echo ""
 echo "Installing ALL the IceWM..."
@@ -693,7 +691,7 @@ sudo tasksel install desktop gnome-desktop
 
 sudo apt install -y gnome-session 
 
-sudo apt install -y gdm3
+sudo apt remove -y gdm3
 
 sudo tasksel install ubuntu-desktop
 
@@ -836,8 +834,7 @@ ins pinta
 ins gnome-calendar
 ins gnome-shell-pomodoro
 
-sudo apt remove -y lightdm
-ins gdm3
+sudo apt remove -y gdm3
 
 ins earlyoom
 sudo systemctl enable earlyoom
