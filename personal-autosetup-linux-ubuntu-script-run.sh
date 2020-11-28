@@ -1036,6 +1036,8 @@ ins gnome-shell-extensions
 
 sudo apt remove -y xfce4-terminal
 sudo apt remove -y xterm
+sudo apt remove -y catfish
+sudo apt remove -y xfce4-clipman
 
 # !!!
 # /FINAL UNINSTALLS
