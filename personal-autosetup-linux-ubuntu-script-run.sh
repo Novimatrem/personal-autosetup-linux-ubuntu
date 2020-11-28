@@ -1041,6 +1041,7 @@ sudo apt remove -y xterm
 sudo apt remove -y catfish
 sudo apt remove -y xfce4-clipman
 sudo apt remove -y totem
+sudo apt remove -y gnome-music
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
