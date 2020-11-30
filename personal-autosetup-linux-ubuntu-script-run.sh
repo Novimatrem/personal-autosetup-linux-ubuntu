@@ -601,6 +601,10 @@ sudo snap install wisdom
 
 sudo snap install fortune-cm
 
+sudo snap install fast
+
+sudo snap install electronplayer
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
