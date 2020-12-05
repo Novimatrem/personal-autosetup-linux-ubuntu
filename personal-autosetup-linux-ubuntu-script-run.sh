@@ -1037,8 +1037,6 @@ ins frei0r-plugins
 
 sudo apt -y install unrar zip unzip p7zip-full p7zip-rar rar unace sharutils uudeview mpack arj cabextract file-roller
 
-brcappend "cd /home/$(whoami)/Working"
-
 # !!!
 # FINAL UNINSTALLS
 # !!!
