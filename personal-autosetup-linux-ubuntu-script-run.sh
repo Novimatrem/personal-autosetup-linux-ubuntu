@@ -1062,6 +1062,9 @@ sudo apt remove -y xfce4-dict
 sudo apt remove -y xfce4-taskmanager
 sudo apt remove -y thunar
 sudo apt remove -y xfce4-screenshooter
+sudo apt remove -y gnome-screensaver
+sudo apt remove -y xfce4-screensaver
+sudo apt remove -y xscreensaver
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
