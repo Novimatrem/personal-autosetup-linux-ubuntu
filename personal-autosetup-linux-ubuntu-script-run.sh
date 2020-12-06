@@ -1087,6 +1087,9 @@ sudo gdebi -n ./libwxgtk3.0-dev_3.0.2+dfsg-4_amd64.deb
 wget http://ftp.br.debian.org/debian/pool/main/w/wxwidgets3.0/libwxgtk3.0-gtk3-dev_3.0.5.1+dfsg-2_amd64.deb
 sudo gdebi -n ./libwxgtk3.0-gtk3-dev_3.0.5.1+dfsg-2_amd64.deb
 
+wget http://ftp.br.debian.org/debian/pool/main/g/glew/libglew2.1_2.1.0-4+b1_amd64.deb
+sudo gdebi -n ./libglew2.1_2.1.0-4+b1_amd64.deb
+
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 git clone https://github.com/scottdraves/flam3
