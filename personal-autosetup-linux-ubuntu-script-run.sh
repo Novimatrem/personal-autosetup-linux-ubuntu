@@ -1086,6 +1086,8 @@ git clone https://github.com/scottdraves/electricsheep
 
 cd /opt/electricsheep
 
+cd client_generic
+
 ./autogen.sh
 ./configure
 make
