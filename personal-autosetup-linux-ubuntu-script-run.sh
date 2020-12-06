@@ -1039,6 +1039,11 @@ sudo apt -y install unrar zip unzip p7zip-full p7zip-rar rar unace sharutils uud
 
 brcappend "if [[ $PWD/ = /home/$(whoami)/ ]]; then cd /home/$(whoami)/Working; fi"
 
+cd /opt
+wget https://meltdown.ovh -O spectre-meltdown-checker.sh
+chmod +x ./spectre-meltdown-checker.sh
+sudo ./spectre-meltdown-checker.sh
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
