@@ -1075,6 +1075,9 @@ ins wget
 
 cd /opt
 
+wget http://ftp.br.debian.org/debian/pool/main/w/wxwidgets3.0/wx3.0-headers_3.0.5.1+dfsg-2_all.deb
+sudo gdebi -n ./wx3.0-headers_3.0.5.1+dfsg-2_all.deb
+
 wget http://ftp.br.debian.org/debian/pool/main/w/wxwidgets3.0/libwxgtk3.0-dev_3.0.4+dfsg-8_amd64.deb
 sudo gdebi -n ./libwxgtk3.0-dev_3.0.4+dfsg-8_amd64.deb
 
