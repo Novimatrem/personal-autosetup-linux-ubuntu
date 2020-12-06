@@ -1070,7 +1070,13 @@ ins build-essential
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
+ins gdebi
+ins wget
+
 cd /opt
+
+wget http://ftp.br.debian.org/debian/pool/main/w/wxwidgets3.0/libwxgtk3.0-dev_3.0.4+dfsg-8_amd64.deb
+sudo gdebi -n ./libwxgtk3.0-dev_3.0.4+dfsg-8_amd64.deb
 
 git clone https://github.com/scottdraves/flam3
 
