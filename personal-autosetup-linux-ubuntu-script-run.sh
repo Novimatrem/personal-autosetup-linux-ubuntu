@@ -1076,6 +1076,8 @@ git clone https://github.com/scottdraves/flam3
 
 cd /opt/flam3
 
+ins flam3
+
 ./configure
 make
 sudo make install
