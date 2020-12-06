@@ -1039,6 +1039,62 @@ sudo apt -y install unrar zip unzip p7zip-full p7zip-rar rar unace sharutils uud
 
 brcappend "if [[ $PWD/ = /home/$(whoami)/ ]]; then cd /home/$(whoami)/Working; fi"
 
+# electric sheep
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+sudo apt-get install -y subversion autoconf libtool libgtk2.0-dev libgl1-mesa-dev libavcodec-dev libavformat-dev libswscale-dev liblua5.1-0-dev libcurl4-openssl-dev libxml2-dev libjpeg8-dev libgtop2-dev libboost-dev libboost-filesystem-dev libboost-thread-dev libtinyxml-dev freeglut3-dev glee-dev libwxgtk3.0-dev
+
+sudo apt-get install -y subversion
+sudo apt-get install -y autoconf
+sudo apt-get install -y libtool
+sudo apt-get install -y libgtk2.0-dev
+sudo apt-get install -y libgl1-mesa-dev
+sudo apt-get install -y libavcodec-dev
+sudo apt-get install -y libavformat-dev
+sudo apt-get install -y libswscale-dev
+sudo apt-get install -y liblua5.1-0-dev
+sudo apt-get install -y libcurl4-openssl-dev
+sudo apt-get install -y libxml2-dev
+sudo apt-get install -y libjpeg8-dev
+sudo apt-get install -y libgtop2-dev
+sudo apt-get install -y libboost-dev
+sudo apt-get install -y libboost-filesystem-dev
+sudo apt-get install -y libboost-thread-dev
+sudo apt-get install -y libtinyxml-dev
+sudo apt-get install -y freeglut3-dev
+sudo apt-get install -y glee-dev
+sudo apt-get install -y libwxgtk3.0-dev
+
+ins build-essential
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+cd /opt
+
+git clone https://github.com/scottdraves/flam3
+
+cd /opt/flam3
+
+./configure
+make
+sudo make install
+
+cd /opt
+
+git clone https://github.com/scottdraves/electricsheep
+
+cd /opt/electricsheep
+
+./autogen.sh
+./configure
+make
+sudo make install
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+# /electric sheep
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
