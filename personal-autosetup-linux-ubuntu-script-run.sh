@@ -1044,6 +1044,10 @@ wget https://meltdown.ovh -O spectre-meltdown-checker.sh
 chmod +x ./spectre-meltdown-checker.sh
 sudo ./spectre-meltdown-checker.sh
 
+brcappend "alias cls=clear"
+
+brcappend "alias clr=clear"
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
