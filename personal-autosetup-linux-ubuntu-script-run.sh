@@ -1048,6 +1048,15 @@ brcappend "alias cls=clear"
 
 brcappend "alias clr=clear"
 
+ins fwupd
+
+ins package-update-indicator
+
+ins gnome-firmware
+
+ins unattended-upgrades
+
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
