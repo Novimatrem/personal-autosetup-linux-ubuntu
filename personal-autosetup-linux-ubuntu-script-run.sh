@@ -1063,6 +1063,7 @@ ins gettext
 ins xdg-utils
 ins xdg-user-dirs-gtk
 
+ins dxvk
 
 # !!!
 # FINAL UNINSTALLS
