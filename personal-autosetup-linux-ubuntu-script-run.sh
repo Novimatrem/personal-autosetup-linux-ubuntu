@@ -1073,6 +1073,8 @@ ins dosbox
 
 sudo apt-get install -y mupen64plus*
 
+ins desmume
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
