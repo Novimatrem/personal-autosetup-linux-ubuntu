@@ -1067,6 +1067,8 @@ ins dxvk
 
 ins dosbox
 
+sudo apt-get install -y mupen64plus*
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
