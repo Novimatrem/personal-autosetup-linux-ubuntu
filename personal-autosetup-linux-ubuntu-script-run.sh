@@ -646,6 +646,8 @@ flatpak install flathub ca._0ldsk00l.Nestopia -y --noninteractive
 
 flatpak install flathub org.zdoom.GZDoom -y --noninteractive
 
+flatpak install flathub com.retrodev.blastem -y --noninteractive
+
 flatpak update
 
 # appimaged
