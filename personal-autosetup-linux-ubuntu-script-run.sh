@@ -1065,6 +1065,8 @@ ins xdg-user-dirs-gtk
 
 ins dxvk
 
+ins dosbox
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
