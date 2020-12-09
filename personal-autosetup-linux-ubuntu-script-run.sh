@@ -1075,6 +1075,8 @@ sudo apt-get install -y mupen64plus*
 
 ins desmume
 
+ins hedgewars
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
