@@ -633,6 +633,8 @@ flatpak install flathub org.glimpse_editor.Glimpse -y --noninteractive
 
 flatpak install flathub org.gtk.Gtk3theme.Greybird -y --noninteractive
 
+flatpak install flathub com.eduke32.EDuke32 -y --noninteractive
+
 # flatpak gajim and plugins
 flatpak install flathub org.gajim.Gajim -y --noninteractive
 flatpak install flathub org.gajim.Gajim.Plugin.appindicator -y --noninteractive
