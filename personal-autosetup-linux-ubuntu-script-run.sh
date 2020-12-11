@@ -308,8 +308,6 @@ ins audacity
 ins simplescreenrecorder
 ins openshot
 insNIR kdenlive
-ins cool-retro-term
-ins stterm
 ins psensor
 ins gnome-system-monitor
 ins gnome-backgrounds
@@ -339,7 +337,6 @@ ins freedoom1
 ins gnome-disks
 ins gparted
 ins htop
-ins gnome-terminal
 ins gnumeric
 ins handbrake
 ins jstest-gtk
@@ -580,8 +577,6 @@ sudo snap install os-runes
 sudo snap install minetest --beta
 
 sudo snap install drawio
-
-sudo snap install termdown --edge
 
 sudo snap install ponysay
 
@@ -1115,6 +1110,8 @@ sudo apt remove -y xfce4-screenshooter
 sudo apt remove -y gnome-screensaver
 sudo apt remove -y xfce4-screensaver
 sudo apt remove -y xscreensaver
+sudo apt remove -y cool-retro-term
+sudo apt remove -y gnome-terminal
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
@@ -1131,6 +1128,10 @@ sleep 0s && nohup appimaged && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out
 rm -rf /opt/nohup.out
 rm -rf $HOME/nohup.out
 rm -rf $(pwd)/nohup.out
+
+uppy
+
+ins xfce4-terminal
 
 uppy
 
