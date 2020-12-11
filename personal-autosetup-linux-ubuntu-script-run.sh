@@ -1075,6 +1075,8 @@ ins desmume
 
 ins hedgewars
 
+ins flashplugin-installer
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
