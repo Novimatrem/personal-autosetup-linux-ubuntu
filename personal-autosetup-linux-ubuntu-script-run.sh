@@ -1077,6 +1077,14 @@ ins hedgewars
 
 ins flashplugin-installer
 
+ins browser-plugin-freshplayer-pepperflash
+
+ins adobe-flashplugin
+
+ins get-flash-videos
+
+ins pepperflashplugin-nonfree
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
