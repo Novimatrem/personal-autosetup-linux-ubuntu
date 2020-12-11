@@ -1084,6 +1084,8 @@ ins pepperflashplugin-nonfree
 
 uppy
 
+ins tmux
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
