@@ -1075,6 +1075,8 @@ ins desmume
 
 ins hedgewars
 
+uppy
+
 ins flashplugin-installer
 
 ins browser-plugin-freshplayer-pepperflash
@@ -1084,6 +1086,8 @@ ins adobe-flashplugin
 ins get-flash-videos
 
 ins pepperflashplugin-nonfree
+
+uppy
 
 # !!!
 # FINAL UNINSTALLS
