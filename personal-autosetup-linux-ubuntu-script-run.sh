@@ -1086,6 +1086,9 @@ uppy
 
 ins tmux
 
+sudo apt-get install libvpx*
+sudo apt-get install libvorbis*
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
