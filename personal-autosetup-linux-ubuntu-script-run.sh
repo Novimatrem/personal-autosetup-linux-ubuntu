@@ -602,7 +602,7 @@ sudo snap install electronplayer
 
 sudo snap install p7zip-desktop
 
-sudo snap install vkquake --edge
+sudo snap install --candidate vkquake
 
 sudo snap refresh
 
