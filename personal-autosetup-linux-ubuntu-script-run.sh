@@ -1091,6 +1091,15 @@ sudo apt-get install libvorbis*
 
 sudo apt-get install -y libvulkan1 libvulkan1:i386 vulkan-tools vulkan-utils
 
+
+sleep 0s && nohup vkcube && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+
+sleep 10s
+
+killall vkcube
+pkill vkcube
+
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
