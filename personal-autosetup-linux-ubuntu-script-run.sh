@@ -1089,6 +1089,8 @@ ins tmux
 sudo apt-get install libvpx*
 sudo apt-get install libvorbis*
 
+sudo apt-get install -y libvulkan1 libvulkan1:i386 vulkan-tools vulkan-utils
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
