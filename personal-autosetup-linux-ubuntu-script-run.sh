@@ -1112,6 +1112,8 @@ ins libx11-xcb-dev
 
 uppy
 
+git clone https://github.com/neffo/bing-wallpaper-gnome-extension.git $HOME/.local/share/gnome-shell/extensions/BingWallpaper@ineffable-gmail.com
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
@@ -1140,6 +1142,8 @@ sudo apt remove -y xfce4-screensaver
 sudo apt remove -y xscreensaver
 sudo apt remove -y cool-retro-term
 sudo apt remove -y gnome-terminal
+
+ins xscreensaver
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
