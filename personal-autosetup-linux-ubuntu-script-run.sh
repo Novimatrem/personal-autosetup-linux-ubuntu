@@ -602,6 +602,8 @@ sudo snap install electronplayer
 
 sudo snap install p7zip-desktop
 
+sudo snap install vkquake --edge
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
