@@ -1099,6 +1099,18 @@ sleep 10s
 killall vkcube
 pkill vkcube
 
+uppy
+
+ins git
+ins make
+ins gcc
+ins libsdl2-dev
+ins libvulkan-dev
+ins libvorbis-dev
+ins libmad0-dev
+ins libx11-xcb-dev
+
+uppy
 
 # !!!
 # FINAL UNINSTALLS
