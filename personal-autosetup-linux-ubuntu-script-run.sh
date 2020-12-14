@@ -1114,6 +1114,8 @@ uppy
 
 git clone https://github.com/neffo/bing-wallpaper-gnome-extension.git $HOME/.local/share/gnome-shell/extensions/BingWallpaper@ineffable-gmail.com
 
+gsettings set com.ubuntu.sound allow-amplified-volume false
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
