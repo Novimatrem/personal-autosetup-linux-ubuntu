@@ -798,7 +798,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position BOTTOM
 
 sudo apt install -y variety
 
-sleep 0s && nohup variety && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+sleep 0s && nohup echo "" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
 sleep 2s
 
