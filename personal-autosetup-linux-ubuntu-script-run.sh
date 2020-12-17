@@ -1161,7 +1161,6 @@ sudo apt remove -y gnome-contacts
 sudo apt remove -y evolution
 sudo apt remove -y xfce4-dict
 sudo apt remove -y xfce4-taskmanager
-sudo apt remove -y thunar
 sudo apt remove -y xfce4-screenshooter
 sudo apt remove -y gnome-screensaver
 sudo apt remove -y xfce4-screensaver
