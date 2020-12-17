@@ -1165,6 +1165,10 @@ sudo apt remove -y xfce4-screensaver
 sudo apt remove -y xscreensaver
 sudo apt remove -y cool-retro-term
 sudo apt remove -y gnome-terminal
+sudo apt remove -y gnome-documents
+sudo apt remove -y gnome-maps
+sudo apt remove -y gnome-photos
+
 
 ins xscreensaver
 
