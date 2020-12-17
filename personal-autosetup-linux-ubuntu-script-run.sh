@@ -1137,6 +1137,9 @@ sudo rm -rf /home/$(whoami)/apportbak
 sudo rm -rf /home/$(whoami)/fast.sh
 sudo rm -rf /opt/Unigine_Heaven-4.0.run
 
+# make xfce4 window buttons on the left and as i like them
+xfconf-query -c xfwm4 -p /general/button_layout -s "CHM|O"
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
