@@ -97,6 +97,11 @@ ins python-is-python3
 
 ins caffeine
 
+sleep 0s && nohup caffeine && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+
+sleep 0s && nohup caffeine-indicator && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+
+
 ins build-essential
 
 # dvorak keyboard layout
