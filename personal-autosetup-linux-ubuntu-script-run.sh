@@ -375,6 +375,7 @@ wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/
 gsettings set org.gnome.desktop.background picture-uri file:///opt/ubuntenwall.png
 cd /opt
 mkdir ubuntenwall
+cd /opt/ubuntenwall
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall.png
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ‘close,close,minimize,maximize:’
@@ -1117,6 +1118,8 @@ git clone https://github.com/neffo/bing-wallpaper-gnome-extension.git $HOME/.loc
 gsettings set com.ubuntu.sound allow-amplified-volume false
 
 # MARK
+
+xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall/ubuntenwall.png; done
 
 # !!!
 # FINAL UNINSTALLS
