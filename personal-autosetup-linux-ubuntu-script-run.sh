@@ -737,7 +737,7 @@ sudo apt-get install -y ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gu
 
 cd /opt
 
-sudo apt-get install build-essential linux-headers-$(uname -r)
+sudo apt-get install -y build-essential linux-headers-$(uname -r)
 ins virtualbox-guest-x11
 
 sleep 4s
@@ -1092,8 +1092,8 @@ uppy
 
 ins tmux
 
-sudo apt-get install libvpx*
-sudo apt-get install libvorbis*
+sudo apt-get install -y libvpx*
+sudo apt-get install -y libvorbis*
 
 sudo apt-get install -y libvulkan1 libvulkan1:i386 vulkan-tools vulkan-utils
 
