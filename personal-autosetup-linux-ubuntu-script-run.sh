@@ -1135,6 +1135,7 @@ sudo rm -rf /opt/appimaged_1-alpha-git8e248f5.travis223_amd64.deb
 # remove temp junk
 sudo rm -rf /home/$(whoami)/apportbak
 sudo rm -rf /home/$(whoami)/fast.sh
+sudo rm -rf /opt/Unigine_Heaven-4.0.run
 
 # !!!
 # FINAL UNINSTALLS
