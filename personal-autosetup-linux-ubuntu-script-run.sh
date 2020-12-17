@@ -1132,6 +1132,10 @@ sudo rm -rf /opt/Brackets.Release.1.14.1.64-bit.deb
 sudo rm -rf /opt/benchmark-launcher-2.0.5-linux.tar.gz
 sudo rm -rf /opt/appimaged_1-alpha-git8e248f5.travis223_amd64.deb
 
+# remove temp junk
+sudo rm -rf /home/$(whoami)/apportbak
+sudo rm -rf /home/$(whoami)/fast.sh
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
