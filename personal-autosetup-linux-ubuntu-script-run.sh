@@ -896,6 +896,8 @@ mkdir /home/$(whoami)/Working
 
 brcappend "alias nh='ssh nethack@eu.hardfought.org'"
 
+ins wmctrl
+
 touch /home/$(whoami)/.xbindkeysrc
 echo '"xkill"' >> /home/$(whoami)/.xbindkeysrc
 echo -e ' \t Control + Shift + X' >> /home/$(whoami)/.xbindkeysrc
