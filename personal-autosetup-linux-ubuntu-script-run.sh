@@ -1121,6 +1121,17 @@ gsettings set com.ubuntu.sound allow-amplified-volume false
 
 xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall/ubuntenwall.png; done
 
+# clean up opt a bit
+sudo rm -rf /opt/Wire-3.19.2928_amd64.deb
+sudo rm -rf /opt/phoronix-test-suite_9.8.0_all.deb
+sudo rm -rf /opt/os-depends.sh
+sudo rm -rf /opt/minigalaxy_0.9.4_all.deb
+sudo rm -rf /opt/Geekbench-5.2.3-Linux.tar.gz
+sudo rm -rf /opt/codium_1.48.0-1597345748_amd64.deb
+sudo rm -rf /opt/Brackets.Release.1.14.1.64-bit.deb
+sudo rm -rf /opt/benchmark-launcher-2.0.5-linux.tar.gz
+sudo rm -rf /opt/appimaged_1-alpha-git8e248f5.travis223_amd64.deb
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
