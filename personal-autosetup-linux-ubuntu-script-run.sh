@@ -1150,7 +1150,9 @@ cd /opt
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/face.png
 
 ins thinkfan
+ins lm-sensors
 thinkfan
+sudo systemctl enable thinkfan.service
 
 # MARK2
 
