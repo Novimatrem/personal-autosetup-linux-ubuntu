@@ -1156,6 +1156,14 @@ sudo systemctl enable thinkfan.service
 
 # MARK2
 
+ins xclip
+ins xsel
+mkdir /opt/clearclipboard
+brcappend 'alias ccb="bash /opt/clearclipboard/ccb.sh"'
+cd /opt/clearclipboard
+wget https://gitlab.com/Novimatrem/clearclipboard/-/raw/master/ccb.sh
+cd /opt
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
