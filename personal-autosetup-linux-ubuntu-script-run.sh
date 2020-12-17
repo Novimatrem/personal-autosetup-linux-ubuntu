@@ -1174,6 +1174,7 @@ sudo apt remove -y gnome-terminal
 sudo apt remove -y gnome-documents
 sudo apt remove -y gnome-maps
 sudo apt remove -y gnome-photos
+sudo apt remove -y evince
 
 
 ins xscreensaver
