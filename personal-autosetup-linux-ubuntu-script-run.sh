@@ -1149,6 +1149,9 @@ xfconf-query -c xfwm4 -p /general/button_layout -s "CHM|O"
 cd /opt
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/face.png
 
+ins thinkfan
+thinkfan
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
