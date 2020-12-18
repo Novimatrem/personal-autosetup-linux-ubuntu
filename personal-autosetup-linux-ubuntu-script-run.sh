@@ -1166,6 +1166,8 @@ cd /opt/clearclipboard
 wget https://gitlab.com/Novimatrem/clearclipboard/-/raw/master/ccb.sh
 cd /opt
 
+ins ppa-purge
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
