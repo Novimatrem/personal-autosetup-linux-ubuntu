@@ -1209,6 +1209,8 @@ sudo snap refresh
 
 # MARK7
 
+ins sauerbraten
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
