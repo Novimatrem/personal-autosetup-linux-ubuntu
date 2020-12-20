@@ -1126,8 +1126,6 @@ git clone https://github.com/neffo/bing-wallpaper-gnome-extension.git $HOME/.loc
 
 gsettings set com.ubuntu.sound allow-amplified-volume false
 
-# MARK
-
 xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall/ubuntenwall.png; done
 
 # clean up opt a bit
@@ -1157,8 +1155,6 @@ ins thinkfan
 ins lm-sensors
 thinkfan
 sudo systemctl enable thinkfan.service
-
-# MARK2
 
 ins xclip
 ins xsel
@@ -1210,6 +1206,8 @@ bash ./install-playstore.sh
 uppy
 
 sudo snap refresh
+
+# MARK7
 
 # !!!
 # FINAL UNINSTALLS
