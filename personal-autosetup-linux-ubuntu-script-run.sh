@@ -1170,11 +1170,54 @@ cd /opt
 
 ins ppa-purge
 
+uppy
+
+sudo snap refresh
+
+ins dkms
+ins linux-headers-generic
+mkdir /opt/anbox-novi
+cd /opt/anbox-novi
+git clone https://github.com/anbox/anbox-modules.git
+cd anbox-modules
+sudo ./INSTALL.sh
+sudo modprobe ashmem_linux
+sudo modprobe binder_linux
+sudo snap install --devmode --beta anbox
+ins android-tools-adb
+
+sudo snap refresh
+
+uppy
+
+ins wget
+ins curl
+ins lzip
+ins tar
+ins unzip
+ins squashfs-tools
+
+uppy
+
+sudo snap refresh
+
+wget https://raw.githubusercontent.com/geeks-r-us/anbox-playstore-installer/master/install-playstore.sh
+
+chmod +x ./install-playstore.sh
+
+bash ./install-playstore.sh
+
+uppy
+
+sudo snap refresh
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+sudo snap refresh
 
 sudo apt remove -y xfce4-terminal
 sudo apt remove -y xterm
