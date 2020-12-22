@@ -651,6 +651,8 @@ flatpak install flathub org.zdoom.GZDoom -y --noninteractive
 
 flatpak install flathub com.retrodev.blastem -y --noninteractive
 
+flatpak install flathub ws.openarena.OpenArena -y --noninteractive
+
 flatpak update
 
 # appimaged
