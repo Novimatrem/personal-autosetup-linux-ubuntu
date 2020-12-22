@@ -1207,9 +1207,9 @@ uppy
 
 sudo snap refresh
 
-# MARK7
-
 ins sauerbraten
+
+sudo apt-get install -y plasma-discover*
 
 # !!!
 # FINAL UNINSTALLS
