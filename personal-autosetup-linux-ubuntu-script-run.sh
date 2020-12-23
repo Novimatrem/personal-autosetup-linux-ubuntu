@@ -1213,6 +1213,13 @@ ins sauerbraten
 
 sudo apt-get install -y plasma-discover*
 
+# palemoon
+cd /opt
+wget https://download.opensuse.org/repositories/home:/stevenpusser/xUbuntu_20.04/amd64/palemoon_28.17.0-1_amd64.deb
+sudo gdebi -n /opt/palemoon_28.17.0-1_amd64.deb
+sudo rm -rf /opt/palemoon_28.17.0-1_amd64.deb
+# /palemoon
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
