@@ -1220,6 +1220,8 @@ sudo gdebi -n /opt/palemoon_28.17.0-1_amd64.deb
 sudo rm -rf /opt/palemoon_28.17.0-1_amd64.deb
 # /palemoon
 
+ins pingus
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
