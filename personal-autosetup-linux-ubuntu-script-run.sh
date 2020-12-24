@@ -1224,6 +1224,8 @@ sudo rm -rf /opt/palemoon_28.17.0-1_amd64.deb
 
 ins pingus
 
+# MARK8_NB4
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
