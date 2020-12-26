@@ -655,6 +655,8 @@ flatpak install flathub com.retrodev.blastem -y --noninteractive
 
 flatpak install flathub ws.openarena.OpenArena -y --noninteractive
 
+flatpak install flathub com.gitlab.coringao.cavestory-nx -y --noninteractive
+
 flatpak update
 
 # appimaged
