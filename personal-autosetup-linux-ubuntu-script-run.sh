@@ -1230,6 +1230,16 @@ ins pingus
 
 ins mudlet
 
+uppy
+
+arepo ppa:cappelikan/ppa
+
+uppy
+
+ins mainline
+
+uppy
+
 # !!!
 # FINAL UNINSTALLS
 # !!!
