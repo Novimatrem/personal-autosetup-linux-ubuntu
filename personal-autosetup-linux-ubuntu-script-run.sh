@@ -659,6 +659,8 @@ flatpak install flathub ws.openarena.OpenArena -y --noninteractive
 
 flatpak install flathub com.gitlab.coringao.cavestory-nx -y --noninteractive
 
+flatpak install flathub com.github.shonumi.gbe-plus -y --noninteractive
+
 flatpak update
 
 # appimaged
