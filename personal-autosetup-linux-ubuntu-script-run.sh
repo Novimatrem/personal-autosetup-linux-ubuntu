@@ -612,6 +612,8 @@ sudo snap install gog-galaxy-wine
 
 sudo snap install gnash-raymii
 
+sudo snap install vice-jz
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
