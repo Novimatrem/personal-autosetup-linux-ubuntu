@@ -1244,7 +1244,7 @@ ins mainline
 
 uppy
 
-#MARK9_NB4_2
+mkdir "/home/$(whoami)/EMU Roms"
 
 # !!!
 # FINAL UNINSTALLS
