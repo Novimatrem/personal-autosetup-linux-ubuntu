@@ -96,7 +96,6 @@ sudo gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-batter
 sudo setterm -blank 0 -powersave off -powerdown 0
 sudo xset s 0 0
 sudo xset dpms 0 0
-sudo xset dpms force off
 sudo xset s off
 xset -dpms
 xset s noblank
@@ -514,7 +513,6 @@ sudo gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-batter
 sudo setterm -blank 0 -powersave off -powerdown 0
 sudo xset s 0 0
 sudo xset dpms 0 0
-sudo xset dpms force off
 sudo xset s off
 xset -dpms
 xset s noblank
