@@ -75,7 +75,38 @@ sudo chown $USER /opt
 sudo touch /opt/novisetup.done
 sudo chown $USER /opt/novisetup.done
 
-uppy
+#uppy # commented out for speed
+sudo apt update -y
+
+ins python-is-python3
+
+ins caffeine
+
+sleep 0s && nohup caffeine && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+
+sleep 0s && nohup caffeine-indicator && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+gsettings set org.gnome.desktop.session idle-delay 0
+gsettings set org.gnome.settings-daemon.plugins.power sleep-display-ac 0
+gsettings set org.gnome.settings-daemon.plugins.power sleep-display-battery 0
+gsettings set org.gnome.desktop.session idle-delay 0
+sudo gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
+sudo gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 0
+sudo setterm -blank 0 -powersave off -powerdown 0
+sudo xset s 0 0
+sudo xset dpms 0 0
+sudo xset dpms force off
+sudo xset s off
+xset -dpms
+xset s noblank
+xset s off
+gsettings set org.gnome.settings-daemon.plugins.power active false
+gsettings set org.gnome.desktop.screensaver idle-activation-enabled false
+gsettings set org.gnome.settings-daemon.plugins.power idle-dim false
+setterm -blank 0
+setterm -blank 0 -powerdown 0
+sudo chown $USER /etc/issue
 
 # script deps (but they are also really useful)
 ins xdotool
@@ -100,7 +131,6 @@ ins caffeine
 sleep 0s && nohup caffeine && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
 sleep 0s && nohup caffeine-indicator && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
-
 
 ins build-essential
 
