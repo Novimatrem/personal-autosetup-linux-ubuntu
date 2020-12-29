@@ -134,6 +134,8 @@ sleep 0s && nohup caffeine-indicator && rm -rf $HOME/nohup.out && rm -rf $(pwd)/
 
 ins build-essential
 
+uppy
+
 # dvorak keyboard layout
 #gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'us+dvorak')]"
 #sudo dpkg-reconfigure keyboard-configuration
