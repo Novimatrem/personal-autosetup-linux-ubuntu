@@ -119,6 +119,91 @@ ins gdebi
 ins wget
 ins curl
 
+# !!!
+# UNINSTALL GNOME 3
+# !!!
+
+uppy
+
+sudo apt remove -y adwaita-icon-theme gedit-common gir1.2-gdm-1.0 \
+gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-goa-1.0 \
+gnome-accessibility-themes gnome-bluetooth gnome-calculator gnome-calendar \
+gnome-characters gnome-control-center gnome-control-center-data \
+gnome-control-center-faces gnome-desktop3-data \
+gnome-font-viewer gnome-getting-started-docs gnome-getting-started-docs-ru \
+gnome-initial-setup gnome-keyring gnome-keyring-pkcs11 gnome-logs \
+gnome-mahjongg gnome-menus gnome-mines gnome-online-accounts \
+gnome-power-manager gnome-screenshot gnome-session-bin gnome-session-canberra \
+gnome-session-common gnome-settings-daemon gnome-settings-daemon-common \
+gnome-shell gnome-shell-common gnome-shell-extension-appindicator \
+gnome-shell-extension-desktop-icons gnome-shell-extension-ubuntu-dock \
+gnome-startup-applications gnome-sudoku gnome-system-monitor gnome-terminal \
+gnome-terminal-data gnome-themes-extra gnome-themes-extra-data gnome-todo \
+gnome-todo-common gnome-user-docs gnome-user-docs-ru gnome-video-effects \
+language-pack-gnome-en language-pack-gnome-en-base language-pack-gnome-ru \
+language-pack-gnome-ru-base language-selector-gnome libgail18 libgail18 \
+libgail-common libgail-common libgnome-autoar-0-0 libgnome-bluetooth13 \
+libgnome-desktop-3-19 libgnome-games-support-1-3 libgnome-games-support-common \
+libgnomekbd8 libgnomekbd-common libgnome-menu-3-0 libgnome-todo libgoa-1.0-0b \
+libgoa-1.0-common libpam-gnome-keyring libsoup-gnome2.4-1 libsoup-gnome2.4-1 \
+nautilus-extension-gnome-terminal pinentry-gnome3 yaru-theme-gnome-shell
+
+uppy
+
+sudo apt remove -y adwaita-icon-theme geogebra-gnome gir1.2-gtd-1.0 \
+gnome-accessibility-profiles gnome-applets-data gnome-audio gnome-backgrounds \
+gnome-cards-data gnome-common gnome-desktop-testing gnome-dvb-daemon \
+gnome-exe-thumbnailer gnome-extra-icons gnome-flashback-common \
+gnome-humility-icon-theme gnome-hwp-support gnome-icon-theme \
+gnome-icon-theme-gartoon gnome-icon-theme-gartoon-redux \
+gnome-icon-theme-gperfection2 gnome-icon-theme-nuovo gnome-icon-theme-suede \
+gnome-icon-theme-yasis gnome-mime-data gnome-nds-thumbnailer \
+gnome-packagekit-data gnome-panel-control gnome-panel-data \
+gnome-pkg-tools gnome-recipes-data gnome-remote-desktop gnome-settings-daemon-dev \
+gnome-shell-pomodoro-data gnome-software-common gnome-software-doc \
+gnome-theme-gilouche gnome-video-effects-extra gnome-video-effects-frei0r \
+guile-gnome2-dev guile-gnome2-glib libgnome-autoar-doc libgnomecanvas2-common \
+libgnomecanvas2-doc libgnomecanvasmm-2.6-doc libgnome-panel-doc libgnome-todo-dev \
+libopenrawgnome7:amd64 libopenrawgnome-dev libreoffice-gnome libxine2-gnome:amd64 \
+nautilus-sendto pidgin-gnome-keyring plymouth-theme-ubuntu-gnome-logo \
+plymouth-theme-ubuntu-gnome-text ubuntu-gnome-wallpapers \
+ubuntu-gnome-wallpapers-trusty ubuntu-gnome-wallpapers-utopic \
+ubuntu-gnome-wallpapers-xenial ubuntu-gnome-wallpapers-yakkety
+
+uppy
+
+sudo apt remove -y ubuntu-gnome-desktop
+sudo apt remove -y gnome-shell 
+
+uppy
+
+sudo apt remove -y gdm  
+
+uppy
+
+sudo apt remove -y gnome-shell
+
+sudo apt remove -y ubuntu-gnome-desktop
+
+sudo apt remove -y gnome-session 
+
+sudo apt remove -y gnome
+
+sudo apt remove -y gnome-core
+
+sudo apt remove -y vanilla-gnome-desktop
+
+sudo apt remove -y vanilla-gnome-default-settings
+
+sudo apt remove -y ubuntu-gnome-default-settings
+
+sudo apt remove -y ubuntu-session
+
+uppy
+# !!!
+# /UNINSTALL GNOME 3
+# !!!
+
 # power saving
 ins tlp
 sudo systemctl enable tlp
@@ -1246,95 +1331,6 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 
 # !!!
 # /FINAL UNINSTALLS
-# !!!
-
-# !!!
-# UNINSTALL GNOME 3
-# !!!
-
-uppy
-
-sudo apt purge -y adwaita-icon-theme gedit-common gir1.2-gdm-1.0 \
-gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-goa-1.0 \
-gnome-accessibility-themes gnome-bluetooth gnome-calculator gnome-calendar \
-gnome-characters gnome-control-center gnome-control-center-data \
-gnome-control-center-faces gnome-desktop3-data \
-gnome-font-viewer gnome-getting-started-docs gnome-getting-started-docs-ru \
-gnome-initial-setup gnome-keyring gnome-keyring-pkcs11 gnome-logs \
-gnome-mahjongg gnome-menus gnome-mines gnome-online-accounts \
-gnome-power-manager gnome-screenshot gnome-session-bin gnome-session-canberra \
-gnome-session-common gnome-settings-daemon gnome-settings-daemon-common \
-gnome-shell gnome-shell-common gnome-shell-extension-appindicator \
-gnome-shell-extension-desktop-icons gnome-shell-extension-ubuntu-dock \
-gnome-startup-applications gnome-sudoku gnome-system-monitor gnome-terminal \
-gnome-terminal-data gnome-themes-extra gnome-themes-extra-data gnome-todo \
-gnome-todo-common gnome-user-docs gnome-user-docs-ru gnome-video-effects \
-language-pack-gnome-en language-pack-gnome-en-base language-pack-gnome-ru \
-language-pack-gnome-ru-base language-selector-gnome libgail18 libgail18 \
-libgail-common libgail-common libgnome-autoar-0-0 libgnome-bluetooth13 \
-libgnome-desktop-3-19 libgnome-games-support-1-3 libgnome-games-support-common \
-libgnomekbd8 libgnomekbd-common libgnome-menu-3-0 libgnome-todo libgoa-1.0-0b \
-libgoa-1.0-common libpam-gnome-keyring libsoup-gnome2.4-1 libsoup-gnome2.4-1 \
-nautilus-extension-gnome-terminal pinentry-gnome3 yaru-theme-gnome-shell
-
-sudo apt autopurge -y
-
-uppy
-
-sudo apt purge -y adwaita-icon-theme geogebra-gnome gir1.2-gtd-1.0 \
-gnome-accessibility-profiles gnome-applets-data gnome-audio gnome-backgrounds \
-gnome-cards-data gnome-common gnome-desktop-testing gnome-dvb-daemon \
-gnome-exe-thumbnailer gnome-extra-icons gnome-flashback-common \
-gnome-humility-icon-theme gnome-hwp-support gnome-icon-theme \
-gnome-icon-theme-gartoon gnome-icon-theme-gartoon-redux \
-gnome-icon-theme-gperfection2 gnome-icon-theme-nuovo gnome-icon-theme-suede \
-gnome-icon-theme-yasis gnome-mime-data gnome-nds-thumbnailer \
-gnome-packagekit-data gnome-panel-control gnome-panel-data \
-gnome-pkg-tools gnome-recipes-data gnome-remote-desktop gnome-settings-daemon-dev \
-gnome-shell-pomodoro-data gnome-software-common gnome-software-doc \
-gnome-theme-gilouche gnome-video-effects-extra gnome-video-effects-frei0r \
-guile-gnome2-dev guile-gnome2-glib libgnome-autoar-doc libgnomecanvas2-common \
-libgnomecanvas2-doc libgnomecanvasmm-2.6-doc libgnome-panel-doc libgnome-todo-dev \
-libopenrawgnome7:amd64 libopenrawgnome-dev libreoffice-gnome libxine2-gnome:amd64 \
-nautilus-sendto pidgin-gnome-keyring plymouth-theme-ubuntu-gnome-logo \
-plymouth-theme-ubuntu-gnome-text ubuntu-gnome-wallpapers \
-ubuntu-gnome-wallpapers-trusty ubuntu-gnome-wallpapers-utopic \
-ubuntu-gnome-wallpapers-xenial ubuntu-gnome-wallpapers-yakkety
-
-sudo apt autopurge -y
-
-uppy
-
-sudo apt remove -y ubuntu-gnome-desktop
-sudo apt remove -y gnome-shell 
-
-uppy
-
-sudo apt remove -y gdm  
-
-uppy
-
-sudo apt remove -y gnome-shell
-
-sudo apt remove -y ubuntu-gnome-desktop
-
-sudo apt remove -y gnome-session 
-
-sudo apt remove -y gnome
-
-sudo apt remove -y gnome-core
-
-sudo apt remove -y vanilla-gnome-desktop
-
-sudo apt remove -y vanilla-gnome-default-settings
-
-sudo apt remove -y ubuntu-gnome-default-settings
-
-sudo apt remove -y ubuntu-session
-
-uppy
-# !!!
-# /UNINSTALL GNOME 3
 # !!!
 
 # !!!
