@@ -1313,6 +1313,26 @@ uppy
 sudo apt remove -y gdm  
 
 uppy
+
+sudo apt remove -y gnome-shell
+
+sudo apt remove -y ubuntu-gnome-desktop
+
+sudo apt remove -y gnome-session 
+
+sudo apt remove -y gnome
+
+sudo apt remove -y gnome-core
+
+sudo apt remove -y vanilla-gnome-desktop
+
+sudo apt remove -y vanilla-gnome-default-settings
+
+sudo apt remove -y ubuntu-gnome-default-settings
+
+sudo apt remove -y ubuntu-session
+
+uppy
 # !!!
 # /UNINSTALL GNOME 3
 # !!!
