@@ -412,8 +412,6 @@ sudo echo -ne "\033[9;0]" >> /etc/issue
 
 sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner"
 
-lvnote "Remember to set up your GNOME Shell Extensions if you're using GNOME 3, or plan to be."
-
 ins libimage-exiftool-perl
 ins flatpak
 flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -700,52 +698,19 @@ ins pop-gtk-theme
 ins pop-icon-theme
 ins pop-sound-theme
 
-echo ""
-echo "Installing ALL the GNOME..."
-echo ""
-
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
-
-sudo apt install -y gnome-shell
-
-sudo apt install -y ubuntu-gnome-desktop
 
 sudo apt install -y tasksel
 
-sudo tasksel install desktop gnome-desktop
-
-sudo apt install -y gnome-session 
-
-sudo apt remove -y gdm3
-
-sudo tasksel install ubuntu-desktop
-
-sudo apt install -y gnome
-
-sudo apt install -y gnome-core
-
-sudo apt install -y gnome-software
+insNIR gnome-software
 
 sudo apt install -y gnome-software-plugin-flatpak
 
 sudo apt install -y gnome-software-plugin-snap
 
-sudo apt install -y vanilla-gnome-desktop
-
-sudo apt install -y vanilla-gnome-default-settings
-
-sudo apt install -y ubuntu-gnome-default-settings
-
-sudo apt install -y ubuntu-session
-
 sudo apt install -y yaru-theme-gnome-shell
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
-
-
-echo ""
-echo "Installed ALL the GNOME."
-echo ""
 
 sudo apt-get install -y ubuntu-wallpapers-* edgy-wallpapers feisty-wallpapers gutsy-wallpapers
 
@@ -800,12 +765,6 @@ cd /home/$(whoami)/.themes
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/Yaru-xfce.tar.gz
 tar -xzvf Yaru-xfce.tar.gz -C /home/$(whoami)/.themes
 rm -rf /home/$(whoami)/.themes/Yaru-xfce.tar.gz
-
-
-
-lvnote "Be sure to install AND ENABLE the User Themes GNOME Shell Extension: https://extensions.gnome.org/extension/19/user-themes/ "
-
-lvnote "Be sure to set your GNOME Shell theme to Yaru-dark in Tweaks, if it isn't already."
 
 sudo snap refresh
 sudo flatpak update
@@ -1052,7 +1011,7 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 ins ubuntu-restricted-addons
 ins ubuntu-restricted-extras
 
-ins gnome-shell-extensions
+insNIR gnome-shell-extensions
 
 ins frei0r-plugins
 
