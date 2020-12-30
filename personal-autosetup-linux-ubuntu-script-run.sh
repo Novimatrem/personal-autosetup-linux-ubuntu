@@ -808,7 +808,7 @@ sudo apt install -y emacs --no-install-recommends && sudo apt install -y emacs-n
 ins pop-theme
 ins light-themes
 ins humanity-icon-theme
-ins pop-gnome-shell-theme
+sudo apt remove -y pop-gnome-shell-theme
 ins pop-gtk-theme
 ins pop-icon-theme
 ins pop-sound-theme
@@ -823,7 +823,7 @@ sudo apt install -y gnome-software-plugin-flatpak
 
 sudo apt install -y gnome-software-plugin-snap
 
-sudo apt install -y yaru-theme-gnome-shell
+sudo apt remove -y yaru-theme-gnome-shell
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
@@ -846,11 +846,11 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 sudo snap refresh
 sudo flatpak update
 
-sudo apt install -y yaru-theme-gnome-shell
+sudo apt remove -y yaru-theme-gnome-shell
 sudo apt install -y yaru-theme-gtk
 sudo apt install -y yaru-theme-icon
 sudo apt install -y yaru-theme-sound
-sudo apt install -y communitheme-snap-session
+sudo apt remove -y communitheme-snap-session
 
 sudo snap install communitheme
 
@@ -1356,6 +1356,12 @@ sudo apt remove -y evince
 sudo apt remove -y mousepad
 
 ins xscreensaver
+
+sudo apt remove -y communitheme-snap-session
+sudo apt remove -y gnome-shell
+sudo apt remove -y pidgin
+sudo apt remove -y pop-gnome-shell-theme
+sudo apt remove -y yaru-theme-gnome-shell
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
