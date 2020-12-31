@@ -1383,6 +1383,20 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 # !!!
 
 # !!!
+# 2021 --
+# !!!
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+ins gnome-disk-utility
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
+
+# !!!
+# /~~~ --^
+# !!!
+
+# !!!
 # FINAL STEPS
 # !!!
 
