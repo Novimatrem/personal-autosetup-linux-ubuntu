@@ -113,6 +113,7 @@ ins zenity
 ins wget
 ins gdebi
 ins gdebi-core
+ins caffeine
 # />
 
 sey "You will be unable to use the mouse until this process is complete. Press OK to start."
@@ -153,6 +154,7 @@ ins wget
 ins curl
 ins gdebi
 ins gdebi-core
+ins caffeine
 
 # !!!
 # UNINSTALL GNOME 3
@@ -241,6 +243,7 @@ uppy
 
 ins gdebi
 ins gdebi-core
+ins caffeine
 
 # power saving
 ins tlp
@@ -482,6 +485,7 @@ ins tmux
 ins torbrowser-launcher
 ins transmission
 ins assaultcube
+ins caffeine
 
 ins ffmpeg
 arepo ppa:obsproject/obs-studio
@@ -1326,6 +1330,8 @@ ins mainline
 uppy
 
 mkdir "/home/$(whoami)/EMU Roms"
+
+ins caffeine
 
 # !!!
 # FINAL UNINSTALLS
