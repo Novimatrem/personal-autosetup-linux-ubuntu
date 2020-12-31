@@ -111,6 +111,8 @@ sudo chown $USER /etc/issue
 ins xdotool
 ins zenity
 ins wget
+ins gdebi
+ins gdebi-core
 # />
 
 sey "You will be unable to use the mouse until this process is complete. Press OK to start."
@@ -149,6 +151,8 @@ brcappend "setxkbmap -layout us -variant ,qwerty"
 ins gdebi
 ins wget
 ins curl
+ins gdebi
+ins gdebi-core
 
 # !!!
 # UNINSTALL GNOME 3
@@ -234,6 +238,9 @@ uppy
 # !!!
 # /UNINSTALL GNOME 3
 # !!!
+
+ins gdebi
+ins gdebi-core
 
 # power saving
 ins tlp
