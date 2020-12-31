@@ -116,7 +116,7 @@ ins gdebi-core
 ins caffeine
 # />
 
-sey "You will be unable to use the mouse until this process is complete. Press OK to start."
+#sey "You will be unable to use the mouse until this process is complete. Press OK to start."
 
 touch /home/$(whoami)/NOTES.txt
 
