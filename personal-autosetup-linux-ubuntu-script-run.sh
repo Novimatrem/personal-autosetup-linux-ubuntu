@@ -81,6 +81,8 @@ killall apt
 pkill update-manager
 pkill dpkg
 pkill apt
+killall packagekit
+pkill packagekit
 
 sleep 5s
 
