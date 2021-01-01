@@ -1154,6 +1154,12 @@ ins frei0r-plugins
 
 sudo apt -y install unrar zip unzip p7zip-full p7zip-rar rar unace sharutils uudeview mpack arj cabextract file-roller
 
+sleep 2s
+
+ins intel-microcode
+
+sleep 2s
+
 cd /opt
 wget https://meltdown.ovh -O spectre-meltdown-checker.sh
 chmod +x ./spectre-meltdown-checker.sh
