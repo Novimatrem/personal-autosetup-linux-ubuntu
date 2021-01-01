@@ -75,6 +75,15 @@ sudo chown $USER /opt
 sudo touch /opt/novisetup.done
 sudo chown $USER /opt/novisetup.done
 
+killall update-manager
+killall dpkg
+killall apt
+pkill update-manager
+pkill dpkg
+pkill apt
+
+sleep 5s
+
 #uppy # commented out for speed
 sudo apt update -y
 
