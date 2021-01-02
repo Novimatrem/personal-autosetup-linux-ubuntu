@@ -1426,6 +1426,34 @@ ins software-properties-common
 ins software-properties-gtk
 ins zsnes
 
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+echo "Name=caffeine-indicator" >> /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+echo "Exec=/usr/bin/caffeine-indicator" >> /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+echo "Comment=caffeine-indicator" >> /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/caffeine-indicator.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 # !!!
