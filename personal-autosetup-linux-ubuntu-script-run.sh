@@ -1434,6 +1434,14 @@ ins software-properties-common
 ins software-properties-gtk
 ins zsnes
 
+uppy
+arepo universe
+arepo multiverse
+uppy
+
+sudo apt install -y --no-install-recommends cinnamon
+sudo apt install -y --no-install-recommends cinnamon-desktop-environment
+
 #
 # CREATE STARTUP PROGRAM ENTRY
 #
