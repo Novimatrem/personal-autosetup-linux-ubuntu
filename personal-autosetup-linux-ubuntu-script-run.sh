@@ -1466,6 +1466,8 @@ sleep 2s
 rm -rf /opt/radios.txt
 # /c64 radios in bashrc
 
+ins gnome-screenshot
+
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 # !!!
