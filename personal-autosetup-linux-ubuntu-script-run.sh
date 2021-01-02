@@ -92,6 +92,8 @@ sudo apt update -y
 ins python-is-python3
 
 ins caffeine
+ins software-properties-common
+ins software-properties-gtk
 
 sleep 0s && nohup caffeine && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
@@ -125,6 +127,8 @@ ins wget
 ins gdebi
 ins gdebi-core
 ins caffeine
+ins software-properties-common
+ins software-properties-gtk
 # />
 
 #sey "You will be unable to use the mouse until this process is complete. Press OK to start."
@@ -140,6 +144,8 @@ swake
 ins python-is-python3
 
 ins caffeine
+ins software-properties-common
+ins software-properties-gtk
 
 sleep 0s && nohup caffeine && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
@@ -166,6 +172,8 @@ ins curl
 ins gdebi
 ins gdebi-core
 ins caffeine
+ins software-properties-common
+ins software-properties-gtk
 
 # !!!
 # UNINSTALL GNOME 3
@@ -255,6 +263,8 @@ uppy
 ins gdebi
 ins gdebi-core
 ins caffeine
+ins software-properties-common
+ins software-properties-gtk
 
 # power saving
 ins tlp
@@ -387,6 +397,8 @@ ins libsqlite3-0:i386
 ins wine-development
 ins wine64-development
 ins playonlinux
+ins software-properties-common
+ins software-properties-gtk
 arepo ppa:lutris-team/lutris
 uppy
 ins lutris
@@ -497,6 +509,8 @@ ins torbrowser-launcher
 ins transmission
 ins assaultcube
 ins caffeine
+ins software-properties-common
+ins software-properties-gtk
 
 ins ffmpeg
 arepo ppa:obsproject/obs-studio
@@ -1349,6 +1363,8 @@ uppy
 mkdir "/home/$(whoami)/EMU Roms"
 
 ins caffeine
+ins software-properties-common
+ins software-properties-gtk
 
 # !!!
 # FINAL UNINSTALLS
@@ -1406,6 +1422,8 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 ins gnome-disk-utility
+ins software-properties-common
+ins software-properties-gtk
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
