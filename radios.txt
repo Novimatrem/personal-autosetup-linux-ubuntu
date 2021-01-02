@@ -1,5 +1,3 @@
-
-
 #
 #
 # c64 and gaming radio aliases for your bashrc v5
@@ -34,5 +32,3 @@ alias stopradio='killall vlc && sleep 1s && clear && clear && echo "Killed the r
 # once you have ran one of these commands, if VLC isn't already minimized to the tray, it's recommended you click on its tray icon and make it as such. (there may be settings in VLC's options if it seems there's no way to do so)
 #
 #
-
-
