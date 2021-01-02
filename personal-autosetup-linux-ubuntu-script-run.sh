@@ -1226,7 +1226,7 @@ ins adobe-flashplugin
 
 ins get-flash-videos
 
-ins pepperflashplugin-nonfree
+#ins pepperflashplugin-nonfree # hangs the script, now
 
 uppy
 
