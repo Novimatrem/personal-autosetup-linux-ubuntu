@@ -600,10 +600,18 @@ insdeb ./minigalaxy_0.9.4_all.deb
 
 # itch.io app
 cd /opt
-wget https://nuts.itch.zone/download/linux
-sudo chmod +x ./linux
-./linux
-sudo rm -rf ./linux
+
+#wget https://nuts.itch.zone/download/linux
+#sudo chmod +x ./linux
+#./linux
+#sudo rm -rf ./linux
+
+# they changed how its downloaded, new method;
+cd /opt
+wget -cO - https://itch.io/app/download?platform=linux > itch-new
+sudo chmod +x ./itch-new
+./itch-new
+
 # />
 
 ins eog
