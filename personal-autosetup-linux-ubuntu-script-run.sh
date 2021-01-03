@@ -1556,6 +1556,43 @@ echo ""
 
 # /my bedtime reminder
 
+# my talking clock
+
+ins zenity
+ins espeak
+ins libnotify-bin
+git clone https://gitlab.com/Novimatrem/talking-clock /opt/talking-clock
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/talking-clock.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/talking-clock.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/talking-clock.desktop
+echo "Name=talking-clock" >> /home/$(whoami)/.config/autostart/talking-clock.desktop
+echo "Exec=bash /opt/talking-clock/talking-clock.sh" >> /home/$(whoami)/.config/autostart/talking-clock.desktop
+echo "Comment=talking-clock" >> /home/$(whoami)/.config/autostart/talking-clock.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/talking-clock.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/talking-clock.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
+
+# /my talking clock
+
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 # !!!
