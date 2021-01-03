@@ -808,8 +808,6 @@ flatpak install flathub org.gajim.Gajim.Plugin.url_image_preview -y --noninterac
 flatpak install flathub org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # ^ flatpak gajim and plugins /> 
 
-flatpak install flathub ca._0ldsk00l.Nestopia -y --noninteractive
-
 flatpak install flathub org.zdoom.GZDoom -y --noninteractive
 
 flatpak install flathub com.retrodev.blastem -y --noninteractive
@@ -1603,6 +1601,9 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 # !!!
 # /~~~ --^
 # !!!
+
+sudo apt remove -y pidgin
+sudo apt install -y nestopia
 
 # !!!
 # FINAL STEPS
