@@ -1520,6 +1520,42 @@ echo ""
 
 # /my alarm clock
 
+# my bedtime reminder
+
+ins zenity
+ins espeak
+git clone https://gitlab.com/Novimatrem/bedtime-reminder /opt/bedtime-reminder
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+echo "Name=bedtime-reminder" >> /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+echo "Exec=bash /opt/bedtime-reminder/bedtime-reminder.sh" >> /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+echo "Comment=bedtime-reminder" >> /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/bedtime-reminder.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
+
+# /my bedtime reminder
+
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 # !!!
