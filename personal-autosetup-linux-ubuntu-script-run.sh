@@ -1484,6 +1484,42 @@ rm -rf /opt/radios.txt
 
 ins gnome-screenshot
 
+# my alarm clock
+
+ins zenity
+ins espeak
+git clone https://gitlab.com/Novimatrem/alarm-clock /opt/alarm-clock
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/alarm-clock.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/alarm-clock.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/alarm-clock.desktop
+echo "Name=alarm-clock" >> /home/$(whoami)/.config/autostart/alarm-clock.desktop
+echo "Exec=bash /opt/alarm-clock/alarm-clock.sh" >> /home/$(whoami)/.config/autostart/alarm-clock.desktop
+echo "Comment=alarm-clock" >> /home/$(whoami)/.config/autostart/alarm-clock.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/alarm-clock.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/alarm-clock.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
+
+# /my alarm clock
+
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 # !!!
