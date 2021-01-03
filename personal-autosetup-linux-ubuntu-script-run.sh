@@ -1593,10 +1593,10 @@ echo ""
 
 # /my talking clock
 
-# cinnamon window buttons tweak
+# cinnamon window buttons tweak, left
 ins dconf-cli
-dconf write /org/cinnamon/desktop/wm/preferences/button-layout "':maximize,minimize,close'"
-# /cinnamon window buttons tweak
+dconf write /org/cinnamon/desktop/wm/preferences/button-layout "'close,minimize,maximize:'"
+# /cinnamon window buttons tweak, left
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
