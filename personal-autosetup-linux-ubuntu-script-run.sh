@@ -1605,6 +1605,15 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 sudo apt remove -y pidgin
 sudo apt install -y nestopia
 
+gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 1
+gsettings set org.nemo.desktop show-desktop-icons false
+gsettings set org.cinnamon.theme name "cinnamon"
+dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwall.png'"
+dconf write /org/cinnamon/desktop/interface/clock-show-date true
+gsettings set org.cinnamon.desktop.privacy remember-recent-files false
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-display-ac 0
+gsettings set org.cinnamon.settings-daemon.plugins.power sleep-display-battery 0
+
 # !!!
 # FINAL STEPS
 # !!!
