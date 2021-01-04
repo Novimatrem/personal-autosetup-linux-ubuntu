@@ -1,3 +1,8 @@
+# VERSION;
+#
+# MILESTONE 1
+#
+
 #!/bin/bash
 
 # Novimatrem personal-autosetup-linux Ubuntu
@@ -162,6 +167,8 @@ echo ""
 echo ""
 echo ""
 echo ""
+
+sleep 0s && nohup zenity --warning --text "MILESTONE 1" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
 ins build-essential
 
