@@ -623,7 +623,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maxi
 
 #lvnote "Install this alias https://gitlab.com/Novimatrem/dvorak-qwerty-switch-aliases"
 
-lvnote "Install this alarm clock https://gitlab.com/Novimatrem/alarm-clock so you can wake up"
+#lvnote "Install this alarm clock https://gitlab.com/Novimatrem/alarm-clock so you can wake up"
 
 ins filezilla
 
@@ -716,7 +716,7 @@ echo ""
 echo "Installed ALL the Xfce."
 echo ""
 
-lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it. (if you plan to use IceWM)"
+#lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it. (if you plan to use IceWM)"
 
 ins freedoom
 
@@ -915,7 +915,7 @@ gsettings set org.gnome.shell.extensions.user-theme name "Yaru-dark" # < fix bug
 gsettings set org.gnome.desktop.sound theme-name "Yaru"
 gsettings set org.gnome.desktop.sound event-sounds true
 
-lvnote "If the Yaru/Communitheme isn't working, you may need to install and enable this (in both Appearance and Window Manager settings, if Xfce): https://www.xfce-look.org/p/1251531/ if it wasn't already installed. You MAY just need to check the settings and enable it."
+#lvnote "If the Yaru/Communitheme isn't working, you may need to install and enable this (in both Appearance and Window Manager settings, if Xfce): https://www.xfce-look.org/p/1251531/ if it wasn't already installed. You MAY just need to check the settings and enable it."
 
 mkdir /home/$(whoami)/.themes
 cd /home/$(whoami)/.themes
@@ -984,7 +984,7 @@ sleep 0s && nohup earlyoom && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out 
 echo ""
 
 ins chrome-gnome-shell
-lvnote "Be sure to properly sync, install, and configure ALL of your GNOME Shell Extensions, if using GNOME."
+#lvnote "Be sure to properly sync, install, and configure ALL of your GNOME Shell Extensions, if using GNOME."
 ins x11-utils
 
 sudo apt remove -y gnome-clocks
