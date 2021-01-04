@@ -151,6 +151,18 @@ sleep 0s && nohup caffeine && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out 
 
 sleep 0s && nohup caffeine-indicator && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
+echo ""
+echo ""
+echo ""
+echo ""
+echo "!!!"
+echo "MILESTONE 1"
+echo "!!!"
+echo ""
+echo ""
+echo ""
+echo ""
+
 ins build-essential
 
 uppy
