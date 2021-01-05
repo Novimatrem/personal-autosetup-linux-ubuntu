@@ -1617,10 +1617,6 @@ dconf write /org/cinnamon/desktop/wm/preferences/button-layout "'close,minimize,
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
-# !!!
-# /~~~ --^
-# !!!
-
 sudo apt remove -y pidgin
 sudo apt install -y nestopia
 
@@ -1634,6 +1630,8 @@ gsettings set org.cinnamon.settings-daemon.plugins.power sleep-display-ac 0
 gsettings set org.cinnamon.settings-daemon.plugins.power sleep-display-battery 0
 
 ins quadrapassel
+
+sudo apt remove -y parole
 
 # !!!
 # FINAL STEPS
