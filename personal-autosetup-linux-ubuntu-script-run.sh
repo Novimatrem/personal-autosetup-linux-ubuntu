@@ -1633,6 +1633,8 @@ gsettings set org.cinnamon.desktop.privacy remember-recent-files false
 gsettings set org.cinnamon.settings-daemon.plugins.power sleep-display-ac 0
 gsettings set org.cinnamon.settings-daemon.plugins.power sleep-display-battery 0
 
+ins quadrapassel
+
 # !!!
 # FINAL STEPS
 # !!!
