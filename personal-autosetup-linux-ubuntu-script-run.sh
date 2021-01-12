@@ -1635,6 +1635,24 @@ ins quadrapassel
 
 sudo apt remove -y parole
 
+# c64 font install
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/C64_TrueType_v1.2.1-STYLE.zip
+unzip C64_TrueType_v1.2.1-STYLE.zip
+mkdir -p ~/.local/share/fonts
+cd /opt/C64_TrueType_v1.2.1-STYLE
+cd /opt/C64_TrueType_v1.2.1-STYLE/fonts
+cp *.ttf ~/.local/share/fonts/
+fc-cache -f -v
+
+sleep 2s
+
+rm -rf /opt/C64_TrueType_v1.2.1-STYLE
+rm -rf /opt/C64_TrueType_v1.2.1-STYLE/*
+cd /opt
+rm -rf /opt/C64_TrueType_v1.2.1-STYLE.zip
+# /c64 font install
+
 # !!!
 # FINAL STEPS
 # !!!
