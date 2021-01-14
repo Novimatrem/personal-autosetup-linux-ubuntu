@@ -1653,6 +1653,22 @@ cd /opt
 rm -rf /opt/C64_TrueType_v1.2.1-STYLE.zip
 # /c64 font install
 
+
+# dos font install
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/LessPerfectDOSVGA.ttf
+mkdir -p ~/.local/share/fonts
+cp *.ttf ~/.local/share/fonts/
+fc-cache -f -v
+
+sleep 2s
+cd /opt
+rm -rf /opt/LessPerfectDOSVGA.ttf
+# /dos font install
+
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
