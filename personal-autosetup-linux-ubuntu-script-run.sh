@@ -1670,7 +1670,7 @@ rm -rf /opt/LessPerfectDOSVGA.ttf
 ins redshift-gtk
 # /redshift-gtk
 
-
+sudo snap install clock-signal --edge
 
 # !!!
 # FINAL STEPS
