@@ -1666,6 +1666,9 @@ cd /opt
 rm -rf /opt/LessPerfectDOSVGA.ttf
 # /dos font install
 
+# redshift-gtk
+ins redshift-gtk
+# /redshift-gtk
 
 
 
