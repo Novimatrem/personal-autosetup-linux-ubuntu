@@ -1672,6 +1672,9 @@ ins redshift-gtk
 
 sudo snap install clock-signal --edge
 
+ins fs-uae
+ins fs-uae-launcher
+
 # !!!
 # FINAL STEPS
 # !!!
