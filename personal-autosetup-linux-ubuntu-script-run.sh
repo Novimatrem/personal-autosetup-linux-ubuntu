@@ -1675,6 +1675,8 @@ sudo snap install clock-signal --edge
 ins fs-uae
 ins fs-uae-launcher
 
+sudo snap install telegram-desktop
+
 # !!!
 # FINAL STEPS
 # !!!
