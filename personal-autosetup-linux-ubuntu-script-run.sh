@@ -1679,6 +1679,8 @@ sudo snap install telegram-desktop
 
 ins toot
 
+sudo snap install sengi
+
 # !!!
 # FINAL STEPS
 # !!!
