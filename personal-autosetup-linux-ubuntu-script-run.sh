@@ -1677,6 +1677,8 @@ ins fs-uae-launcher
 
 sudo snap install telegram-desktop
 
+ins toot
+
 # !!!
 # FINAL STEPS
 # !!!
