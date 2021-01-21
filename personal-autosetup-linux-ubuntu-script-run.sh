@@ -1681,6 +1681,8 @@ ins toot
 
 sudo snap install sengi
 
+ins celluloid
+
 # !!!
 # FINAL STEPS
 # !!!
