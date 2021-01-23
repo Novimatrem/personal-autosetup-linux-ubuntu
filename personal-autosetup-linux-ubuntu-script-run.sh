@@ -1683,6 +1683,8 @@ sudo snap install sengi
 
 ins celluloid
 
+flatpak install flathub com.github.bleakgrey.tootle -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
