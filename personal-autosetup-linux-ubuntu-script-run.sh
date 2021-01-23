@@ -1685,6 +1685,14 @@ ins celluloid
 
 flatpak install flathub com.github.bleakgrey.tootle -y --noninteractive
 
+# vivaldi
+cd /opt
+wget https://downloads.vivaldi.com/stable/vivaldi-stable_3.5.2115.87-1_amd64.deb
+insdeb /opt/vivaldi-stable_3.5.2115.87-1_amd64.deb
+sleep 5s
+rm -rf /opt/vivaldi-stable_3.5.2115.87-1_amd64.deb
+# /vivaldi
+
 # !!!
 # FINAL STEPS
 # !!!
