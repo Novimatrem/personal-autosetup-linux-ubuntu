@@ -1693,6 +1693,14 @@ sleep 5s
 rm -rf /opt/vivaldi-stable_3.5.2115.87-1_amd64.deb
 # /vivaldi
 
+# minecraft java
+cd /opt
+wget https://launcher.mojang.com/download/Minecraft.deb
+insdeb /opt/Minecraft.deb
+sleep 5s
+rm -rf /opt/Minecraft.deb
+# /minecraft java
+
 # !!!
 # FINAL STEPS
 # !!!
