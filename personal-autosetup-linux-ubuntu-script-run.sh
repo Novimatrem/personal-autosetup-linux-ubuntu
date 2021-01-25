@@ -1701,6 +1701,8 @@ sleep 5s
 rm -rf /opt/Minecraft.deb
 # /minecraft java
 
+sudo snap install spelunky
+
 # !!!
 # FINAL STEPS
 # !!!
