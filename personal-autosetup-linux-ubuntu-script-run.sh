@@ -1714,6 +1714,12 @@ sudo wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/ma
 
 sudo snap install translatium
 
+mkdir /home/$(whoami)/.themes
+cd /home/$(whoami)/.themes
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/Ambiance_2018.tar.gz
+tar -xzvf Ambiance_2018.tar.gz -C /home/$(whoami)/.themes
+rm -rf /home/$(whoami)/.themes/Ambiance_2018.tar.gz
+
 # !!!
 # FINAL STEPS
 # !!!
