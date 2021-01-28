@@ -1712,6 +1712,8 @@ sudo rm -rf /etc/tlp.conf
 sudo wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/tlp.conf
 # /tlp fixes
 
+sudo snap install translatium
+
 # !!!
 # FINAL STEPS
 # !!!
