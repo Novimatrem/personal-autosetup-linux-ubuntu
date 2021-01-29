@@ -1725,6 +1725,10 @@ wget https://github.com/Swordfish90/cool-retro-term/releases/download/1.1.1/Cool
 chmod a+x Cool-Retro-Term-1.1.1-x86_64.AppImage
 cd /opt
 
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+sudo youtube-dl -U
+
 # !!!
 # FINAL STEPS
 # !!!
