@@ -1720,6 +1720,11 @@ wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/
 tar -xzvf Ambiance_2018.tar.gz -C /home/$(whoami)/.themes
 rm -rf /home/$(whoami)/.themes/Ambiance_2018.tar.gz
 
+cd /home/$(whoami)/Applications
+wget https://github.com/Swordfish90/cool-retro-term/releases/download/1.1.1/Cool-Retro-Term-1.1.1-x86_64.AppImage
+chmod a+x Cool-Retro-Term-1.1.1-x86_64.AppImage
+cd /opt
+
 # !!!
 # FINAL STEPS
 # !!!
