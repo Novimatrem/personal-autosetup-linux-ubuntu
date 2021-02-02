@@ -1731,6 +1731,11 @@ sudo youtube-dl -U
 
 flatpak install flathub org.tuxpaint.Tuxpaint
 
+ins lxde
+ins lxde-common
+ins lxde-core
+ins lxde-settings-daemon
+
 # !!!
 # FINAL STEPS
 # !!!
