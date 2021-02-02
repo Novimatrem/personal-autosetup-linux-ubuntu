@@ -1,6 +1,6 @@
 # VERSION;
 #
-# MILESTONE 1
+# MILESTONE 2!!
 #
 
 #!/bin/bash
@@ -161,7 +161,7 @@ echo ""
 echo ""
 echo ""
 echo "!!!"
-echo "MILESTONE 1"
+echo "MILESTONE 2!!"
 echo "!!!"
 echo ""
 echo ""
