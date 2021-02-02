@@ -1094,7 +1094,7 @@ pkill xbindkeys
 
 xbindkeys
 
-brcappend "alias yolo='sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo find /tmp -type f -atime +10 -delete && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && flatpak uninstall --unused && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush'"
+brcappend "alias yolo='sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo find /tmp -type f -atime +10 -delete && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush'"
 
 brcappend "gsettings set org.gnome.desktop.app-folders folder-children ['']"
 
