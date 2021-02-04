@@ -419,6 +419,8 @@ ins software-properties-common
 ins software-properties-gtk
 uppy
 
+sudo apt purge -y lutris
+
 # wire - wireapp
 cd /opt
 wget https://github.com/wireapp/wire-desktop/releases/download/linux%2F3.19.2928/Wire-3.19.2928_amd64.deb
