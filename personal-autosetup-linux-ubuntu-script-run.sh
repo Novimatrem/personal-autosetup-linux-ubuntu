@@ -350,7 +350,6 @@ ins bleachbit
 
 ins vlc
 
-# lutris deps and lutris
 ins unrar
 ins zip
 ins unzip
@@ -418,11 +417,7 @@ ins wine64-development
 ins playonlinux
 ins software-properties-common
 ins software-properties-gtk
-arepo ppa:lutris-team/lutris
 uppy
-ins lutris
-uppy
-# />
 
 # wire - wireapp
 cd /opt
