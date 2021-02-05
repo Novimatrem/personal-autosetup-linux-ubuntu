@@ -1747,6 +1747,8 @@ ins gnome-mines
 ins kmines
 ins freesweep
 
+ins stterm
+
 # !!!
 # FINAL STEPS
 # !!!
