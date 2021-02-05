@@ -1749,6 +1749,8 @@ ins freesweep
 
 ins stterm
 
+sudo apt-get install -y awesome*
+
 # !!!
 # FINAL STEPS
 # !!!
