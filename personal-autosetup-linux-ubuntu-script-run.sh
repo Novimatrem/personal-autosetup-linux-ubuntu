@@ -1455,8 +1455,8 @@ arepo universe
 arepo multiverse
 uppy
 
-sudo apt install -y --no-install-recommends cinnamon
-sudo apt install -y --no-install-recommends cinnamon-desktop-environment
+sudo apt remove -y cinnamon
+sudo apt remove -y cinnamon-desktop-environment
 
 #
 # CREATE STARTUP PROGRAM ENTRY
