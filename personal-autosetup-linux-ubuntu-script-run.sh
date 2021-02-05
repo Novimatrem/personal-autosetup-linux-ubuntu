@@ -1751,6 +1751,8 @@ ins stterm
 
 sudo apt-get install -y awesome*
 
+flatpak install flathub im.pidgin.Pidgin
+
 # !!!
 # FINAL STEPS
 # !!!
