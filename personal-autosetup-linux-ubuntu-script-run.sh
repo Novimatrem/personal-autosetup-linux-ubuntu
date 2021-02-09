@@ -1755,6 +1755,8 @@ flatpak install flathub im.pidgin.Pidgin
 
 sudo apt-get install -y openjdk-8-j*
 
+lvnote "Be sure to set your startup programs in awesome wm, if you're using that, following this https://askubuntu.com/questions/57264/how-can-i-define-startup-applications-with-the-awesome-window-manager"
+
 # !!!
 # FINAL STEPS
 # !!!
