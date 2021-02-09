@@ -1753,6 +1753,8 @@ sudo apt-get install -y awesome*
 
 flatpak install flathub im.pidgin.Pidgin
 
+sudo apt-get install -y openjdk-8-j*
+
 # !!!
 # FINAL STEPS
 # !!!
