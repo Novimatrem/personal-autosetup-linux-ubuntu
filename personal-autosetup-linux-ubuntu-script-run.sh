@@ -1783,7 +1783,7 @@ wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/
 
 touch /home/$(whoami)/.xbindkeysrc
 
-echo '"bash /opt/open-terminal-in-awesomewm.sh' >> /home/$(whoami)/.xbindkeysrc
+echo '"bash /opt/open-terminal-in-awesomewm.sh"' >> /home/$(whoami)/.xbindkeysrc
 echo -e ' \t Control + Alt + T' >> /home/$(whoami)/.xbindkeysrc
 
 xbindkeys_autostart
