@@ -1041,6 +1041,7 @@ wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/
 mkdir /home/$(whoami)/Videomaking
 
 mkdir /home/$(whoami)/Working
+mkdir /home/$(whoami)/Working/Important
 
 brcappend "alias nh='ssh nethack@eu.hardfought.org'"
 
