@@ -1838,6 +1838,27 @@ xbindkeys
 
 
 
+
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/open-ff-in-awesomewm.sh
+
+touch /home/$(whoami)/.xbindkeysrc
+
+echo '"bash /opt/open-ff-in-awesomewm.sh"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Control + Alt + F' >> /home/$(whoami)/.xbindkeysrc
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
+
+
+
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
