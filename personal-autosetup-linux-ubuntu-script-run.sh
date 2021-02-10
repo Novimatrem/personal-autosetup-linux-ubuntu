@@ -1757,6 +1757,26 @@ sudo apt-get install -y openjdk-8-j*
 
 lvnote "Be sure to set your startup programs in awesome wm, if you're using that, following this https://askubuntu.com/questions/57264/how-can-i-define-startup-applications-with-the-awesome-window-manager"
 
+
+
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/open-thunar-in-awesomewm.sh
+
+touch /home/$(whoami)/.xbindkeysrc
+
+echo '"bash /opt/open-thunar-in-awesomewm.sh""' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Control + Alt + E' >> /home/$(whoami)/.xbindkeysrc
+
+xbindkeys_autostart
+
+killall xbindkeys
+pkill xbindkeys
+
+xbindkeys
+
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
