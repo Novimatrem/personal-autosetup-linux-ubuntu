@@ -1860,6 +1860,9 @@ xbindkeys
 
 
 
+
+ins telegram-purple
+
 # !!!
 # FINAL STEPS
 # !!!
