@@ -1865,6 +1865,11 @@ xbindkeys
 
 ins telegram-purple
 
+ins neofetch
+ins toilet
+ins figlet
+ins lolcat
+
 # !!!
 # FINAL STEPS
 # !!!
