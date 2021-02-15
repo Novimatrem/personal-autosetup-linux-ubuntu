@@ -777,7 +777,7 @@ sudo snap install fortune-cm
 
 sudo snap install fast
 
-sudo snap install electronplayer
+sudo snap remove electronplayer
 
 sudo snap install p7zip-desktop
 
@@ -1433,6 +1433,8 @@ sudo apt remove -y gnome-shell
 sudo apt remove -y pidgin
 sudo apt remove -y pop-gnome-shell-theme
 sudo apt remove -y yaru-theme-gnome-shell
+
+sudo snap remove electronplayer
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
