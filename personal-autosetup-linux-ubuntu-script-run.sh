@@ -1870,6 +1870,13 @@ ins toilet
 ins figlet
 ins lolcat
 
+# specifically only st term (simple terminal, suckless)
+sudo apt purge -y xfce4-terminal
+sudo apt remove -y xterm
+sudo apt remove -y gnome-terminal
+ins stterm
+# specifically only st term (simple terminal, suckless)
+
 # !!!
 # FINAL STEPS
 # !!!
