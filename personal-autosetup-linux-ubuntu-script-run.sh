@@ -1894,6 +1894,7 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 sudo apt purge -y xfce4-terminal
 brcappend "tmux && clear"
 brcappend "clear"
+brcappend "alias exit='wmctrl -c :ACTIVE:'"
 
 uppy
 
