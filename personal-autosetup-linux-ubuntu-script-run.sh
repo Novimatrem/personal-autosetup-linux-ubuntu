@@ -1058,7 +1058,7 @@ pkill xbindkeys
 
 xbindkeys
 
-brcappend "alias cbh='echo Fully_clearing_bash_history_then_exiting && sleep 1s && cat /dev/null > ~/.bash_history && history -c && history -w && exit'"
+brcappend "alias cbh='echo Fully_clearing_bash_history_then_exiting && cat /dev/null > ~/.bash_history && history -c && history -w && exit'"
 
 ins libimage-exiftool-perl
 
