@@ -1044,6 +1044,10 @@ mkdir /home/$(whoami)/Working
 mkdir /home/$(whoami)/Working/Important
 
 brcappend "alias nh='ssh nethack@eu.hardfought.org'"
+brcappend "alias nethack='ssh nethack@eu.hardfought.org'"
+brcappend "alias nethack-console='ssh nethack@eu.hardfought.org'"
+brcappend "alias hardfought='ssh nethack@eu.hardfought.org'"
+brcappend "alias hf='ssh nethack@eu.hardfought.org'"
 
 ins wmctrl
 
