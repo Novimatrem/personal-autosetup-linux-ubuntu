@@ -15,7 +15,7 @@ echo $ISAWESOMEORNOT
 
 if [ $ISAWESOMEORNOT -o "string" ]
 then
-echo "You are using awesomewm, run code." && xfce4-terminal &
+echo "You are using awesomewm, run code." && sudo apt install -y xfce4-terminal && xfce4-terminal &
 exit
 if ! [ $ISAWESOMEORNOT -o "string" ]
 then
