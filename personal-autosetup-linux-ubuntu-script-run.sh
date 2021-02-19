@@ -1919,6 +1919,11 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 ins winetricks
 ins dxvk
 
+
+
+sudo snap install scummvm
+
+
 # !!!
 # FINAL STEPS
 # !!!
