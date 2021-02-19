@@ -1917,6 +1917,7 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 # /okay fine i'll use the wine ppa even though it's always fkn down
 # just in case v
 ins winetricks
+ins dxvk
 
 # !!!
 # FINAL STEPS
