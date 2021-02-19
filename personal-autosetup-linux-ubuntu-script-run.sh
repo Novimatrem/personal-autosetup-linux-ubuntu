@@ -1881,6 +1881,22 @@ sudo apt remove -y gnome-terminal
 ins stterm
 # specifically only st term (simple terminal, suckless)
 
+# additional wine dependencies (WoW)
+sudo dpkg --add-architecture i386
+
+ins libgnutls30:i386
+ins libldap-2.4-2:i386
+ins libgpg-error0:i386
+ins libxml2:i386
+ins libasound2-plugins:i386
+ins libsdl2-2.0-0:i386
+ins libfreetype6:i386
+ins libdbus-1-3:i386
+ins libsqlite3-0:i386
+ins msttcorefonts
+# /additional wine dependencies (WoW)
+
+
 # !!!
 # FINAL STEPS
 # !!!
