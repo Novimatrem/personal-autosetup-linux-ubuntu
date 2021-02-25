@@ -1924,6 +1924,9 @@ ins dxvk
 sudo snap install scummvm
 
 
+ins idle
+ins idle3
+
 # !!!
 # FINAL STEPS
 # !!!
