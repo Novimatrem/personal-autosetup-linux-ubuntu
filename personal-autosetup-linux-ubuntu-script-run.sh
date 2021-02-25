@@ -1927,6 +1927,17 @@ sudo snap install scummvm
 ins idle
 ins idle3
 
+ins wget
+cd /opt
+mkdir /opt/novi_renpy
+cd /opt/novi_renpy
+wget https://www.renpy.org/dl/7.4.2/renpy-7.4.2-sdk.tar.bz2
+tar -xvf /opt/novi_renpy/renpy-7.4.2-sdk.tar.bz2
+cd /opt/novi_renpy/renpy-7.4.2-sdk
+ln -s /opt/novi_renpy/renpy-7.4.2-sdk/renpy.sh /home/$(whoami)/renpy.sh
+sudo chmod +x /home/$(whoami)/renpy.sh
+sudo chmod +x /opt/novi_renpy/renpy-7.4.2-sdk/renpy.sh
+
 # !!!
 # FINAL STEPS
 # !!!
