@@ -1950,7 +1950,7 @@ sudo systemctl start wondershaper.service
 # /set up (as much as is automatically possible) wondershaper to bandaid patch my ISP-provided-router's lack of QoS
 
 
-
+ins ioquake3
 
 # !!!
 # FINAL STEPS
