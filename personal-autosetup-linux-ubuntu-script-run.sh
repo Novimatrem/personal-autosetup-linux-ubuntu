@@ -1938,6 +1938,20 @@ ln -s /opt/novi_renpy/renpy-7.4.2-sdk/renpy.sh /home/$(whoami)/renpy.sh
 sudo chmod +x /home/$(whoami)/renpy.sh
 sudo chmod +x /opt/novi_renpy/renpy-7.4.2-sdk/renpy.sh
 
+# set up (as much as is automatically possible) wondershaper to bandaid patch my ISP-provided-router's lack of QoS
+sudo apt install -y wondershaper
+ins git
+cd /bin
+sudo git clone https://github.com/magnific0/wondershaper.git
+cd wondershaper
+sudo make install
+sudo systemctl enable wondershaper.service
+sudo systemctl start wondershaper.service
+# /set up (as much as is automatically possible) wondershaper to bandaid patch my ISP-provided-router's lack of QoS
+
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
