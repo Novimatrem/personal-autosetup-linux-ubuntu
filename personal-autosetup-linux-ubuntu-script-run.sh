@@ -1952,6 +1952,8 @@ sudo systemctl start wondershaper.service
 
 ins ioquake3
 
+ins iotop
+
 # !!!
 # FINAL STEPS
 # !!!
