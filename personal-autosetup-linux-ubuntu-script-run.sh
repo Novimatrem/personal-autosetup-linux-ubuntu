@@ -819,10 +819,10 @@ flatpak install flathub com.eduke32.EDuke32 -y --noninteractive
 flatpak install flathub net.sourceforge.fretsonfire -y --noninteractive
 
 # flatpak gajim and plugins (no more)
-flatpak remove flathub org.gajim.Gajim -y --noninteractive
-flatpak remove flathub org.gajim.Gajim.Plugin.appindicator -y --noninteractive
-flatpak remove flathub org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
-flatpak remove flathub org.gajim.Gajim.Plugin.omemo -y --noninteractive
+flatpak remove org.gajim.Gajim -y --noninteractive
+flatpak remove org.gajim.Gajim.Plugin.appindicator -y --noninteractive
+flatpak remove org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
+flatpak remove org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # ^ flatpak gajim and plugins (no more) /> 
 
 flatpak install flathub org.zdoom.GZDoom -y --noninteractive
