@@ -1964,6 +1964,14 @@ ins libdvdread7
 
 ins rbdoom3bfg
 
+
+mkdir /home/$(whoami)/Applications
+cd /home/$(whoami)/Applications
+ins wget
+wget DL HERE
+sudo chmod +x ./osu.AppImage
+
+
 # !!!
 # FINAL STEPS
 # !!!
