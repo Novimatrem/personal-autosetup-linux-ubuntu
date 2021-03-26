@@ -836,6 +836,8 @@ flatpak install flathub com.gitlab.coringao.cavestory-nx -y --noninteractive
 
 flatpak install flathub com.github.shonumi.gbe-plus -y --noninteractive
 
+flatpak install flathub de.gunibert.Hackgregator -y --noninteractive
+
 flatpak update
 
 # appimaged
