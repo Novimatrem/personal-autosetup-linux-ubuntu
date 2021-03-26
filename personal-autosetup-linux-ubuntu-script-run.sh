@@ -455,14 +455,13 @@ cd /opt
 wget https://opendata.blender.org/cdn/BlenderBenchmark2.0/launcher/benchmark-launcher-2.0.5-linux.tar.gz
 # />
 
-# gajim
-ins gajim-antispam
-ins gajim-plugininstaller
-ins gajim-appindicatorintegration
-ins gajim-omemo
-ins gajim-urlimagepreview
-sudo apt remove -y gajim
-# i migrated to gajim's flatpaks
+# gajim (no more)
+sudo apt purge -y gajim-antispam
+sudo apt purge -y gajim-plugininstaller
+sudo apt purge -y gajim-appindicatorintegration
+sudo apt purge -y gajim-omemo
+sudo apt purge -y gajim-urlimagepreview
+sudo apt purge -y gajim
 # />
 
 #lvnote "Do all the things listed here (Dvorak): https://gitlab.com/-/snippets/1997412"
@@ -819,12 +818,12 @@ flatpak install flathub com.eduke32.EDuke32 -y --noninteractive
 
 flatpak install flathub net.sourceforge.fretsonfire -y --noninteractive
 
-# flatpak gajim and plugins
-flatpak install flathub org.gajim.Gajim -y --noninteractive
-flatpak install flathub org.gajim.Gajim.Plugin.appindicator -y --noninteractive
-flatpak install flathub org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
-flatpak install flathub org.gajim.Gajim.Plugin.omemo -y --noninteractive
-# ^ flatpak gajim and plugins /> 
+# flatpak gajim and plugins (no more)
+flatpak remove flathub org.gajim.Gajim -y --noninteractive
+flatpak remove flathub org.gajim.Gajim.Plugin.appindicator -y --noninteractive
+flatpak remove flathub org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
+flatpak remove flathub org.gajim.Gajim.Plugin.omemo -y --noninteractive
+# ^ flatpak gajim and plugins (no more) /> 
 
 flatpak install flathub org.zdoom.GZDoom -y --noninteractive
 
