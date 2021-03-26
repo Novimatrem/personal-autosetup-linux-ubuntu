@@ -825,6 +825,15 @@ flatpak remove org.gajim.Gajim.Plugin.url_image_preview -y --noninteractive
 flatpak remove org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # ^ flatpak gajim and plugins (no more) /> 
 
+# dino
+ins curl
+echo 'deb http://download.opensuse.org/repositories/network:/messaging:/xmpp:/dino/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/network:messaging:xmpp:dino.list
+curl -fsSL https://download.opensuse.org/repositories/network:messaging:xmpp:dino/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/network_messaging_xmpp_dino.gpg > /dev/null
+sudo apt update -y
+sudo apt install -y dino
+
+# dino/>
+
 flatpak install flathub org.zdoom.GZDoom -y --noninteractive
 
 flatpak install flathub com.retrodev.blastem -y --noninteractive
