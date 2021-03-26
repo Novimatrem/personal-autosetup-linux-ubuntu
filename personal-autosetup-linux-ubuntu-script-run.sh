@@ -1972,6 +1972,16 @@ wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/
 sudo chmod +x ./avocado-ac399fa-x86_64.AppImage
 
 
+
+mkdir /home/$(whoami)/Applications
+cd /home/$(whoami)/Applications
+ins wget
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/FromScratch-1.4.2-x86_64.AppImage
+sudo chmod +x ./FromScratch-1.4.2-x86_64
+
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
