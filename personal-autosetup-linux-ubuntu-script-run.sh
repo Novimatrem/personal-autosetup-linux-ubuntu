@@ -838,6 +838,8 @@ flatpak install flathub com.github.shonumi.gbe-plus -y --noninteractive
 
 flatpak install flathub de.gunibert.Hackgregator -y --noninteractive
 
+flatpak install flathub org.DolphinEmu.dolphin-emu -y --noninteractive
+
 flatpak update
 
 # appimaged
