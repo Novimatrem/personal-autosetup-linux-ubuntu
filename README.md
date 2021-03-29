@@ -41,3 +41,5 @@ PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
 REPAIR OR CORRECTION. 
 
 Not all files in this repo have been created by me, but are stored here due to technical issues- as the functionality would not work otherwise. Please send an e-mail to TheNovimatrem@protonmail.ch asking to request a list of which files in this repo are my own, and to help you further understand the licensing, should you wish.
+
+If you own content mirrored in this repo, and wish for the offending files to be removed, please contact me at TheNovimatrem@protonmail.ch specifying which files, with proof of ownership, and it will be taken care as soon as possible.
