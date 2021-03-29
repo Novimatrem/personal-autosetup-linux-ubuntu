@@ -1990,6 +1990,49 @@ sudo chmod +x ./FromScratch-1.4.2-x86_64.AppImage
 
 
 
+
+
+# my Limit PulseAudio MAX volume to 100% script, for safety
+cd /opt
+ins pactl
+git clone https://gitlab.com/Novimatrem/limit-pulseaudio-max-volume-to-100-percent
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+echo "Name=limit-pulseaudio-max-volume-to-100-percent" >> /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+echo "Exec=bash /opt/limit-pulseaudio-max-volume-to-100-percent/limit-pulseaudio-max-volume-to-100-percent.sh" >> /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+echo "Comment=limit-pulseaudio-max-volume-to-100-percent" >> /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/limit-pulseaudio-max-volume-to-100-percent.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
+
+# /my Limit PulseAudio MAX volume to 100% script, for safety
+
+
+
+
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
