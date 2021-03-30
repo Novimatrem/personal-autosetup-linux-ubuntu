@@ -2032,6 +2032,44 @@ echo ""
 
 
 
+# my warning-sound-if-volume-is-100-percent
+cd /opt
+ins pactl
+ins libnotify-bin
+git clone https://gitlab.com/Novimatrem/warning-sound-if-volume-is-100-percent
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+echo "Name=warning-sound-if-volume-is-100-percent" >> /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+echo "Exec=bash /opt/warning-sound-if-volume-is-100-percent/warning-sound-if-volume-is-100-percent.sh" >> /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+echo "Comment=warning-sound-if-volume-is-100-percent" >> /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/warning-sound-if-volume-is-100-percent.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
+
+# /my warning-sound-if-volume-is-100-percent
+
+
+
 
 # !!!
 # FINAL STEPS
