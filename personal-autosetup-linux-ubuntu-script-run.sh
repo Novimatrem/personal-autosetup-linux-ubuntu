@@ -89,6 +89,15 @@ pkill apt
 killall packagekit
 pkill packagekit
 
+sudo killall update-manager
+sudo killall dpkg
+sudo killall apt
+sudo pkill update-manager
+sudo pkill dpkg
+sudo pkill apt
+sudo killall packagekit
+sudo pkill packagekit
+
 sleep 5s
 
 #uppy # commented out for speed
