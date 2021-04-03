@@ -2078,6 +2078,8 @@ echo ""
 # /my warning-sound-if-volume-is-100-percent
 
 
+# spare browser for non-me shit
+sudo snap install opera-developer
 
 
 # !!!
