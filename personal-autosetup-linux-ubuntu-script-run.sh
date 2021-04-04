@@ -653,10 +653,6 @@ ins filezilla
 
 sudo apt remove -y sddm
 
-echo ""
-echo "Installing ALL the IceWM..."
-echo ""
-
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 sudo apt install -y build-essential
@@ -669,31 +665,11 @@ cd /opt/
 sudo chown $USER /opt
 sudo chown $USER /opt/*
 
-wget https://ice-wm.org/scripts/os-depends.sh
+sudo apt remove -y icewm-experimental
 
-sudo bash -x ./os-depends.sh
-
-git clone https://github.com/bbidulock/icewm
-
-cd icewm
-
-./autogen.sh
-
-./configure --enable-gdk-pixbuf --prefix=/usr
-
-make
-
-sudo make install
-
-sudo apt install -y icewm-experimental
-
-sudo apt install -y icewm icewm
+sudo apt remove -y icewm icewm
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
-
-echo ""
-echo "Installed ALL the IceWM."
-echo ""
 
 sudo apt install -y libnotify-bin
 sudo apt install -y xfce4-notifyd
@@ -739,8 +715,6 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 echo ""
 echo "Installed ALL the Xfce."
 echo ""
-
-#lvnote "Be sure to find a nice IceWM theme online, and to edit its files to change the window buttons to the left, and to make the fonts smaller, as you install it. (if you plan to use IceWM)"
 
 ins freedoom
 
