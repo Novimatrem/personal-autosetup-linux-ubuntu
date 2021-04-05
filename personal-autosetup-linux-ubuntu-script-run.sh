@@ -2063,6 +2063,38 @@ sudo apt install -y libc6:i386 libasound2:i386 libasound2-data:i386 libasound2-p
 
 # plank
 ins plank
+sleep 2s
+sleep 0s && nohup plank && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
+
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/planknovi.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+echo "Name=warning-sound-if-volume-is-100-percent" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+echo "Exec=plank" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+echo "Comment=warning-sound-if-volume-is-100-percent" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/planknovi.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
+
 
 
 # !!!
