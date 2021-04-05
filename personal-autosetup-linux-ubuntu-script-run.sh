@@ -2074,9 +2074,9 @@ touch /home/$(whoami)/.config/autostart/planknovi.desktop
 
 echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/planknovi.desktop
 echo "Type=Application" >> /home/$(whoami)/.config/autostart/planknovi.desktop
-echo "Name=warning-sound-if-volume-is-100-percent" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+echo "Name=planknovi" >> /home/$(whoami)/.config/autostart/planknovi.desktop
 echo "Exec=plank" >> /home/$(whoami)/.config/autostart/planknovi.desktop
-echo "Comment=warning-sound-if-volume-is-100-percent" >> /home/$(whoami)/.config/autostart/planknovi.desktop
+echo "Comment=planknovi" >> /home/$(whoami)/.config/autostart/planknovi.desktop
 echo "Terminal=false" >> /home/$(whoami)/.config/autostart/planknovi.desktop
 
 echo ""
