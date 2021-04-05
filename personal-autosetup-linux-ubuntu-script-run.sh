@@ -2095,6 +2095,8 @@ echo ""
 #
 
 
+sudo snap install opensurge
+
 
 
 # !!!
