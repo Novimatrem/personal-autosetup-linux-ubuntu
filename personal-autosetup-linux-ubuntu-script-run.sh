@@ -2056,6 +2056,12 @@ echo ""
 sudo snap install opera-developer
 
 
+# libs for enter the gungeon
+sudo dpkg --add-architecture i386
+sudo apt update -y
+sudo apt install -y libc6:i386 libasound2:i386 libasound2-data:i386 libasound2-plugins:i386 libstdc++6:i386 libx11-6:i386 libxau6:i386 libxcb1:i386 libxcursor1:i386 libxdmcp6:i386 libxext6:i386 libxfixes3:i386 libxinerama1:i386 libxrandr2:i386 libxrender1:i386 libsdl2-2.0-0:i386 libgl1-mesa-dev:i386
+
+
 # !!!
 # FINAL STEPS
 # !!!
