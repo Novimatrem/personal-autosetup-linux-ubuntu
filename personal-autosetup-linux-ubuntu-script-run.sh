@@ -2097,7 +2097,11 @@ echo ""
 
 sudo snap install opensurge
 
-
+# Timekpr-nExT
+arepo ppa:mjasnik/ppa
+uppy
+ins timekpr-next
+# /Timekpr-nExT
 
 # !!!
 # FINAL STEPS
