@@ -9,7 +9,7 @@ I usually only test this with Xubuntu, as I only use Xubuntu. If you don't use X
 
 KEEP IN MIND if you're not literally *me*, then all the things this script does may not be to your preference.
 
-```wget https://novimatrem.gitlab.io/fast.sh && bash fast.sh```
+```wget https://novimatrem.uk/fast.sh && bash fast.sh```
 
 MILESTONE 2!!
 
