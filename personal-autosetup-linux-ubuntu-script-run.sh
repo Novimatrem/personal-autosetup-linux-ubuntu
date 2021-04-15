@@ -2107,6 +2107,8 @@ ins timekpr-next
 
 ins gltron
 
+sudo apt remove -y pcmanfm
+
 # !!!
 # FINAL STEPS
 # !!!
