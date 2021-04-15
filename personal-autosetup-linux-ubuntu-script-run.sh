@@ -831,6 +831,8 @@ flatpak install flathub de.gunibert.Hackgregator -y --noninteractive
 
 flatpak install flathub org.DolphinEmu.dolphin-emu -y --noninteractive
 
+flatpak install flathub org.desmume.DeSmuME -y --noninteractive
+
 flatpak update
 
 # appimaged
@@ -1228,7 +1230,8 @@ ins dosbox
 
 sudo apt-get install -y mupen64plus*
 
-ins desmume
+# use the desmume flatpak instead, flatpak is way newer
+sudo apt remove -y desmume
 
 ins hedgewars
 
