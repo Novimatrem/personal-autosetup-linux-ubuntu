@@ -2150,6 +2150,8 @@ sudo echo -e "\n Novimatrem personal-autosetup-linux installed by $(whoami) at $
 
 lvnote "Finished executing Novimatrem personal-autosetup-linux Ubuntu at around $(date)"
 
+rm -rf /home/$(whoami)/fast.sh
+
 gtfo
 
 # />
