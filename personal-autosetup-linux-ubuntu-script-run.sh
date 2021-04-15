@@ -1727,7 +1727,7 @@ sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/you
 sudo chmod a+rx /usr/local/bin/youtube-dl
 sudo youtube-dl -U
 
-flatpak install flathub org.tuxpaint.Tuxpaint
+flatpak install flathub org.tuxpaint.Tuxpaint -y --noninteractive
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
 
@@ -1754,7 +1754,7 @@ ins stterm
 
 sudo apt-get install -y awesome*
 
-flatpak install flathub im.pidgin.Pidgin
+flatpak install flathub im.pidgin.Pidgin -y --noninteractive
 
 sudo apt-get install -y openjdk-8-j*
 
