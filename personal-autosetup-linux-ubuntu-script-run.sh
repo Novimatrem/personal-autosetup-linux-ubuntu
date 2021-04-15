@@ -1424,6 +1424,7 @@ sudo apt remove -y gnome-maps
 sudo apt remove -y gnome-photos
 sudo apt remove -y evince
 sudo apt remove -y mousepad
+sudo apt remove -y lxterminal
 
 ins xscreensaver
 
@@ -1873,6 +1874,7 @@ ins lolcat
 sudo apt purge -y xfce4-terminal
 sudo apt remove -y xterm
 sudo apt remove -y gnome-terminal
+sudo apt remove -y lxterminal
 ins stterm
 # specifically only st term (simple terminal, suckless)
 
@@ -2120,6 +2122,7 @@ uppy
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
 
 sudo apt purge -y xfce4-terminal
+sudo apt remove -y lxterminal
 brcappend "tmux && clear"
 brcappend "clear"
 brcappend "alias exit='wmctrl -c :ACTIVE:'"
@@ -2135,6 +2138,8 @@ xbindkeys
 
 sudo snap refresh
 sudo flatpak update
+
+sudo apt remove -y lxterminal
 
 sudo update-alternatives --all
 sudo update-alternatives --config editor
