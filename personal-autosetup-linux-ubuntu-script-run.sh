@@ -2109,6 +2109,7 @@ ins gltron
 
 sudo apt remove -y pcmanfm
 sudo apt remove -y gpicview
+sudo apt remove -y xarchiver
 
 # !!!
 # FINAL STEPS
