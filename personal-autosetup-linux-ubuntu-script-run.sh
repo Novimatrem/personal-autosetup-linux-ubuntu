@@ -2108,11 +2108,12 @@ ins timekpr-next
 ins gltron
 
 sudo apt remove -y pcmanfm
+sudo apt remove -y gpicview
 
 # !!!
 # FINAL STEPS
 # !!!
-
+uppy
 sleep 0s && nohup appimaged && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
 
 rm -rf /opt/nohup.out
