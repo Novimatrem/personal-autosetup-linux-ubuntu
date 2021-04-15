@@ -8,6 +8,8 @@
 # if i can't find a way to truly disable CSD's, and restore the consistency Xfce 4.14 had,
 #   then I will have to stick to Xfce 4.14 forever, no matter how old and deprecated it gets.
 
+shopt -s expand_aliases
+
 alias ins="sudo apt install -y $1"
 
 alias uppy="sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo dpkg --configure -a && sudo apt-get -f install"
