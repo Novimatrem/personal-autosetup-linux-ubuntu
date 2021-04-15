@@ -33,6 +33,15 @@ echo "" >> /home/$(whoami)/.profile
 
 uppy
 
+arepo ppa:xubuntu-dev/experimental
+
+uppy
+
+ins libxfce4ui-nocsd
+ins libxfce4ui-nocsd-2-0
+
+uppy
+
 # /xfce 4.16, and the war against CSD's (client side decorations)
 
 echo "Good luck."
