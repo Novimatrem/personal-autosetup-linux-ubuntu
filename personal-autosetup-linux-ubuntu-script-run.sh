@@ -475,8 +475,6 @@ sudo apt purge -y gajim
 
 #lvnote "Do all the things listed here (Dvorak): https://gitlab.com/-/snippets/1997412"
 
-ins chromium-browser
-
 ins armagetronad
 ins feedreader
 ins pavucontrol
@@ -1366,13 +1364,6 @@ ins sauerbraten
 
 sudo apt-get install -y plasma-discover*
 
-# palemoon
-cd /opt
-wget https://download.opensuse.org/repositories/home:/stevenpusser/xUbuntu_20.04/amd64/palemoon_28.17.0-1_amd64.deb
-sudo gdebi -n /opt/palemoon_28.17.0-1_amd64.deb
-sudo rm -rf /opt/palemoon_28.17.0-1_amd64.deb
-# /palemoon
-
 ins pingus
 
 ins mudlet
@@ -1685,14 +1676,6 @@ ins toot
 sudo snap install sengi
 
 ins celluloid
-
-# vivaldi
-cd /opt
-wget https://downloads.vivaldi.com/stable/vivaldi-stable_3.5.2115.87-1_amd64.deb
-insdeb /opt/vivaldi-stable_3.5.2115.87-1_amd64.deb
-sleep 5s
-rm -rf /opt/vivaldi-stable_3.5.2115.87-1_amd64.deb
-# /vivaldi
 
 # minecraft java
 cd /opt
@@ -2055,10 +2038,6 @@ echo ""
 
 
 # /my warning-sound-if-volume-is-100-percent
-
-
-# spare browser for non-me shit
-sudo snap install opera-developer
 
 
 # libs for enter the gungeon
