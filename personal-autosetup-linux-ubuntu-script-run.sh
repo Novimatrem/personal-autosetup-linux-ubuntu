@@ -748,6 +748,8 @@ sudo snap install tetris-thefenriswolf
 sudo snap install skype --classic
 
 sudo snap install canonical-livepatch
+sudo apt-get install gnome-online-accounts -y
+ins gnome-online-accounts
 
 sudo snap install bobrossquotes
 
