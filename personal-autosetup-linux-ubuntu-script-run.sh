@@ -2093,6 +2093,8 @@ sudo apt remove -y pcmanfm
 sudo apt remove -y gpicview
 sudo apt remove -y xarchiver
 
+ins firefox
+
 # !!!
 # FINAL STEPS
 # !!!
