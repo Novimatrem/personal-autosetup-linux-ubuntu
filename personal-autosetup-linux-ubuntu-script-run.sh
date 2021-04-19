@@ -1215,6 +1215,7 @@ ins gnome-firmware
 
 ins unattended-upgrades
 ins update-notifier-common
+sudo dpkg-reconfigure -plow unattended-upgrades
 
 ins gir1.2-gmenu-3.0
 ins gnome-menus
