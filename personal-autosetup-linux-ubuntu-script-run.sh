@@ -2105,6 +2105,8 @@ ins elinks
 ins byobu
 ins tmux
 
+flatpak install flathub org.gnome.Epiphany -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
