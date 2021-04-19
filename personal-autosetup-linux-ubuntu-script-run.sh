@@ -1214,6 +1214,7 @@ ins package-update-indicator
 ins gnome-firmware
 
 ins unattended-upgrades
+ins update-notifier-common
 
 ins gir1.2-gmenu-3.0
 ins gnome-menus
