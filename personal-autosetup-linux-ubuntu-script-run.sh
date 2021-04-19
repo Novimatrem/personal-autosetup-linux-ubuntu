@@ -2095,6 +2095,16 @@ sudo apt remove -y xarchiver
 
 ins firefox
 
+ins lynx
+ins links
+ins w3m
+ins w3m-img
+ins links
+ins links2
+ins elinks
+ins byobu
+ins tmux
+
 # !!!
 # FINAL STEPS
 # !!!
