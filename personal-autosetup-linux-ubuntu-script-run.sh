@@ -1402,7 +1402,6 @@ sudo apt remove -y catfish
 sudo apt remove -y xfce4-clipman
 sudo apt remove -y totem
 sudo apt remove -y gnome-music
-sudo apt remove -y deja-dup
 sudo apt remove -y xfce4-notes
 sudo apt remove -y xfburn
 sudo apt remove -y gnome-todo
@@ -2117,6 +2116,8 @@ sudo snap install liveforspeed
 sudo snap install tmnationsforever
 
 ins darkplaces
+
+ins deja-dup
 
 # !!!
 # FINAL STEPS
