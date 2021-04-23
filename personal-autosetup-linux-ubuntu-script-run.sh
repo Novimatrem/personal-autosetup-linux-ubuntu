@@ -801,6 +801,8 @@ flatpak install flathub com.eduke32.EDuke32 -y --noninteractive
 
 flatpak install flathub net.sourceforge.fretsonfire -y --noninteractive
 
+flatpak install flathub org.gnome.Dictionary -y --noninteractive
+
 # flatpak gajim and plugins (no more)
 flatpak remove org.gajim.Gajim -y --noninteractive
 flatpak remove org.gajim.Gajim.Plugin.appindicator -y --noninteractive
@@ -2120,6 +2122,8 @@ sudo snap install tmnationsforever
 ins darkplaces
 
 ins deja-dup
+
+ins artha
 
 # !!!
 # FINAL STEPS
