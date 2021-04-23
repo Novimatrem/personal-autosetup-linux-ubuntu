@@ -833,6 +833,8 @@ flatpak install flathub org.DolphinEmu.dolphin-emu -y --noninteractive
 
 flatpak install flathub org.desmume.DeSmuME -y --noninteractive
 
+flatpak install flathub net.mancubus.SLADE -y --noninteractive
+
 flatpak update
 
 # appimaged
