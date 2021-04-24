@@ -2125,6 +2125,14 @@ ins deja-dup
 
 ins artha
 
+
+mkdir /home/$(whoami)/Applications
+cd /home/$(whoami)/Applications
+ins wget
+wget https://github.com/GitSquared/edex-ui/releases/download/v2.2.7/eDEX-UI-Linux-x86_64.AppImage
+sudo chmod +x ./eDEX-UI-Linux-x86_64.AppImage
+
+
 # !!!
 # FINAL STEPS
 # !!!
