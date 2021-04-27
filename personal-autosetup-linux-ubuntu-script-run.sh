@@ -203,6 +203,16 @@ ins caffeine
 ins software-properties-common
 ins software-properties-gtk
 
+ins hunspell-en-za
+ins libreoffice-help-en-gb
+ins hyphen-en-ca
+ins mythes-en-au
+ins hunspell-en-ca
+ins hunspell-en-au
+ins libreoffice-l10n-en-gb
+ins libreoffice-help-en-us
+ins libreoffice-l10n-en-za
+
 # !!!
 # UNINSTALL GNOME 3
 # !!!
