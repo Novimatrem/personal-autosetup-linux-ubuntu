@@ -2142,6 +2142,9 @@ ins wget
 wget https://github.com/GitSquared/edex-ui/releases/download/v2.2.7/eDEX-UI-Linux-x86_64.AppImage
 sudo chmod +x ./eDEX-UI-Linux-x86_64.AppImage
 
+sudo snap install reicast --edge
+
+flatpak install flathub org.flycast.Flycast -y --noninteractive
 
 # !!!
 # FINAL STEPS
