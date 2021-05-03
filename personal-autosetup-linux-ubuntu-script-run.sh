@@ -2151,8 +2151,6 @@ sudo snap install ffmpeg
 ins ubuntu-restricted-addons
 ins ubuntu-restricted-extras
 
-ins libavcodec-extra
-ins libavcodec-extra58
 ins vlc
 
 # !!!
