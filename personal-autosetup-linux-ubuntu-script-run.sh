@@ -1961,6 +1961,7 @@ ins libdvdread7
 ins libdvd-pkg
 ins libdvdnav4
 ins libdvdread7
+ins regionset
 
 ins rbdoom3bfg
 
