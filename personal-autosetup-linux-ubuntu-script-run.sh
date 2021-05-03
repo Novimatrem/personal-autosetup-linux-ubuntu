@@ -1958,6 +1958,9 @@ ins iotop
 sudo apt-get install -y libdvd*
 sudo dpkg-reconfigure libdvd-pkg
 ins libdvdread7
+ins libdvd-pkg
+ins libdvdnav4
+ins libdvdread7
 
 ins rbdoom3bfg
 
