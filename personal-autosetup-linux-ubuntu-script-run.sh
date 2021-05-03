@@ -1708,9 +1708,10 @@ brcappend 'alias calm="play -n synth brownnoise synth pinknoise mix synth 0 0 0 
 
 # tlp fixes
 sudo systemctl enable tlp tlp-sleep
-cd /etc
-sudo rm -rf /etc/tlp.conf
-sudo wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/tlp.conf
+#cd /etc
+#sudo rm -rf /etc/tlp.conf
+#sudo wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/tlp.conf
+# NO MORE TLP CONFIG FOR NOW, DEFAULT IS FINE
 # /tlp fixes
 
 sudo snap install translatium
