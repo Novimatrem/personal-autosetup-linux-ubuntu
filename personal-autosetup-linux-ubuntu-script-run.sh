@@ -2146,6 +2146,8 @@ sudo snap install reicast --edge
 
 flatpak install flathub org.flycast.Flycast -y --noninteractive
 
+sudo snap install ffmpeg
+
 # !!!
 # FINAL STEPS
 # !!!
