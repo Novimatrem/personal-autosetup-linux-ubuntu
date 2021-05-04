@@ -2158,6 +2158,11 @@ ins ubuntu-restricted-extras
 
 ins vlc
 
+ins libdvdread7
+ins libdvdnav4
+ins gstreamer1.0-plugins-bad
+ins gstreamer1.0-plugins-ugly
+
 # !!!
 # FINAL STEPS
 # !!!
