@@ -247,7 +247,7 @@ uppy
 sudo apt remove -y adwaita-icon-theme geogebra-gnome gir1.2-gtd-1.0 \
 gnome-accessibility-profiles gnome-applets-data gnome-audio gnome-backgrounds \
 gnome-cards-data gnome-common gnome-desktop-testing gnome-dvb-daemon \
-gnome-exe-thumbnailer gnome-extra-icons gnome-flashback-common \
+gnome-extra-icons gnome-flashback-common \
 gnome-humility-icon-theme gnome-hwp-support gnome-icon-theme \
 gnome-icon-theme-gartoon gnome-icon-theme-gartoon-redux \
 gnome-icon-theme-gperfection2 gnome-icon-theme-nuovo gnome-icon-theme-suede \
