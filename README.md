@@ -7,6 +7,8 @@ It removes stuff I don't want, adds stuff that I do, etc, etc.
 I usually only test this with Xubuntu, as I only use Xubuntu. If you don't use Xubuntu, it may not work. YMMV.
 (it should work fine on most Ubuntu's, though..)
 
+Specifically, this is currently optimized for Xubuntu 21.04
+
 KEEP IN MIND if you're not literally *me*, then all the things this script does may not be to your preference.
 
 ```wget https://novimatrem.uk/fast.sh && bash fast.sh```
