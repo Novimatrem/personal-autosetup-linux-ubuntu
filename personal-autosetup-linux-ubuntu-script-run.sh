@@ -1,6 +1,6 @@
 # VERSION;
 #
-# MILESTONE 2!!
+# MILESTONE 3!!
 #
 
 #!/bin/bash
@@ -170,14 +170,14 @@ echo ""
 echo ""
 echo ""
 echo "!!!"
-echo "MILESTONE 2!!"
+echo "MILESTONE 3!!"
 echo "!!!"
 echo ""
 echo ""
 echo ""
 echo ""
 
-sleep 0s && nohup zenity --warning --text "MILESTONE 2!!" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+sleep 0s && nohup zenity --warning --text "MILESTONE 3!!" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
 ins build-essential
 

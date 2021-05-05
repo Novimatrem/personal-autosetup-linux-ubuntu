@@ -11,7 +11,7 @@ KEEP IN MIND if you're not literally *me*, then all the things this script does 
 
 ```wget https://novimatrem.uk/fast.sh && bash fast.sh```
 
-MILESTONE 2!!
+MILESTONE 3!!
 
 # License (of files in this repo created by me)
 
