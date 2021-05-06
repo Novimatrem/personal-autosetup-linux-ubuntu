@@ -1273,7 +1273,7 @@ ins tmux
 sudo apt-get install -y libvpx*
 sudo apt-get install -y libvorbis*
 
-sudo apt-get install -y libvulkan1 libvulkan1:i386 vulkan-tools vulkan-utils
+sudo apt-get install -y libvulkan1 libvulkan1:i386 vulkan-tools
 
 
 sleep 0s && nohup vkcube && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
