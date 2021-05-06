@@ -710,7 +710,19 @@ sudo apt install -y tasksel
 sudo tasksel install xubuntu-desktop
 sudo tasksel install xubuntu-core
 
-sudo apt-get install -y xubuntu*
+ins xubuntu-artwork
+ins xubuntu-community-wallpapers-xenial
+ins xubuntu-icon-theme
+ins xubuntu-community-wallpapers
+ins xubuntu-core
+ins xubuntu-live-settings
+ins xubuntu-community-wallpapers-bionic
+ins xubuntu-default-settings
+ins xubuntu-restricted-addons
+ins xubuntu-community-wallpapers-focal
+ins xubuntu-wallpapers
+ins xubuntu-community-wallpapers-trusty
+ins xubuntu-docs
 
 sudo apt install -y xfdesktop4
 
