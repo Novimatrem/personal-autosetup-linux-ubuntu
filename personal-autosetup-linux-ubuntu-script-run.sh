@@ -4,6 +4,15 @@
 #
 
 #!/bin/bash
+
+read -p "Begin setup [no way to undo] (y/n)?" CONT
+if [ "$CONT" = "y" ]; then
+  echo "" && echo "Begin NOW" && echo "";
+else
+  echo "" && echo "Setup ended by user choice" && echo "" && exit;
+fi
+
+
 set -x
 # Novimatrem personal-autosetup-linux Ubuntu
 echo "Novimatrem personal-autosetup-linux Ubuntu"
