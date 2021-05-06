@@ -4,7 +4,7 @@
 #
 
 #!/bin/bash
-
+set -x
 # Novimatrem personal-autosetup-linux Ubuntu
 echo "Novimatrem personal-autosetup-linux Ubuntu"
 
