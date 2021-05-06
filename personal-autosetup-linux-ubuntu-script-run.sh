@@ -892,7 +892,6 @@ sudo chmod a+x /usr/local/bin/appimageupdatetool
 sudo apt install -y nethack-console moon-buggy ninvaders nsnake pacman4console bsdgames typespeed vitetris frotz
 sudo apt install -y emacs --no-install-recommends && sudo apt install -y emacs-nox
 
-ins pop-theme
 ins light-themes
 ins humanity-icon-theme
 sudo apt remove -y pop-gnome-shell-theme
