@@ -528,7 +528,7 @@ ins blueman
 ins brasero
 ins crispy-doom
 ins freedoom
-ins gnome-disks
+ins gnome-disk-utility
 ins gparted
 ins htop
 ins gnumeric
