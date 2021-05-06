@@ -510,7 +510,7 @@ ins ubuntu-wallpapers
 sudo apt-get install -y ubuntu-wallpapers*
 ins steam
 ins nautilus-dropbox
-ins KolourPaint
+ins kolourpaint
 ins calibre
 ins atril
 ins gedit
