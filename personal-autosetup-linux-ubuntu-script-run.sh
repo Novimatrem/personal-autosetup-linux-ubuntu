@@ -525,7 +525,6 @@ ins baobab
 ins ncdu
 ins bleachbit
 ins blueman
-ins brackets
 ins brasero
 ins crispy-doom
 ins freedoom1
