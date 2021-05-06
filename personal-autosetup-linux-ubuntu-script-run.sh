@@ -1387,8 +1387,6 @@ sudo apt-get install -y plasma-discover*
 
 ins pingus
 
-ins mudlet
-
 uppy
 
 arepo ppa:cappelikan/ppa
