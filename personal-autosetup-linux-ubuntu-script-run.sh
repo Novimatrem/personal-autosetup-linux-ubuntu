@@ -1466,9 +1466,6 @@ ins software-properties-gtk
 ins zsnes
 
 uppy
-arepo universe
-arepo multiverse
-uppy
 
 sudo apt remove -y cinnamon
 sudo apt remove -y cinnamon-desktop-environment
