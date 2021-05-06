@@ -428,7 +428,7 @@ ins gvfs-backends
 ins libwine-development
 ins winetricks
 ins libc6-i386
-ins lib32gcc1
+ins lib32gcc-s1
 ins gamemode
 ins build-essential
 ins libgnutls30:i386
