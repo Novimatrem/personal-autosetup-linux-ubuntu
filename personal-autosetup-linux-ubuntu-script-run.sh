@@ -527,7 +527,7 @@ ins bleachbit
 ins blueman
 ins brasero
 ins crispy-doom
-ins freedoom1
+ins freedoom
 ins gnome-disks
 ins gparted
 ins htop
