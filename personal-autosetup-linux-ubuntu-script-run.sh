@@ -1954,10 +1954,8 @@ ins iotop
 
 sudo apt-get install -y libdvd*
 sudo dpkg-reconfigure libdvd-pkg
-ins libdvdread7
 ins libdvd-pkg
 ins libdvdnav4
-ins libdvdread7
 ins regionset
 
 ins rbdoom3bfg
@@ -2155,7 +2153,6 @@ ins ubuntu-restricted-extras
 
 ins vlc
 
-ins libdvdread7
 ins libdvdnav4
 ins gstreamer1.0-plugins-bad
 ins gstreamer1.0-plugins-ugly
