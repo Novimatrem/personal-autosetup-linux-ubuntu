@@ -1268,18 +1268,6 @@ ins hedgewars
 
 uppy
 
-ins flashplugin-installer
-
-ins browser-plugin-freshplayer-pepperflash
-
-ins adobe-flashplugin
-
-ins get-flash-videos
-
-#ins pepperflashplugin-nonfree # hangs the script, now
-
-uppy
-
 ins tmux
 
 sudo apt-get install -y libvpx*
