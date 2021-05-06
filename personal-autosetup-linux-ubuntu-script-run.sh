@@ -699,7 +699,6 @@ sudo apt install -y lightdm
 sudo systemctl enable lightdm
 sudo dpkg-reconfigure lightdm
 
-sudo apt install -y xubuntu-desktop
 sudo apt install -y xfce4
 sudo apt install -y xubuntu-default-settings
 sudo apt install -y xfce4-goodies
