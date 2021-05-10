@@ -2160,6 +2160,23 @@ ins libdvdnav4
 ins gstreamer1.0-plugins-bad
 ins gstreamer1.0-plugins-ugly
 
+
+# super lock key (slk) bind and command
+ins wmctrl
+ins xbindkeys
+cd /opt
+git clone https://gitlab.com/Novimatrem/super-lock-key
+brcappend "alias slk='bash /opt/super-lock-key/slk.sh'"
+touch /home/$(whoami)/.xbindkeysrc
+echo '"bash /opt/super-lock-key/slk.sh"' >> /home/$(whoami)/.xbindkeysrc
+echo -e ' \t Scroll_Lock' >> /home/$(whoami)/.xbindkeysrc
+xbindkeys_autostart
+killall xbindkeys
+pkill xbindkeys
+xbindkeys
+# /super lock key (slk) bind and command
+
+
 # !!!
 # FINAL STEPS
 # !!!
