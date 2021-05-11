@@ -2176,6 +2176,7 @@ pkill xbindkeys
 xbindkeys
 # /super lock key (slk) bind and command
 
+brcappend "echo 'Type slk to lock the system.'"
 
 # !!!
 # FINAL STEPS
