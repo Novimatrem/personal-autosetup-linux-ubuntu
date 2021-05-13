@@ -569,12 +569,12 @@ lvnote "Follow your blog post to fully permanently disable mouse acceleration. h
 
 ins wget
 cd /opt
-wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall.png
-gsettings set org.gnome.desktop.background picture-uri file:///opt/ubuntenwall.png
+#wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall.png
+#gsettings set org.gnome.desktop.background picture-uri file:///opt/ubuntenwall.png
 cd /opt
-mkdir ubuntenwall
-cd /opt/ubuntenwall
-wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall.png
+#mkdir ubuntenwall
+#cd /opt/ubuntenwall
+#wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall.png
 
 gsettings set org.gnome.desktop.wm.preferences button-layout ‘close,close,minimize,maximize:’
 
@@ -1306,7 +1306,7 @@ git clone https://github.com/neffo/bing-wallpaper-gnome-extension.git $HOME/.loc
 
 gsettings set com.ubuntu.sound allow-amplified-volume false
 
-xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall/ubuntenwall.png; done
+#xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall/ubuntenwall.png; done
 
 # clean up opt a bit
 sudo rm -rf /opt/Wire-3.19.2928_amd64.deb
@@ -1640,7 +1640,7 @@ sudo apt install -y nestopia
 gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 1
 gsettings set org.nemo.desktop show-desktop-icons false
 gsettings set org.cinnamon.theme name "cinnamon"
-dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwall.png'"
+#dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwall.png'"
 dconf write /org/cinnamon/desktop/interface/clock-show-date true
 gsettings set org.cinnamon.desktop.privacy remember-recent-files false
 gsettings set org.cinnamon.settings-daemon.plugins.power sleep-display-ac 0
@@ -2179,6 +2179,19 @@ xbindkeys
 brcappend "echo 'Type slk to lock the system.'"
 
 mkdir /home/$(whoami)/.icons
+
+ins wget
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall_sl_10-6.png
+gsettings set org.gnome.desktop.background picture-uri file:///opt/ubuntenwall_sl_10-6.png
+cd /opt
+mkdir ubuntenwall_sl_10-6
+cd /opt/ubuntenwall_sl_10-6
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall_sl_10-6.png
+
+xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall_sl_10-6/ubuntenwall_sl_10-6.png; done
+
+dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwall_sl_10-6.png'"
 
 # !!!
 # FINAL STEPS
