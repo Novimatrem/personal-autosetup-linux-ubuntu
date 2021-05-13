@@ -2178,6 +2178,8 @@ xbindkeys
 
 brcappend "echo 'Type slk to lock the system.'"
 
+mkdir /home/$(whoami)/.icons
+
 # !!!
 # FINAL STEPS
 # !!!
