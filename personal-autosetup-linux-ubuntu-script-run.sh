@@ -2193,6 +2193,8 @@ xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-
 
 dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwall_sl_10-6.png'"
 
+flatpak install flathub com.bitwarden.desktop -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
