@@ -2200,7 +2200,8 @@ ins wget
 cd /opt
 wget https://downloads.fdossena.com/Projects/StickyNotes/notebot-1.6-bin.7z
 7z x notebot-1.6-bin.7z
-java -jar StickyNotes.jar
+
+sleep 0s && nohup java -jar "/opt/StickyNotes.jar" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
 #
 # CREATE STARTUP PROGRAM ENTRY
