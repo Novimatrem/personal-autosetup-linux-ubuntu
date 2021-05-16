@@ -2195,6 +2195,43 @@ dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwa
 
 flatpak install flathub com.bitwarden.desktop -y --noninteractive
 
+# NoteBot (by adolfintel / fdossena) install+autorun
+ins wget
+cd /opt
+wget https://downloads.fdossena.com/Projects/StickyNotes/notebot-1.6-bin.7z
+7z x notebot-1.6-bin.7z
+java -jar StickyNotes.jar
+
+#
+# CREATE STARTUP PROGRAM ENTRY
+#
+mkdir /home/$(whoami)/.config/autostart
+touch /home/$(whoami)/.config/autostart/notebot.desktop
+
+echo "[Desktop Entry]" >> /home/$(whoami)/.config/autostart/notebot.desktop
+echo "Type=Application" >> /home/$(whoami)/.config/autostart/notebot.desktop
+echo "Name=notebot" >> /home/$(whoami)/.config/autostart/notebot.desktop
+echo "Exec=java -jar /opt/StickyNotes.jar" >> /home/$(whoami)/.config/autostart/notebot.desktop
+echo "Comment=notebot" >> /home/$(whoami)/.config/autostart/notebot.desktop
+echo "Terminal=false" >> /home/$(whoami)/.config/autostart/notebot.desktop
+
+echo ""
+echo ""
+echo "verify below:"
+echo ""
+ls /home/$(whoami)/.config/autostart/
+echo ""
+cat /home/$(whoami)/.config/autostart/notebot.desktop
+echo ""
+echo "done listing"
+echo ""
+echo ""
+#
+# /END OF CREATE STARTUP PROGRAM ENTRY
+#
+
+# /NoteBot (by adolfintel / fdossena) install+autorun
+
 # !!!
 # FINAL STEPS
 # !!!
