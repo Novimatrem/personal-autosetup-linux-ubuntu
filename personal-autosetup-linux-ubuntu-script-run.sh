@@ -2233,6 +2233,15 @@ echo ""
 
 # /NoteBot (by adolfintel / fdossena) install+autorun
 
+# awoo time in bashrc
+
+brcappend 'echo ""'
+brcappend 'echo "awoo~"'
+brcappend 'TZ=Australia/NSW date'
+brcappend 'echo ""'
+
+# /awoo time in bashrc
+
 # !!!
 # FINAL STEPS
 # !!!
