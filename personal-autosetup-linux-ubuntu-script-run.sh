@@ -2242,6 +2242,8 @@ brcappend 'echo ""'
 
 # /awoo time in bashrc
 
+flatpak install flathub im.riot.Riot -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
