@@ -2256,6 +2256,8 @@ wget https://github.com/liudonghua123/windows98/releases/download/v2.2.0/windows
 insdeb ./windows98_2.2.0_amd64.deb
 # />
 
+flatpak install flathub com.dosbox_x.DOSBox-X -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
