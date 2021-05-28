@@ -2248,12 +2248,15 @@ flatpak install flathub im.riot.Riot -y --noninteractive
 cd /opt
 wget https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95_2.3.0_amd64.deb
 insdeb ./windows95_2.3.0_amd64.deb
+sudo rm -rf /opt/windows95_2.3.0_amd64.deb
+
 # />
 
 # w98 electron
 cd /opt
 wget https://github.com/liudonghua123/windows98/releases/download/v2.2.0/windows98_2.2.0_amd64.deb
 insdeb ./windows98_2.2.0_amd64.deb
+sudo rm -rf /opt/windows98_2.2.0_amd64.deb
 # />
 
 flatpak install flathub com.dosbox_x.DOSBox-X -y --noninteractive
