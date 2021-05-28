@@ -2244,6 +2244,18 @@ brcappend 'echo ""'
 
 flatpak install flathub im.riot.Riot -y --noninteractive
 
+# w95 electron
+cd /opt
+wget https://github.com/felixrieseberg/windows95/releases/download/v2.3.0/windows95_2.3.0_amd64.deb
+insdeb ./windows95_2.3.0_amd64.deb
+# />
+
+# w98 electron
+cd /opt
+wget https://github.com/liudonghua123/windows98/releases/download/v2.2.0/windows98_2.2.0_amd64.deb
+insdeb ./windows98_2.2.0_amd64.deb
+# />
+
 # !!!
 # FINAL STEPS
 # !!!
