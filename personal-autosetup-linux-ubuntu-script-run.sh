@@ -2261,6 +2261,8 @@ sudo rm -rf /opt/windows98_2.2.0_amd64.deb
 
 flatpak install flathub com.dosbox_x.DOSBox-X -y --noninteractive
 
+ins vlc-plugin-fluidsynth
+
 # !!!
 # FINAL STEPS
 # !!!
