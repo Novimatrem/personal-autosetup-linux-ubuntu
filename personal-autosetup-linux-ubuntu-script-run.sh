@@ -2263,6 +2263,9 @@ flatpak install flathub com.dosbox_x.DOSBox-X -y --noninteractive
 
 ins vlc-plugin-fluidsynth
 
+cd /opt/
+wget https://launcher.technicpack.net/launcher4/643/TechnicLauncher.jar
+
 # !!!
 # FINAL STEPS
 # !!!
