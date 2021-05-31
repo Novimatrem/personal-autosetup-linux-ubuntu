@@ -2127,7 +2127,6 @@ ins tmux
 
 flatpak install flathub org.gnome.Epiphany -y --noninteractive
 
-sudo snap install urban-terror
 sudo snap install notepadqq
 sudo snap install liveforspeed
 sudo snap install tmnationsforever
