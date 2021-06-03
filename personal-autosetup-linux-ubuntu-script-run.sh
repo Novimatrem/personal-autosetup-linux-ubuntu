@@ -2265,6 +2265,8 @@ ins vlc-plugin-fluidsynth
 cd /opt/
 wget https://launcher.technicpack.net/launcher4/643/TechnicLauncher.jar
 
+mkdir /home/$(whoami)/Flashes
+
 # !!!
 # FINAL STEPS
 # !!!
