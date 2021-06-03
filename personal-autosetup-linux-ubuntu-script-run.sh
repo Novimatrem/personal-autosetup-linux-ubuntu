@@ -2267,6 +2267,8 @@ wget https://launcher.technicpack.net/launcher4/643/TechnicLauncher.jar
 
 mkdir /home/$(whoami)/Flashes
 
+flatpak install flathub io.github.Hexchat -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
