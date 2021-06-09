@@ -2269,6 +2269,8 @@ mkdir /home/$(whoami)/Flashes
 
 flatpak install flathub io.github.Hexchat -y --noninteractive
 
+ins quodlibet
+
 # !!!
 # FINAL STEPS
 # !!!
