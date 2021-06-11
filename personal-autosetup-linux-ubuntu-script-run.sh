@@ -2271,6 +2271,8 @@ flatpak install flathub io.github.Hexchat -y --noninteractive
 
 ins quodlibet
 
+ins language-pack-gnome-en
+
 # !!!
 # FINAL STEPS
 # !!!
