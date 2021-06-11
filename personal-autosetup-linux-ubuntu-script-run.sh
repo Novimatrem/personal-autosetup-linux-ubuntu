@@ -2273,6 +2273,8 @@ ins quodlibet
 
 ins language-pack-gnome-en
 
+rm -rf /opt/README.txt
+
 # !!!
 # FINAL STEPS
 # !!!
