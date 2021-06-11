@@ -11,6 +11,8 @@ Specifically, this is currently optimized for Xubuntu 21.04
 
 KEEP IN MIND if you're not literally *me*, then all the things this script does may not be to your preference.
 
+I STRONGLY RECOMMEND opening a Terminal and running ```ping 8.8.8.8``` in the background, alongside the Terminal window for this script, if you're paranoid about internet dropping during the process. Maybe that's just me. Of course, be sure to connect to your internet for this script to work, I connect to both my wired and wireless, as a fallback.
+
 ```wget https://novimatrem.uk/fast.sh && bash fast.sh```
 
 MILESTONE 4!!
