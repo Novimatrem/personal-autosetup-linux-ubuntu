@@ -2321,6 +2321,10 @@ lvnote "Finished executing Novimatrem personal-autosetup-linux Ubuntu at around 
 
 rm -rf /home/$(whoami)/fast.sh
 rm -rf /home/$(whoami)/Desktop/fast.sh
+sudo chown $USER /opt/
+sudo chown $USER /opt/*
+rm -rf /opt/nohup.out
+sudo rm -rf /opt/nohup.out
 
 gtfo
 
