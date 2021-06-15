@@ -2296,6 +2296,8 @@ brcappend "tmux && clear"
 brcappend "clear"
 brcappend "alias exit='wmctrl -c :ACTIVE:'"
 
+brcappend "Drink coffee. Have 5 coffees per day."
+
 uppy
 
 xbindkeys_autostart
