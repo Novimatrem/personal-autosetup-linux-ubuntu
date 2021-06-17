@@ -2276,6 +2276,9 @@ ins language-pack-gnome-en
 sudo rm -rf /opt/README.txt
 sudo rm -rf /opt/notebot-1.6-bin.7z
 
+ins xcalib
+
+
 # !!!
 # FINAL STEPS
 # !!!
