@@ -2278,6 +2278,13 @@ sudo rm -rf /opt/notebot-1.6-bin.7z
 
 ins xcalib
 
+mkdir /home/$(whoami)/Applications
+cd /home/$(whoami)/Applications
+ins wget
+wget https://www.mudlet.org/download/Mudlet-4.12.0-linux-x64.AppImage.tar
+tar -xf /home/$(whoami)/Applications/Mudlet-4.12.0-linux-x64.AppImage.tar
+sudo chmod +x ./Mudlet.AppImage
+sudo rm -rf /home/$(whoami)/Applications/Mudlet-4.12.0-linux-x64.AppImage.tar
 
 # !!!
 # FINAL STEPS
