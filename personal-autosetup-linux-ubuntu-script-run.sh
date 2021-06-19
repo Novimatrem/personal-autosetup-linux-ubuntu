@@ -2288,7 +2288,7 @@ sudo rm -rf /home/$(whoami)/Applications/Mudlet-4.12.0-linux-x64.AppImage.tar
 
 sudo snap install dm-tools
 
-sudo snap install melonds --edge
+sudo snap install melonds
 
 # !!!
 # FINAL STEPS
