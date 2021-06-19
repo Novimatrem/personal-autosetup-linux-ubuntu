@@ -2286,6 +2286,8 @@ tar -xf /home/$(whoami)/Applications/Mudlet-4.12.0-linux-x64.AppImage.tar
 sudo chmod +x ./Mudlet.AppImage
 sudo rm -rf /home/$(whoami)/Applications/Mudlet-4.12.0-linux-x64.AppImage.tar
 
+sudo snap install dm-tools
+
 # !!!
 # FINAL STEPS
 # !!!
