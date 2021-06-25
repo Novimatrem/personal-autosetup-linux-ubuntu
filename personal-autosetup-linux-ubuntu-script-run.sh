@@ -2290,6 +2290,10 @@ sudo snap install dm-tools
 
 sudo snap install melonds
 
+# download profile photo 2
+cd /home/$(whoami)/Pictures
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/face.png
+
 # !!!
 # FINAL STEPS
 # !!!
