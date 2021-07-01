@@ -2294,6 +2294,8 @@ sudo snap install melonds
 cd /home/$(whoami)/Pictures
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/face.png
 
+sudo snap install runelite --edge
+
 # !!!
 # FINAL STEPS
 # !!!
