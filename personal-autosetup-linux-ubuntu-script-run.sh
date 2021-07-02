@@ -2296,6 +2296,15 @@ wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/
 
 sudo snap install runelite --edge
 
+# ipod shuffle stuff
+sudo apt-get install -y libimobiledevice*
+sudo apt-get install -y ifuse
+sudo apt-get install -y libgpod*
+sudo apt-get install -y gtkpod
+sudo apt-get install -y rhythmbox
+sudo apt-get install -y clementine
+# /ipod shuffle stuff
+
 # !!!
 # FINAL STEPS
 # !!!
