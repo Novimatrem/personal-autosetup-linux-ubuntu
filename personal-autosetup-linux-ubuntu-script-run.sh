@@ -2305,6 +2305,20 @@ sudo apt-get install -y rhythmbox
 sudo apt-get install -y clementine
 # /ipod shuffle stuff
 
+# bsd stuff
+
+sudo apt install -y bsdextrautils
+
+sudo apt install -y bsdgames
+
+sudo apt install -y bsdgames-nonfree
+
+sudo apt install -y bsdutils
+
+sudo snap install killbots
+
+# /bsd stuff
+
 # !!!
 # FINAL STEPS
 # !!!
