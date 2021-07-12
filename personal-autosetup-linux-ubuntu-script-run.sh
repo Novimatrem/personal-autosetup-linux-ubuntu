@@ -801,6 +801,8 @@ sudo snap install vice-jz
 
 sudo snap install x16emu --candidate
 
+sudo snap install veloren
+
 sudo snap refresh
 
 flatpak install flathub com.adobe.Flash-Player-Projector -y --noninteractive
