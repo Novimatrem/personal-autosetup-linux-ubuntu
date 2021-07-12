@@ -2321,6 +2321,8 @@ sudo snap install killbots
 
 # /bsd stuff
 
+ins ratpoison
+
 # !!!
 # FINAL STEPS
 # !!!
