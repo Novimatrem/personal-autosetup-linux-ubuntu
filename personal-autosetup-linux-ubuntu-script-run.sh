@@ -2323,6 +2323,10 @@ sudo snap install killbots
 
 ins ratpoison
 
+ins mc
+
+ins remmina
+
 # !!!
 # FINAL STEPS
 # !!!
