@@ -13,6 +13,8 @@ sudo apt remove -y minecraft-launcher
 
 flatpak remove com.mojang.Minecraft -y --noninteractive
 
+sudo snap install minecraft-launcher-ot
+
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
 sudo apt install -y openjdk-8-jdk
