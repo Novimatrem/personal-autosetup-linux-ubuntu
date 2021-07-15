@@ -11,7 +11,7 @@ sudo apt remove -y openjdk-11-jre
 sudo apt remove -y openjdk-11-jre-headless
 sudo apt remove -y minecraft-launcher
 
-flatpak install flathub com.mojang.Minecraft -y --noninteractive
+flatpak remove com.mojang.Minecraft -y --noninteractive
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
