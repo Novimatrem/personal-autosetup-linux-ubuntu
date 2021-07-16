@@ -2330,6 +2330,10 @@ ins remmina
 sudo apt install -y git p7zip-full python3-pip python3-wxgtk4.0
 sudo pip3 install WoeUSB-ng
 
+# auto set profile photo in some cirumstances
+cd /home/$(whoami)
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/.face.png
+
 # !!!
 # FINAL STEPS
 # !!!
