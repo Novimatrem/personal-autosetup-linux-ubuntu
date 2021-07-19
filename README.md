@@ -17,7 +17,7 @@ I STRONGLY RECOMMEND opening a Terminal and running ```ping 8.8.8.8``` in the ba
 
 ```wget https://novimatrem.uk/fast.sh && bash fast.sh```
 
-MILESTONE 4!!
+MILESTONE 5!!
 
 # License (of files in this repo created by me)
 

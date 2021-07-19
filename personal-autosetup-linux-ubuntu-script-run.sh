@@ -1,6 +1,6 @@
 # VERSION;
 #
-# MILESTONE 4!!
+# MILESTONE 5!!
 #
 
 #!/bin/bash
@@ -179,16 +179,16 @@ echo ""
 echo ""
 echo ""
 echo "!!!"
-echo "MILESTONE 4!!"
+echo "MILESTONE 5!!"
 echo "!!!"
 echo ""
 echo ""
 echo ""
 echo ""
 
-sleep 0s && nohup zenity --warning --text "MILESTONE 4!!" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
+sleep 0s && nohup zenity --warning --text "MILESTONE 5!!" && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown
 
-lvnote "This is MILESTONE 4"
+lvnote "This is MILESTONE 5"
 
 ins build-essential
 
@@ -2375,7 +2375,7 @@ sudo update-alternatives --config editor
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install
 
-sudo echo -e "\n Novimatrem personal-autosetup-linux installed by $(whoami) at $(date) - do not remove this file, it's for safety to not accidentally re-apply changes. This is MILESTONE 4. \n" >> /opt/novisetup.done
+sudo echo -e "\n Novimatrem personal-autosetup-linux installed by $(whoami) at $(date) - do not remove this file, it's for safety to not accidentally re-apply changes. This is MILESTONE 5. \n" >> /opt/novisetup.done
 
 lvnote "Finished executing Novimatrem personal-autosetup-linux Ubuntu at around $(date)"
 
