@@ -2334,6 +2334,8 @@ sudo pip3 install WoeUSB-ng
 cd /home/$(whoami)
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/.face.png
 
+pip install termtime
+
 # !!!
 # FINAL STEPS
 # !!!
