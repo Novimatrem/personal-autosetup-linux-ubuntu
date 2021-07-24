@@ -2333,6 +2333,7 @@ sudo pip3 install WoeUSB-ng
 # auto set profile photo in some cirumstances
 cd /home/$(whoami)
 wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/.face.png
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/.face
 
 pip install termtime
 
