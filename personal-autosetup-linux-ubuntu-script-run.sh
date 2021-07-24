@@ -2336,6 +2336,8 @@ wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/
 
 pip install termtime
 
+flatpak install flathub com.rafaelmardojai.Blanket -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
