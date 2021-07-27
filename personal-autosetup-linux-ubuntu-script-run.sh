@@ -2339,6 +2339,14 @@ pip install termtime
 
 flatpak install flathub com.rafaelmardojai.Blanket -y --noninteractive
 
+# protontricks
+sudo apt install -y python3-pip python3-setuptools python3-venv pipx
+
+pipx install protontricks
+
+pipx upgrade protontricks
+# /protontricks
+
 # !!!
 # FINAL STEPS
 # !!!
