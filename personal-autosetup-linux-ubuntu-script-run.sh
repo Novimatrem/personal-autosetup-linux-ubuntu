@@ -2347,6 +2347,8 @@ pipx install protontricks
 pipx upgrade protontricks
 # /protontricks
 
+ins smartmontools
+
 # !!!
 # FINAL STEPS
 # !!!
