@@ -15,7 +15,7 @@ echo $ISAWESOMEORNOT
 
 if [ $ISAWESOMEORNOT -o "string" ]
 then
-echo "You are using awesomewm, run code." && sudo apt install -y stterm && st &
+echo "You are using awesomewm, run code." && st && echo ""
 exit
 if ! [ $ISAWESOMEORNOT -o "string" ]
 then
@@ -24,4 +24,3 @@ fi
 fi
 echo "Code bypassed without success. Must not be awesome. Don't run code." && exit
 exit
-
