@@ -15,7 +15,7 @@ echo $ISAWESOMEORNOT
 
 if [ $ISAWESOMEORNOT -o "string" ]
 then
-echo "You are using awesomewm, run code." && thunar &
+echo "You are using awesomewm, run code." && thunar && echo ""
 exit
 if ! [ $ISAWESOMEORNOT -o "string" ]
 then
