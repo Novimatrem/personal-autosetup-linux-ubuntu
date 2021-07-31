@@ -2366,11 +2366,17 @@ sudo apt remove -y pop-desktop --allow-remove-essential
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
 
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
+
 # !!!
 # FINAL STEPS
 # !!!
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
+
 uppy
 sleep 0s && nohup appimaged && rm -rf $HOME/nohup.out && rm -rf $(pwd)/nohup.out && rm -rf /opt/nohup.out && disown & disown && echo ""
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
 
 rm -rf /opt/nohup.out
 rm -rf $HOME/nohup.out
