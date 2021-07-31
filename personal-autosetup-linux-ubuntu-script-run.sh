@@ -2368,6 +2368,43 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 
 sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
 
+
+
+
+
+
+
+
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
+
+sudo apt-get purge -y --allow-remove-essential awesome*
+sudo apt remove -y --allow-remove-essential lxde
+sudo apt remove -y --allow-remove-essential lxde-common
+sudo apt remove -y --allow-remove-essential lxde-core
+sudo apt remove -y --allow-remove-essential lxde-settings-daemon
+sudo apt remove -y --allow-remove-essential openbox
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
+
+sudo apt remove -y --allow-remove-essential pop-desktop
+sudo apt autoremove -y --purge --allow-remove-essential pop-desktop
+sudo apt remove -y pop-desktop --allow-remove-essential
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
+
+sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y && sudo dpkg --configure -a && sudo apt-get -f install && flatpak update -y --noninteractive && sudo flatpak update -y --noninteractive && flatpak uninstall --unused && sudo snap refresh && sudo journalctl --flush && sudo journalctl --rotate && sudo journalctl --vacuum-time=1s && sudo journalctl --vacuum-size=200M && sudo journalctl --flush
+
+
+
+
+
+
+
+
+
+
+
 # !!!
 # FINAL STEPS
 # !!!
