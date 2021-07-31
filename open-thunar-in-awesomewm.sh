@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# open-terminal-in-awesomewm.sh
+# open-thunar-in-awesomewm.sh
 
 echo "actual command;"
 awesome-client 'return ""'
