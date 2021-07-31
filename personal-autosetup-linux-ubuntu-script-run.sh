@@ -1762,13 +1762,13 @@ ins freesweep
 
 ins stterm
 
-sudo apt-get install -y awesome*
+sudo apt-get purge -y awesome*
 
 flatpak install flathub im.pidgin.Pidgin -y --noninteractive
 
 sudo apt-get install -y openjdk-8-j*
 
-lvnote "Be sure to set your startup programs in awesome wm, if you're using that, following this https://askubuntu.com/questions/57264/how-can-i-define-startup-applications-with-the-awesome-window-manager"
+#lvnote "Be sure to set your startup programs in awesome wm, if you're using that, following this https://askubuntu.com/questions/57264/how-can-i-define-startup-applications-with-the-awesome-window-manager"
 
 
 
