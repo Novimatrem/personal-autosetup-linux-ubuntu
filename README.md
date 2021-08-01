@@ -1,5 +1,5 @@
 # personal-autosetup-linux-ubuntu
-personal-autosetup-linux-ubuntu - Automatically sets up the system as I prefer, ignore if you're not... me? - Licensed under the WTFPL v2.
+personal-autosetup-linux-ubuntu - Automatically sets up the system as I prefer, ignore if you're not... me? - Licensed under the WTFPL v2. MILESTONE 7
 
 The goal of this script is that I should be able to take the Ubuntu varient I'm using, and automatically turn it into an operating system and experience that I can reasonably use and enjoy, *regardless* of how it started off.
 It removes stuff I don't want, adds stuff that I do, etc, etc.
