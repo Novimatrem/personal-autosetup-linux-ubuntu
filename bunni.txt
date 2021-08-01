@@ -1,0 +1,1 @@
+words=( "hugs" "kisses" "snuggles" "loves" ); to="Zoey"; from="Bunni"; while [ 1 ]; do i=$(( $RANDOM % ${#words[@]} )); echo "$from ${words[$i]} $to"; sleep 1s; done
