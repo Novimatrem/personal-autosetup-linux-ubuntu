@@ -2499,6 +2499,9 @@ sudo dpkg --configure -a && sudo apt-get -f install && sudo apt update -y && sud
 
 sudo echo -e "\n Novimatrem personal-autosetup-linux installed by $(whoami) at $(date) - do not remove this file, it's for safety to not accidentally re-apply changes. This is MILESTONE 7. \n" >> /opt/novisetup.done
 
+touch /opt/MILESTONE_7
+sudo touch /opt/MILESTONE_7
+
 lvnote "Finished executing Novimatrem personal-autosetup-linux Ubuntu at around $(date)"
 
 rm -rf /home/$(whoami)/fast.sh
