@@ -2483,7 +2483,7 @@ dconf write /org/cinnamon/desktop/wm/preferences/button-layout "':maximize,minim
 xfconf-query -c xfwm4 -p /general/button_layout -s "O|MHC"
 # /windows 95 window buttons
 
-
+lvnote "To ensure your Win95/Chicago95 theme is working properly, follow this: https://github.com/grassmunk/Chicago95/blob/master/INSTALL.md"
 
 
 # !!!
