@@ -2474,6 +2474,17 @@ sudo update-alternatives --config default.plymouth
 sudo update-initramfs -u
 
 
+# windows 95 window buttons
+gsettings set org.gnome.desktop.wm.preferences button-layout ‘:maximize,minimize,close,close’
+gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/ShellShowsAppMenu': <0>, 'Gtk/DecorationLayout': <':menu,maximize,minimize,close'>}"
+gsettings set com.solus-project.budgie-wm button-layout ':appmenu,minimize,maximize,close'
+gsettings set org.gnome.desktop.wm.preferences button-layout close,maximize,minimize:maximize,minimize,close
+dconf write /org/cinnamon/desktop/wm/preferences/button-layout "':maximize,minimize,close'"
+xfconf-query -c xfwm4 -p /general/button_layout -s "O|MHC"
+# /windows 95 window buttons
+
+
+
 
 # !!!
 # FINAL STEPS
