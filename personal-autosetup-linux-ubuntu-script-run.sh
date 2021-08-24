@@ -2461,6 +2461,19 @@ gsettings set org.gnome.desktop.background picture-uri file:///opt/95wall.png
 # /win95 wall
 
 
+mkdir /opt/chicago
+cd /opt/chicago
+git clone https://github.com/grassmunk/Chicago95
+cd /opt/chicago/Chicago95
+python3 /opt/chicago/Chicago95/installer.py
+
+cd /opt/chicago
+sudo cp -r Chicago95/Plymouth/Chicago95 /usr/share/plymouth/themes/
+sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/Chicago95/Chicago95.plymouth 100
+sudo update-alternatives --config default.plymouth
+sudo update-initramfs -u
+
+
 
 # !!!
 # FINAL STEPS
