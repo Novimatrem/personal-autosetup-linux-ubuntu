@@ -2230,16 +2230,16 @@ mkdir /home/$(whoami)/.icons
 
 ins wget
 cd /opt
-wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall_sl_10-6.png
-gsettings set org.gnome.desktop.background picture-uri file:///opt/ubuntenwall_sl_10-6.png
+#wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall_sl_10-6.png
+#gsettings set org.gnome.desktop.background picture-uri file:///opt/ubuntenwall_sl_10-6.png
 cd /opt
-mkdir ubuntenwall_sl_10-6
-cd /opt/ubuntenwall_sl_10-6
-wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall_sl_10-6.png
+#mkdir ubuntenwall_sl_10-6
+#cd /opt/ubuntenwall_sl_10-6
+#wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/ubuntenwall_sl_10-6.png
 
-xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall_sl_10-6/ubuntenwall_sl_10-6.png; done
+#xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/ubuntenwall_sl_10-6/ubuntenwall_sl_10-6.png; done
 
-dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwall_sl_10-6.png'"
+#dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/ubuntenwall_sl_10-6.png'"
 
 flatpak install flathub com.bitwarden.desktop -y --noninteractive
 
