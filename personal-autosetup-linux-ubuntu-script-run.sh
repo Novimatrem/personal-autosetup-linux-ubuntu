@@ -2448,9 +2448,17 @@ ins qt5-style-plugins
 
 
 
-
-
-
+# win95 wall
+ins wget
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/95wall.png
+mkdir 95wall
+cd /opt/95wall
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/95wall.png
+xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/95wall/95wall.png; done
+dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/95wall.png'"
+gsettings set org.gnome.desktop.background picture-uri file:///opt/95wall.png
+# /win95 wall
 
 
 
