@@ -2485,6 +2485,7 @@ xfconf-query -c xfwm4 -p /general/button_layout -s "O|MHC"
 
 lvnote "To ensure your Win95/Chicago95 theme is working properly, follow this: https://github.com/grassmunk/Chicago95/blob/master/INSTALL.md"
 
+xfconf-query -c xfwm4 -p /general/use_compositing -s false
 
 # !!!
 # FINAL STEPS
