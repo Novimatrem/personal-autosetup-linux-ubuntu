@@ -2487,6 +2487,8 @@ lvnote "To ensure your Win95/Chicago95 theme is working properly, follow this: h
 
 xfconf-query -c xfwm4 -p /general/use_compositing -s false
 
+sudo snap install powershell --classic
+
 # !!!
 # FINAL STEPS
 # !!!
