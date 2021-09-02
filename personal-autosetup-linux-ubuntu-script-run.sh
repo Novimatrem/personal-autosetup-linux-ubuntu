@@ -2449,15 +2449,15 @@ ins qt5-style-plugins
 
 
 # win95 wall
-ins wget
-cd /opt
-wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/95wall.png
-mkdir 95wall
-cd /opt/95wall
-wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/95wall.png
-xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/95wall/95wall.png; done
-dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/95wall.png'"
-gsettings set org.gnome.desktop.background picture-uri file:///opt/95wall.png
+#ins wget
+#cd /opt
+#wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/95wall.png
+#mkdir 95wall
+#cd /opt/95wall
+#wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/95wall.png
+#xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/95wall/95wall.png; done
+#dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/95wall.png'"
+#gsettings set org.gnome.desktop.background picture-uri file:///opt/95wall.png
 # /win95 wall
 
 
@@ -2488,6 +2488,21 @@ lvnote "To ensure your Win95/Chicago95 theme is working properly, follow this: h
 xfconf-query -c xfwm4 -p /general/use_compositing -s false
 
 sudo snap remove powershell
+
+
+# best wall
+ins wget
+cd /opt
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/80s_Disco_Dingo_Simulation_by_Abubakar_NK.jpg
+mkdir 80s_Disco_Dingo_Simulation_by_Abubakar_NK
+cd /opt/80s_Disco_Dingo_Simulation_by_Abubakar_NK
+wget https://gitlab.com/Novimatrem/personal-autosetup-linux-ubuntu/-/raw/master/80s_Disco_Dingo_Simulation_by_Abubakar_NK.jpg
+xfconf-query -c xfce4-desktop -l | grep last-image | while read path; do xfconf-query -c xfce4-desktop -p $path -s /opt/80s_Disco_Dingo_Simulation_by_Abubakar_NK/80s_Disco_Dingo_Simulation_by_Abubakar_NK.jpg; done
+dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/80s_Disco_Dingo_Simulation_by_Abubakar_NK.jpg'"
+gsettings set org.gnome.desktop.background picture-uri file:///opt/80s_Disco_Dingo_Simulation_by_Abubakar_NK.jpg
+# /best wall
+
+
 
 # !!!
 # FINAL STEPS
