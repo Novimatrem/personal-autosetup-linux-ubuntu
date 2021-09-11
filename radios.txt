@@ -3,13 +3,13 @@
 # c64 and gaming radio aliases for your bashrc v5
 #
 # c64radio, c64radio1, c64radio2, c64radio3, c64radio4, rainwave, rivendell, 
-#  slayradio, strycore, and stopradio
+#  slayradio, and stopradio
 #
 # to disable notifications if they are annoying, follow this guide from the official vlc wiki;
 # https://wiki.videolan.org/VLC_HowTo/Disable_pop-up_track_notifications/
 #
 
-alias c64radio='echo "Valid commands: c64radio1, c64radio2, c64radio3, c64radio4, rainwave, rivendell," && echo "slayradio, strycore, and stopradio."'
+alias c64radio='echo "Valid commands: c64radio1, c64radio2, c64radio3, c64radio4, rainwave, rivendell," && echo "slayradio, and stopradio."'
 
 alias c64radio1='echo "Playing The SID Stream (c64.com);" && vlc --qt-start-minimized http://www.c64.com/sid.m3u 2> /dev/null && disown 2> /dev/null & disown 2> /dev/null && clear && echo "Playing The SID Stream (c64.com)"'
 
@@ -24,8 +24,6 @@ alias rainwave='echo "Playing Rainwave (rainwave.cc);" && vlc --qt-start-minimiz
 alias rivendell='echo "Playing Radio Rivendell (radiorivendell.com);" && vlc --qt-start-minimized http://radiorivendell.ddns.net:8000/128kbit.mp3 2> /dev/null && disown 2> /dev/null & disown 2> /dev/null && clear && echo "Playing Radio Rivendell (radiorivendell.com)"'
 
 alias slayradio='echo "Playing SLAY Radio (slayradio.org);" && vlc --qt-start-minimized http://relay.slayradio.org:8000/ 2> /dev/null && disown 2> /dev/null & disown 2> /dev/null && clear && echo "Playing SLAY Radio (slayradio.org)"'
-
-alias strycore='echo "Playing strycore (http://mtv.strycore.com:8000);" && vlc --qt-start-minimized http://mtv.strycore.com:8000/radio.ogg 2> /dev/null && disown 2> /dev/null & disown 2> /dev/null && clear && echo "Playing strycore (http://mtv.strycore.com:8000)"'
 
 alias stopradio='killall vlc && sleep 1s && clear && clear && echo "Killed the radio that was open."'
 
