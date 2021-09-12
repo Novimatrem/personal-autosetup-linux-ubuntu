@@ -2500,7 +2500,7 @@ dconf write /org/cinnamon/desktop/background/picture-uri "'file:///opt/80s_Disco
 gsettings set org.gnome.desktop.background picture-uri file:///opt/80s_Disco_Dingo_Simulation_by_Abubakar_NK.jpg
 # /best wall
 
-
+sudo snap install clouds
 
 # !!!
 # FINAL STEPS
