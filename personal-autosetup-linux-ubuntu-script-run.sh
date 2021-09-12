@@ -2504,6 +2504,10 @@ sudo snap install clouds
 
 flatpak install flathub org.gnome.Boxes -y --noninteractive
 
+echo " 
+alias psn=\"st -- sh -c 'htop' & st -- sh -c 'sudo iotop' & st -- sh -c 'watch -n 0.1 nvidia-smi'\"
+ " >> ~/.bashrc
+
 # !!!
 # FINAL STEPS
 # !!!
