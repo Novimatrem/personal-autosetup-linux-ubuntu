@@ -2502,6 +2502,8 @@ gsettings set org.gnome.desktop.background picture-uri file:///opt/80s_Disco_Din
 
 sudo snap install clouds
 
+flatpak install flathub org.gnome.Boxes -y --noninteractive
+
 # !!!
 # FINAL STEPS
 # !!!
