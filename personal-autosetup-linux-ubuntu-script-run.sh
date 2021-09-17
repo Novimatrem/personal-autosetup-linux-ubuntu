@@ -2508,6 +2508,8 @@ echo "
 alias psn=\"st -- sh -c 'htop' & st -- sh -c 'sudo iotop' & st -- sh -c 'watch -n 0.1 nvidia-smi'\"
  " >> /home/$(whoami)/.bashrc
 
+sudo snap install trello-desktop
+
 # !!!
 # FINAL STEPS
 # !!!
