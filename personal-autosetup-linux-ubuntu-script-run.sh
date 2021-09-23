@@ -2510,6 +2510,10 @@ alias psn=\"st -- sh -c 'htop' & st -- sh -c 'sudo iotop' & st -- sh -c 'watch -
 
 sudo snap install trello-desktop
 
+sudo apt install -y libjpeg62*
+sudo apt install -y libjpeg62
+sudo apt install -y libjpeg62-dev
+
 # !!!
 # FINAL STEPS
 # !!!
