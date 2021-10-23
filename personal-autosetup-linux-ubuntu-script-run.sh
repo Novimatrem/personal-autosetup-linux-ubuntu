@@ -2540,6 +2540,12 @@ brcappend "alias exit='wmctrl -c :ACTIVE:'"
 
 brcappend "echo 'Drink coffee. Have 5 coffees per day.'"
 
+brcappend "echo ''"
+brcappend "echo 'Perhaps you could go outside? Do some outside hobby?'"
+brcappend "echo ''"
+brcappend "echo 'Maybe you could go out for a walk for 45 minutes?'"
+brcappend "echo ''"
+
 uppy
 
 xbindkeys_autostart
