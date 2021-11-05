@@ -282,7 +282,7 @@ gir1.2-gnomebluetooth-1.0 gir1.2-gnomedesktop-3.0 gir1.2-goa-1.0 \
 gnome-accessibility-themes gnome-bluetooth gnome-calculator gnome-calendar \
 gnome-characters gnome-control-center gnome-control-center-data \
 gnome-control-center-faces gnome-desktop3-data \
-gnome-font-viewer gnome-getting-started-docs gnome-getting-started-docs-ru \
+gnome-font-viewer \
 gnome-initial-setup gnome-keyring gnome-keyring-pkcs11 gnome-logs \
 gnome-mahjongg gnome-menus gnome-mines gnome-online-accounts \
 gnome-power-manager gnome-screenshot gnome-session-bin gnome-session-canberra \
