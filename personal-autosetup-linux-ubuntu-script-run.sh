@@ -647,7 +647,7 @@ setterm -blank 0 -powerdown 0
 sudo chown $USER /etc/issue
 sudo echo -ne "\033[9;0]" >> /etc/issue
 
-sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner"
+sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" -y
 
 ins libimage-exiftool-perl
 ins flatpak
