@@ -888,9 +888,9 @@ flatpak remove org.gajim.Gajim.Plugin.omemo -y --noninteractive
 # ^ flatpak gajim and plugins (no more) /> 
 
 # dino
-echo 'deb http://download.opensuse.org/repositories/network:/messaging:/xmpp:/dino/xUbuntu_21.04/ /' | sudo tee /etc/apt/sources.list.d/network:messaging:xmpp:dino.list
+echo 'deb http://download.opensuse.org/repositories/network:/messaging:/xmpp:/dino/xUbuntu_21.10/ /' | sudo tee /etc/apt/sources.list.d/network:messaging:xmpp:dino.list
 ins curl
-curl -fsSL https://download.opensuse.org/repositories/network:messaging:xmpp:dino/xUbuntu_21.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/network_messaging_xmpp_dino.gpg > /dev/null
+curl -fsSL https://download.opensuse.org/repositories/network:messaging:xmpp:dino/xUbuntu_21.10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/network_messaging_xmpp_dino.gpg > /dev/null
 sudo apt update -y
 sudo apt remove -y dino-im
 sudo apt update -y
