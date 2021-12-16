@@ -2513,6 +2513,9 @@ sudo apt install -y libjpeg62*
 sudo apt install -y libjpeg62
 sudo apt install -y libjpeg62-dev
 
+ins compton
+xfconf-query -c xfwm4 -p /general/use_compositing -s false
+
 # !!!
 # FINAL STEPS
 # !!!
