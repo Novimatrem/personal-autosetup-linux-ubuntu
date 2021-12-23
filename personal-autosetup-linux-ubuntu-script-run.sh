@@ -190,6 +190,14 @@ setterm -blank 0
 setterm -blank 0 -powerdown 0
 sudo chown $USER /etc/issue
 
+
+gsettings set org.gnome.desktop.session idle-delay 0
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
+gsettings set org.gnome.settings-daemon.plugins.power idle-dim false
+gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
+
+
 # script deps (but they are also really useful)
 ins xdotool
 ins zenity
@@ -646,6 +654,14 @@ setterm -blank 0
 setterm -blank 0 -powerdown 0
 sudo chown $USER /etc/issue
 sudo echo -ne "\033[9;0]" >> /etc/issue
+
+
+gsettings set org.gnome.desktop.session idle-delay 0
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
+gsettings set org.gnome.settings-daemon.plugins.power idle-dim false
+gsettings set org.gnome.settings-daemon.plugins.power ambient-enabled false
+
 
 sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" -y
 
