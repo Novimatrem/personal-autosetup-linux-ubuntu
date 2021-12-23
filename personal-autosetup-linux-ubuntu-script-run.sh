@@ -2534,6 +2534,8 @@ xfconf-query -c xfwm4 -p /general/use_compositing -s false
 
 lvnote "Be sure to set your keyboard shortcuts and bindings exactly how you want them, else you forget and it drives you mad."
 
+mkdir /home/$(whoami)/Pictures/Wallpapers
+
 # !!!
 # FINAL STEPS
 # !!!
