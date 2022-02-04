@@ -2536,6 +2536,9 @@ lvnote "Be sure to set your keyboard shortcuts and bindings exactly how you want
 
 mkdir /home/$(whoami)/Pictures/Wallpapers
 
+cd /home/$(whoami)/Downloads
+wget https://freealarmclocksoftware.com/FreeAlarmClockSetup.exe
+
 # !!!
 # FINAL STEPS
 # !!!
