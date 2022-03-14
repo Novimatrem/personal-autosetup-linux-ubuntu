@@ -2539,6 +2539,8 @@ mkdir /home/$(whoami)/Pictures/Wallpapers
 cd /home/$(whoami)/Downloads
 wget https://freealarmclocksoftware.com/FreeAlarmClockSetup.exe
 
+insNIR kwrite
+
 # !!!
 # FINAL STEPS
 # !!!
