@@ -2541,7 +2541,7 @@ wget https://freealarmclocksoftware.com/FreeAlarmClockSetup.exe
 
 insNIR kwrite
 
-ins gzdoom
+flatpak install flathub org.zdoom.GZDoom
 
 # !!!
 # FINAL STEPS
