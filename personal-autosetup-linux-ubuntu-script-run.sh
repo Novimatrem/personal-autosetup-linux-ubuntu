@@ -2541,6 +2541,8 @@ wget https://freealarmclocksoftware.com/FreeAlarmClockSetup.exe
 
 insNIR kwrite
 
+ins gzdoom
+
 # !!!
 # FINAL STEPS
 # !!!
