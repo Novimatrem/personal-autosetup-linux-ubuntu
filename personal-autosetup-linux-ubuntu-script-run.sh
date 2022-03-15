@@ -2543,6 +2543,9 @@ insNIR kwrite
 
 flatpak install flathub org.zdoom.GZDoom
 
+flatpak install flathub com.thebrokenrail.MCPIReborn
+# https://flathub.org/apps/details/com.thebrokenrail.MCPIReborn
+
 # !!!
 # FINAL STEPS
 # !!!
